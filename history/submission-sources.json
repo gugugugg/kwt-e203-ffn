@@ -1,0 +1,45 @@
+{
+  "MGPR-1": {
+    "build/optimization/rtl_sources/ffn_ag_mgpr/encoder/decode.sv": "history/submission-sources/MGPR-1/build/optimization/rtl_sources/ffn_ag_mgpr/encoder/decode.sv",
+    "build/optimization/rtl_sources/ffn_ag_mgpr/encoder/kwt_ffn_requantize.sv": "build/optimization/rtl_sources/ffn_ag_mgpr/encoder/kwt_ffn_requantize.sv",
+    "build/optimization/rtl_sources/ffn_ag_mgpr/encoder/kwt_sysbus_issue.sv": "build/optimization/rtl_sources/ffn_ag_mgpr/encoder/kwt_sysbus_issue.sv",
+    "build/optimization/rtl_sources/ffn_ag_mgpr/encoder/kwt_threebank_core.sv": "history/submission-sources/MGPR-1/build/optimization/rtl_sources/ffn_ag_mgpr/encoder/kwt_threebank_core.sv",
+    "build/optimization/rtl_sources/ffn_ag_mgpr/encoder/source_decode.sv": "build/optimization/rtl_sources/ffn_ag_mgpr/encoder/source_decode.sv"
+  },
+  "AG-2": {
+    "build/optimization/rtl_sources/ffn_che_AG/encoder/decode.sv": "build/optimization/rtl_sources/ffn_che_AG/encoder/decode.sv",
+    "build/optimization/rtl_sources/ffn_che_AG/encoder/kwt_ffn_requantize.sv": "build/optimization/rtl_sources/ffn_che_AG/encoder/kwt_ffn_requantize.sv",
+    "build/optimization/rtl_sources/ffn_che_AG/encoder/kwt_sysbus_issue.sv": "build/optimization/rtl_sources/ffn_che_AG/encoder/kwt_sysbus_issue.sv",
+    "build/optimization/rtl_sources/ffn_che_AG/encoder/kwt_threebank_core.sv": "history/submission-sources/AG-2/build/optimization/rtl_sources/ffn_che_AG/encoder/kwt_threebank_core.sv",
+    "build/optimization/rtl_sources/ffn_che_AG/encoder/source_decode.sv": "build/optimization/rtl_sources/ffn_che_AG/encoder/source_decode.sv"
+  },
+  "T+R+B-3": {
+    "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_encoder.sv": "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_encoder.sv",
+    "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_encoder_div64.sv": "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_encoder_div64.sv",
+    "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_encoder_div_bounded.sv": "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_encoder_div_bounded.sv",
+    "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_encoder_functions.svh": "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_encoder_functions.svh",
+    "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_encoder_lut32.sv": "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_encoder_lut32.sv",
+    "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_encoder_memory.sv": "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_encoder_memory.sv",
+    "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_encoder_row_memory.sv": "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_encoder_row_memory.sv",
+    "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_encoder_sqrt128.sv": "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_encoder_sqrt128.sv",
+    "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_encoder_sram16x128.sv": "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_encoder_sram16x128.sv",
+    "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_ffn_clock_gate.sv": "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_ffn_clock_gate.sv",
+    "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_ffn_requantize.sv": "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_ffn_requantize.sv",
+    "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_joint_output_queue.sv": "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_joint_output_queue.sv",
+    "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_ld_engine.sv": "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_ld_engine.sv",
+    "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_ld_frontend.sv": "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_ld_frontend.sv",
+    "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_ld_icb_arbiter.sv": "build/optimization/rtl_sources/ffn_sg_reuse/encoder/kwt_ld_icb_arbiter.sv",
+    "build/optimization/rtl_sources/ffn_sg_reuse/encoder_bus/kwt_icb_encoder.sv": "build/optimization/rtl_sources/ffn_sg_reuse/encoder_bus/kwt_icb_encoder.sv"
+  },
+  "共用仲裁双字写-4": {
+    "build/optimization/rtl_sources/ffn_trb_4x32_shared_pair/encoder/kwt_ffn_clock_gate.sv": "build/optimization/rtl_sources/ffn_trb_4x32_shared_pair/encoder/kwt_ffn_clock_gate.sv",
+    "build/optimization/rtl_sources/ffn_trb_4x32_shared_pair/encoder/kwt_ffn_requantize.sv": "build/optimization/rtl_sources/ffn_trb_4x32_shared_pair/encoder/kwt_ffn_requantize.sv",
+    "build/optimization/rtl_sources/ffn_trb_4x32_shared_pair/encoder/kwt_threebank_core.sv": "build/optimization/rtl_sources/ffn_trb_4x32_shared_pair/encoder/kwt_threebank_core.sv"
+  },
+  "FIFO门控_待审-5": {
+    "build/optimization/rtl_sources/ffn_trb_4x32/encoder/kwt_ffn_clock_gate.sv": "build/optimization/rtl_sources/ffn_trb_4x32/encoder/kwt_ffn_clock_gate.sv",
+    "build/optimization/rtl_sources/ffn_trb_4x32/encoder/kwt_ffn_requantize.sv": "build/optimization/rtl_sources/ffn_trb_4x32/encoder/kwt_ffn_requantize.sv",
+    "build/optimization/rtl_sources/ffn_trb_4x32/encoder/kwt_threebank_core.sv": "build/optimization/rtl_sources/ffn_trb_4x32/encoder/kwt_threebank_core.sv",
+    "reports/optimization/ffn_trb_4x32_fifo_entry_gate/kwt_threebank_core.sv": "history/submission-sources/FIFO门控_待审-5/reports/optimization/ffn_trb_4x32_fifo_entry_gate/kwt_threebank_core.sv"
+  }
+}
