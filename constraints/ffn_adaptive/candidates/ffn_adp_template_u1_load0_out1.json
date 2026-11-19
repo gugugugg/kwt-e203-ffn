@@ -1,0 +1,11 @@
+{
+  "variant": "ffn_adp_template_u1_load0_out1",
+  "features": {
+    "unroll": true
+  },
+  "changes": {
+    "batch_load": false,
+    "batch_output": true
+  },
+  "purpose": "firmware_template"
+}

@@ -1,0 +1,39 @@
+{
+  "variant": "ffn_adp_NUITG_B_GM_load_out4",
+  "selected": false,
+  "belongs_to_this_round": false,
+  "stage": "formal_passed",
+  "parameters": {
+    "features": {
+      "split_bias": true,
+      "unroll": true,
+      "fast_pair": true,
+      "overlap": true,
+      "clock_gating": true,
+      "lanes16": false
+    },
+    "changes": {
+      "batch_load": true,
+      "batch_output": true
+    }
+  },
+  "cycles": [
+    506432,
+    506432,
+    506432,
+    506432,
+    506432,
+    506432,
+    506432,
+    506432,
+    506432,
+    506432,
+    506432,
+    506432
+  ],
+  "throughput_per_second": 296.1898142297485,
+  "area_mm2": 0.27804195,
+  "mean_power_w": 0.021370675938681114,
+  "mean_energy_j": 7.215196104652102e-05,
+  "joint_feasible": null
+}

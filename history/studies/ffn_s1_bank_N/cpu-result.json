@@ -1,0 +1,6 @@
+{
+  "clock_hz": 150000000,
+  "cycles_total": 491172,
+  "retained_native_sram_q_delay": true,
+  "throughput": 3664.7040140724635
+}

@@ -1,0 +1,21 @@
+{
+  "variant": "ffn_res_dev8_R4",
+  "parent_variant": "ffn_next_dev8_SR",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": true,
+    "clock_gating": true,
+    "lanes16": false
+  },
+  "changes": {
+    "row_group": 4
+  },
+  "effective_changes": {
+    "row_cache": true,
+    "row_pair": true,
+    "row_group": 4
+  },
+  "purpose": "implementation_check"
+}

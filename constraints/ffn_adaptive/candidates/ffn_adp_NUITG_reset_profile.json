@@ -1,0 +1,15 @@
+{
+  "variant": "ffn_adp_NUITG_reset_profile",
+  "parent_variant": "ffn_v3_NUITG",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": true,
+    "clock_gating": true,
+    "lanes16": false
+  },
+  "changes": {},
+  "effective_changes": {},
+  "purpose": "diagnostic"
+}

@@ -1,0 +1,231 @@
+{
+  "reference": {
+    "variant": "ffn_q16_staged",
+    "cycles_total": 544164,
+    "throughput": 3307.8263170661785,
+    "mean_power_w": 0.0385602186364959,
+    "mean_energy_j": 1.1657268230061196e-05,
+    "area_mm2": 0.384436002
+  },
+  "variants": {
+    "I": {
+      "variant": "ffn_s1_bank_I",
+      "cycles_total": 447372,
+      "area_mm2": 0.385383388,
+      "throughput": 4023.4972237869156,
+      "mean_power_w": 0.041794594360778634,
+      "mean_energy_j": 1.0387628482427922e-05,
+      "cycles_per_task": 37281.0,
+      "delta_percent": {
+        "throughput": 21.63568573804351,
+        "mean_power_w": 8.3878562898539,
+        "mean_energy_j": -10.891400305598086,
+        "area_mm2": 0.24643529614065685
+      },
+      "setup_slack_ns": 0.462161,
+      "hold_slack_ns": 0.144989,
+      "proof": {
+        "rtl_formal_passed": true,
+        "hold_repair_formal_passed": true,
+        "final_repair_formal_passed": true
+      },
+      "rtl_exact_cases": 12,
+      "mapped_representative_passed": true,
+      "bank_counters": [
+        {
+          "case": 1,
+          "dual": 8192,
+          "same_bank": 256,
+          "uncommitted": 439
+        },
+        {
+          "case": 3,
+          "dual": 8192,
+          "same_bank": 256,
+          "uncommitted": 439
+        },
+        {
+          "case": 5,
+          "dual": 8192,
+          "same_bank": 256,
+          "uncommitted": 439
+        },
+        {
+          "case": 7,
+          "dual": 8192,
+          "same_bank": 256,
+          "uncommitted": 439
+        },
+        {
+          "case": 9,
+          "dual": 8192,
+          "same_bank": 256,
+          "uncommitted": 439
+        },
+        {
+          "case": 11,
+          "dual": 8192,
+          "same_bank": 256,
+          "uncommitted": 439
+        },
+        {
+          "case": 13,
+          "dual": 8192,
+          "same_bank": 256,
+          "uncommitted": 439
+        },
+        {
+          "case": 15,
+          "dual": 8192,
+          "same_bank": 256,
+          "uncommitted": 439
+        },
+        {
+          "case": 17,
+          "dual": 8192,
+          "same_bank": 256,
+          "uncommitted": 439
+        },
+        {
+          "case": 19,
+          "dual": 8192,
+          "same_bank": 256,
+          "uncommitted": 439
+        },
+        {
+          "case": 21,
+          "dual": 8192,
+          "same_bank": 256,
+          "uncommitted": 439
+        },
+        {
+          "case": 23,
+          "dual": 8192,
+          "same_bank": 256,
+          "uncommitted": 439
+        }
+      ],
+      "native_archive_crc32": "d6961e22",
+      "native_archive_bytes": 174434180,
+      "native_archive_files": 933
+    },
+    "N": {
+      "variant": "ffn_s1_bank_N",
+      "cycles_total": 491172,
+      "area_mm2": 0.386214585,
+      "throughput": 3664.7040140724635,
+      "mean_power_w": 0.04021105793612201,
+      "mean_energy_j": 1.09725254158894e-05,
+      "cycles_per_task": 40931.0,
+      "delta_percent": {
+        "throughput": 10.788888617429325,
+        "mean_power_w": 4.281197975531303,
+        "mean_energy_j": -5.873956064646557,
+        "area_mm2": 0.4626473563212219
+      },
+      "setup_slack_ns": 0.612398,
+      "hold_slack_ns": 0.144989,
+      "proof": {
+        "rtl_formal_passed": true,
+        "hold_repair_formal_passed": true,
+        "final_repair_formal_passed": true
+      },
+      "rtl_exact_cases": 12,
+      "mapped_representative_passed": true,
+      "bank_counters": [
+        {
+          "case": 1,
+          "dual": 4373,
+          "same_bank": 0,
+          "uncommitted": 0
+        },
+        {
+          "case": 3,
+          "dual": 4373,
+          "same_bank": 0,
+          "uncommitted": 0
+        },
+        {
+          "case": 5,
+          "dual": 4373,
+          "same_bank": 0,
+          "uncommitted": 0
+        },
+        {
+          "case": 7,
+          "dual": 4373,
+          "same_bank": 0,
+          "uncommitted": 0
+        },
+        {
+          "case": 9,
+          "dual": 4373,
+          "same_bank": 0,
+          "uncommitted": 0
+        },
+        {
+          "case": 11,
+          "dual": 4373,
+          "same_bank": 0,
+          "uncommitted": 0
+        },
+        {
+          "case": 13,
+          "dual": 4373,
+          "same_bank": 0,
+          "uncommitted": 0
+        },
+        {
+          "case": 15,
+          "dual": 4373,
+          "same_bank": 0,
+          "uncommitted": 0
+        },
+        {
+          "case": 17,
+          "dual": 4373,
+          "same_bank": 0,
+          "uncommitted": 0
+        },
+        {
+          "case": 19,
+          "dual": 4373,
+          "same_bank": 0,
+          "uncommitted": 0
+        },
+        {
+          "case": 21,
+          "dual": 4373,
+          "same_bank": 0,
+          "uncommitted": 0
+        },
+        {
+          "case": 23,
+          "dual": 4373,
+          "same_bank": 0,
+          "uncommitted": 0
+        }
+      ],
+      "native_archive_crc32": "d8443fce",
+      "native_archive_bytes": 173561669,
+      "native_archive_files": 932
+    }
+  },
+  "engineering_preference": "I",
+  "both_meet_engineering_targets": true,
+  "stretch_4000_met": [
+    "I"
+  ],
+  "organizer_reply": {
+    "time": "16:59",
+    "message": "具体怎么实现，你自己决定，这是你自己的设计，只符合赛题就行",
+    "explicitly_answers_either_mechanism": false
+  },
+  "explicit_variant_rule_confirmation": false,
+  "publication_changed": false,
+  "published_variant": "ffn_q16_staged",
+  "native_ack_confirmed_for": [
+    "I",
+    "N"
+  ]
+}

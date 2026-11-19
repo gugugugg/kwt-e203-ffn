@@ -1,0 +1,1714 @@
+{
+  "variant": "ffn_tp_CROSS",
+  "selected": true,
+  "belongs_to_this_round": false,
+  "stage": "formal_passed",
+  "parameters": {
+    "features": {
+      "split_bias": true,
+      "unroll": true,
+      "fast_pair": true,
+      "overlap": false,
+      "clock_gating": true,
+      "lanes16": true
+    },
+    "changes": {
+      "stream": true,
+      "small_input": true,
+      "row_group": 1,
+      "double_buffer": true
+    },
+    "configuration": {
+      "variant": "ffn_tp_CROSS",
+      "source_snapshot": "build/optimization/rtl_sources/ffn_tp_CROSS",
+      "base_public_soc": "build/complete_soc",
+      "linear_images": "build/optimization/ffn_tile_pipeline/images/tile_16",
+      "encoder_package": "fixed16-v1 unchanged",
+      "firmware": "build/optimization/firmware/ffn_tp_CROSS",
+      "old_background_builds_modified": false,
+      "adaptive_manifest": "constraints/ffn_tile_pipeline/candidates/ffn_tp_CROSS.json",
+      "core_path": "dut.soc.u_e203_subsys_main.u_e203_subsys_perips.accelerator.controller.core",
+      "row_group": 1,
+      "stream": true,
+      "small_input": true,
+      "double_buffer": true,
+      "loading_layout": "tile",
+      "loading_dma": true,
+      "output_dma": true,
+      "host_loader": "required_data_v1",
+      "host_payload_words32": 11936
+    },
+    "candidate_manifest": {
+      "variant": "ffn_tp_CROSS",
+      "parent_variant": "ffn_tp_BP_E2",
+      "parent": {
+        "variant": "ffn_tp_BP_E2",
+        "state": {
+          "variant": "ffn_tp_BP_E2",
+          "features": {
+            "split_bias": true,
+            "unroll": true,
+            "fast_pair": true,
+            "overlap": false,
+            "clock_gating": true,
+            "lanes16": true
+          },
+          "changes": {
+            "stream": true,
+            "small_input": true,
+            "row_group": 1,
+            "double_buffer": true
+          },
+          "stage": "formal_passed",
+          "cpu_passed": true,
+          "raw_passed": true,
+          "hold_mapping_passed": true,
+          "hold_timing_passed": true,
+          "profile": "constraints/ffn_tile_pipeline/ffn_tp_BP_E2_final.json",
+          "hold_profile": "constraints/ffn_tile_pipeline/ffn_tp_BP_E2_hold.json",
+          "mapping_passed": true,
+          "assessment_clock_gating": {
+            "variant": "ffn_tp_BP_E2",
+            "tag": "opt_ffn_tp_BP_E2_final_ss_ema2",
+            "assessment_sdc": "constraints/complete_soc.sdc",
+            "implementation_sdc_loaded": false,
+            "checks": {
+              "clock_gating_setup": {
+                "violations": 0,
+                "minimum_reported_slack_ns": 0.812415
+              },
+              "clock_gating_hold": {
+                "violations": 0,
+                "minimum_reported_slack_ns": 0.249219
+              },
+              "timing_max": {
+                "violations": 0,
+                "minimum_reported_slack_ns": 0.58307
+              },
+              "timing_min": {
+                "violations": 0,
+                "minimum_reported_slack_ns": 0.144989
+              },
+              "constraints": {
+                "violations": 0,
+                "minimum_reported_slack_ns": null
+              }
+            },
+            "passed": true
+          },
+          "activity_mapping": {
+            "variant": "ffn_tp_BP_E2",
+            "tag": "opt_ffn_tp_BP_E2_final_ss_ema2",
+            "passed": true,
+            "status": "passed_actual_mapped_phase_review",
+            "review_revision": "first_actual_mapped_v1",
+            "inversion_count": 11,
+            "suppressed_alias_count": 0,
+            "aliases": [
+              {
+                "rtl": "sysmem_icb_cmd_valid",
+                "gate": "sysmem_icb_cmd_valid",
+                "inverted": true,
+                "reason": "Shared CPU valid actual NAND output and connected hierarchy segment."
+              },
+              {
+                "rtl": "soc/sysmem_icb_cmd_valid",
+                "gate": "soc/sysmem_icb_cmd_valid_BAR",
+                "inverted": true,
+                "reason": "Shared CPU valid actual NAND output and connected hierarchy segment."
+              },
+              {
+                "rtl": "soc/u_e203_subsys_main/sysmem_icb_cmd_valid",
+                "gate": "soc/u_e203_subsys_main/sysmem_icb_cmd_valid_BAR",
+                "inverted": true,
+                "reason": "Shared CPU valid actual NAND output and connected hierarchy segment."
+              },
+              {
+                "rtl": "soc/u_e203_subsys_main/u_e203_subsys_mems/sysmem_icb_cmd_valid",
+                "gate": "soc/u_e203_subsys_main/u_e203_subsys_mems/sysmem_icb_cmd_valid_BAR",
+                "inverted": true,
+                "reason": "Shared CPU valid actual NAND output and connected hierarchy segment."
+              },
+              {
+                "rtl": "soc/u_e203_subsys_main/u_e203_subsys_mems/u_sirv_mem_fab/o4_icb_cmd_valid",
+                "gate": "soc/u_e203_subsys_main/u_e203_subsys_mems/u_sirv_mem_fab/o4_icb_cmd_valid_BAR",
+                "inverted": true,
+                "reason": "Shared CPU valid actual NAND output and connected hierarchy segment."
+              },
+              {
+                "rtl": "soc/u_e203_subsys_main/u_e203_subsys_mems/u_sirv_mem_fab/u_i_icb_splt/o_bus_icb_cmd_valid[4]",
+                "gate": "soc/u_e203_subsys_main/u_e203_subsys_mems/u_sirv_mem_fab/u_i_icb_splt/o_bus_icb_cmd_valid_4__BAR",
+                "inverted": true,
+                "reason": "Shared CPU valid actual NAND output and connected hierarchy segment."
+              },
+              {
+                "rtl": "shared_memory/cpu_cmd_valid",
+                "gate": "shared_memory/cpu_cmd_valid_BAR",
+                "inverted": true,
+                "reason": "Shared CPU valid actual NAND output and connected hierarchy segment."
+              },
+              {
+                "rtl": "shared_memory/memory_arbiter/a_cmd_valid",
+                "gate": "shared_memory/memory_arbiter/a_cmd_valid_BAR",
+                "inverted": true,
+                "reason": "Shared CPU valid actual NAND output and connected hierarchy segment."
+              },
+              {
+                "rtl": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bias_shadow_banks[1].gate/enable",
+                "gate": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bias_shadow_banks_1__gate/enable_BAR",
+                "inverted": true,
+                "reason": "actual shadow gate U1 CLKINV0 precedes CLKLANAQV1 E",
+                "expected_corrected_static_probability": 0.9901822786081963,
+                "saif_tc": 3166
+              },
+              {
+                "rtl": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bias_shadow_banks[3].gate/enable",
+                "gate": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bias_shadow_banks_3__gate/enable_BAR",
+                "inverted": true,
+                "reason": "actual shadow gate U1 CLKINV0 precedes CLKLANAQV1 E",
+                "expected_corrected_static_probability": 0.9901822786081963,
+                "saif_tc": 3166
+              },
+              {
+                "rtl": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bias_shadow_banks[5].gate/enable",
+                "gate": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bias_shadow_banks_5__gate/enable_BAR",
+                "inverted": true,
+                "reason": "actual shadow gate U1 CLKINV0 precedes CLKLANAQV1 E",
+                "expected_corrected_static_probability": 0.9901822786081963,
+                "saif_tc": 3166
+              }
+            ],
+            "suppressed_opposite_phase_aliases": [],
+            "compute": {
+              "passed": true,
+              "status": "passed_actual_native_probe",
+              "aliases": [
+                {
+                  "rtl": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bias_shadow_banks[1].gate/enable",
+                  "gate": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bias_shadow_banks_1__gate/enable_BAR",
+                  "inverted": true,
+                  "reason": "actual shadow gate U1 CLKINV0 precedes CLKLANAQV1 E",
+                  "expected_corrected_static_probability": 0.9901822786081963,
+                  "saif_tc": 3166
+                },
+                {
+                  "rtl": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bias_shadow_banks[3].gate/enable",
+                  "gate": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bias_shadow_banks_3__gate/enable_BAR",
+                  "inverted": true,
+                  "reason": "actual shadow gate U1 CLKINV0 precedes CLKLANAQV1 E",
+                  "expected_corrected_static_probability": 0.9901822786081963,
+                  "saif_tc": 3166
+                },
+                {
+                  "rtl": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bias_shadow_banks[5].gate/enable",
+                  "gate": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bias_shadow_banks_5__gate/enable_BAR",
+                  "inverted": true,
+                  "reason": "actual shadow gate U1 CLKINV0 precedes CLKLANAQV1 E",
+                  "expected_corrected_static_probability": 0.9901822786081963,
+                  "saif_tc": 3166
+                }
+              ],
+              "suppressed_opposite_phase_aliases": [],
+              "suppression_status": "native segments and actual map contain no opposite-phase duplicate requiring unset in the reviewed compute scope",
+              "probe_register_nets": [
+                {
+                  "pin": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/item_reg_0_/Q",
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/out_index[0]",
+                  "ref": "DRNQV0_12TR40"
+                },
+                {
+                  "pin": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/item_reg_1_/Q",
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/out_index[1]",
+                  "ref": "DRNQV0_12TR40"
+                },
+                {
+                  "pin": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/fifo_reg_0__0_/Q",
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/fifo[240]",
+                  "ref": "DQV8_12TR40"
+                },
+                {
+                  "pin": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/fifo_reg_1__0_/Q",
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/fifo[224]",
+                  "ref": "DQV8_12TR40"
+                },
+                {
+                  "pin": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bp_bias_reg_0_/Q",
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bp_bias[0]",
+                  "ref": "DQV8_12TR40"
+                },
+                {
+                  "pin": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bp_bias_reg_31_/Q",
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bp_bias[31]",
+                  "ref": "DQV8_12TR40"
+                },
+                {
+                  "pin": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bp_bias_reg_511_/Q",
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bp_bias[511]",
+                  "ref": "DQV8_12TR40"
+                },
+                {
+                  "pin": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bp_shift_reg_0_/Q",
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bp_shift[0]",
+                  "ref": "DQV8_12TR40"
+                },
+                {
+                  "pin": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bp_shift_reg_127_/Q",
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core/tp_bp_shift[127]",
+                  "ref": "DQV8_12TR40"
+                }
+              ],
+              "native_segment_review_complete": true,
+              "evidence": [
+                "native-segments/reports/optimization/ffn_tile_pipeline/activity-mapping/native-review-first/ffn_tp_BP_E2-segments.rpt",
+                "native-segments/reports/optimization/ffn_tile_pipeline/activity-mapping/native-review-first/ffn_tp_BP_E2-vendor-functions.v",
+                "native-segments/reports/optimization/ffn_tile_pipeline/activity-mapping/native-review-first/ffn_tp_BP_E2-shadow-segments.rpt",
+                "native-segments/reports/optimization/ffn_tile_pipeline/activity-mapping/native-review-first/ffn_tp_BP_E2-shadow-vendor-functions.v"
+              ],
+              "correction_count": 3,
+              "verdict": "compute-probe-verdict.json"
+            },
+            "bus": {
+              "passed": true,
+              "status": "passed_actual_native_probe",
+              "aliases": [
+                {
+                  "rtl": "sysmem_icb_cmd_valid",
+                  "gate": "sysmem_icb_cmd_valid",
+                  "inverted": true,
+                  "reason": "Shared CPU valid actual NAND output and connected hierarchy segment."
+                },
+                {
+                  "rtl": "soc/sysmem_icb_cmd_valid",
+                  "gate": "soc/sysmem_icb_cmd_valid_BAR",
+                  "inverted": true,
+                  "reason": "Shared CPU valid actual NAND output and connected hierarchy segment."
+                },
+                {
+                  "rtl": "soc/u_e203_subsys_main/sysmem_icb_cmd_valid",
+                  "gate": "soc/u_e203_subsys_main/sysmem_icb_cmd_valid_BAR",
+                  "inverted": true,
+                  "reason": "Shared CPU valid actual NAND output and connected hierarchy segment."
+                },
+                {
+                  "rtl": "soc/u_e203_subsys_main/u_e203_subsys_mems/sysmem_icb_cmd_valid",
+                  "gate": "soc/u_e203_subsys_main/u_e203_subsys_mems/sysmem_icb_cmd_valid_BAR",
+                  "inverted": true,
+                  "reason": "Shared CPU valid actual NAND output and connected hierarchy segment."
+                },
+                {
+                  "rtl": "soc/u_e203_subsys_main/u_e203_subsys_mems/u_sirv_mem_fab/o4_icb_cmd_valid",
+                  "gate": "soc/u_e203_subsys_main/u_e203_subsys_mems/u_sirv_mem_fab/o4_icb_cmd_valid_BAR",
+                  "inverted": true,
+                  "reason": "Shared CPU valid actual NAND output and connected hierarchy segment."
+                },
+                {
+                  "rtl": "soc/u_e203_subsys_main/u_e203_subsys_mems/u_sirv_mem_fab/u_i_icb_splt/o_bus_icb_cmd_valid[4]",
+                  "gate": "soc/u_e203_subsys_main/u_e203_subsys_mems/u_sirv_mem_fab/u_i_icb_splt/o_bus_icb_cmd_valid_4__BAR",
+                  "inverted": true,
+                  "reason": "Shared CPU valid actual NAND output and connected hierarchy segment."
+                },
+                {
+                  "rtl": "shared_memory/cpu_cmd_valid",
+                  "gate": "shared_memory/cpu_cmd_valid_BAR",
+                  "inverted": true,
+                  "reason": "Shared CPU valid actual NAND output and connected hierarchy segment."
+                },
+                {
+                  "rtl": "shared_memory/memory_arbiter/a_cmd_valid",
+                  "gate": "shared_memory/memory_arbiter/a_cmd_valid_BAR",
+                  "inverted": true,
+                  "reason": "Shared CPU valid actual NAND output and connected hierarchy segment."
+                }
+              ],
+              "suppressed_opposite_phase_aliases": [],
+              "suppression_reason": "Separate actual PIO-read and memory-read segments, no suppression.",
+              "positive_direction_sources": [
+                "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/dma_frontend/loading_dma/output_transfer",
+                "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/dma_frontend/loading_dma/pio_cmd_read",
+                "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/dma_frontend/dma_pio_cmd_read",
+                "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/dma_frontend/core_arbiter/b_cmd_read"
+              ],
+              "probe_register_nets": [
+                {
+                  "pin": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/dma_frontend/loading_dma/output_transfer_reg/Q",
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/dma_frontend/loading_dma/pio_cmd_read",
+                  "ref": "DRNQV6_12TR40",
+                  "rtl": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/dma_frontend/loading_dma/output_transfer"
+                }
+              ],
+              "probe_nets": [
+                {
+                  "net": "sysmem_icb_cmd_valid",
+                  "rtl": "sysmem_icb_cmd_valid",
+                  "inverted": true,
+                  "family": "shared_cpu_valid"
+                },
+                {
+                  "net": "soc/sysmem_icb_cmd_valid_BAR",
+                  "rtl": "soc/sysmem_icb_cmd_valid",
+                  "inverted": true,
+                  "family": "shared_cpu_valid"
+                },
+                {
+                  "net": "soc/u_e203_subsys_main/sysmem_icb_cmd_valid_BAR",
+                  "rtl": "soc/u_e203_subsys_main/sysmem_icb_cmd_valid",
+                  "inverted": true,
+                  "family": "shared_cpu_valid"
+                },
+                {
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_mems/sysmem_icb_cmd_valid_BAR",
+                  "rtl": "soc/u_e203_subsys_main/u_e203_subsys_mems/sysmem_icb_cmd_valid",
+                  "inverted": true,
+                  "family": "shared_cpu_valid"
+                },
+                {
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_mems/u_sirv_mem_fab/o4_icb_cmd_valid_BAR",
+                  "rtl": "soc/u_e203_subsys_main/u_e203_subsys_mems/u_sirv_mem_fab/o4_icb_cmd_valid",
+                  "inverted": true,
+                  "family": "shared_cpu_valid"
+                },
+                {
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_mems/u_sirv_mem_fab/u_i_icb_splt/o_bus_icb_cmd_valid_4__BAR",
+                  "rtl": "soc/u_e203_subsys_main/u_e203_subsys_mems/u_sirv_mem_fab/u_i_icb_splt/o_bus_icb_cmd_valid[4]",
+                  "inverted": true,
+                  "family": "shared_cpu_valid"
+                },
+                {
+                  "net": "shared_memory/cpu_cmd_valid_BAR",
+                  "rtl": "shared_memory/cpu_cmd_valid",
+                  "inverted": true,
+                  "family": "shared_cpu_valid"
+                },
+                {
+                  "net": "shared_memory/memory_arbiter/a_cmd_valid_BAR",
+                  "rtl": "shared_memory/memory_arbiter/a_cmd_valid",
+                  "inverted": true,
+                  "family": "shared_cpu_valid"
+                },
+                {
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_perips/kwt_cmd_valid",
+                  "rtl": "soc/u_e203_subsys_main/u_e203_subsys_perips/kwt_cmd_valid",
+                  "inverted": false,
+                  "family": "frontend_cpu_pio_valid"
+                },
+                {
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_ppi_fab/o15_icb_cmd_valid",
+                  "rtl": "soc/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_ppi_fab/o15_icb_cmd_valid",
+                  "inverted": false,
+                  "family": "frontend_cpu_pio_valid"
+                },
+                {
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_ppi_fab/u_buf_icb_splt/o_bus_icb_cmd_valid_1_",
+                  "rtl": "soc/u_e203_subsys_main/u_e203_subsys_perips/u_sirv_ppi_fab/u_buf_icb_splt/o_bus_icb_cmd_valid[1]",
+                  "inverted": false,
+                  "family": "frontend_cpu_pio_valid"
+                },
+                {
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/icb_cmd_valid",
+                  "rtl": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/icb_cmd_valid",
+                  "inverted": false,
+                  "family": "frontend_cpu_pio_valid"
+                },
+                {
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/icb_cmd_valid",
+                  "rtl": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/icb_cmd_valid",
+                  "inverted": false,
+                  "family": "frontend_cpu_pio_valid"
+                },
+                {
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/dma_frontend/cpu_cmd_valid",
+                  "rtl": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/dma_frontend/cpu_cmd_valid",
+                  "inverted": false,
+                  "family": "frontend_cpu_pio_valid"
+                },
+                {
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/dma_frontend/loading_dma/pio_cmd_read",
+                  "rtl": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/dma_frontend/loading_dma/output_transfer",
+                  "inverted": false,
+                  "family": "dma_direction"
+                },
+                {
+                  "net": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/dma_frontend/loading_dma/mem_cmd_read",
+                  "rtl": "soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/dma_frontend/loading_dma/mem_cmd_read",
+                  "inverted": false,
+                  "family": "dma_memory_read"
+                }
+              ],
+              "ih_hold_saif_present_bits": 0,
+              "native_annotation_source_status": "Pending corrected native read_saif; retain file/propagated source. Never substitute zero for absent activity.",
+              "evidence": [
+                "reports/optimization/ffn_tile_pipeline/activity-mapping/native-review-first/native-segments/reports/optimization/ffn_tile_pipeline/activity-mapping/native-review-first/ffn_tp_BP_E2-segments.rpt",
+                "reports/optimization/ffn_tile_pipeline/activity-mapping/native-review-first/native-frontend/reports/optimization/ffn_tile_pipeline/activity-mapping/native-review-first/ffn_tp_BP_E2-frontend-segments.rpt"
+              ],
+              "verdict": "bus-probe-verdict.json"
+            },
+            "evidence_archive": "actual-first-final-inputs.tar.gz",
+            "native_probe_passed": true,
+            "native_probe_archive": "corrected-phase-probe-evidence.tar.gz",
+            "native_probe_attempt": 1,
+            "probe_power_not_updated": true
+          },
+          "power_passed": true,
+          "fifo_diagnostics": {
+            "1": {
+              "case": 1,
+              "full": 11237,
+              "empty": 0,
+              "empty_after_full": 0,
+              "starts": 1
+            },
+            "3": {
+              "case": 3,
+              "full": 11237,
+              "empty": 0,
+              "empty_after_full": 0,
+              "starts": 1
+            },
+            "5": {
+              "case": 5,
+              "full": 11237,
+              "empty": 0,
+              "empty_after_full": 0,
+              "starts": 1
+            },
+            "7": {
+              "case": 7,
+              "full": 11237,
+              "empty": 0,
+              "empty_after_full": 0,
+              "starts": 1
+            },
+            "9": {
+              "case": 9,
+              "full": 11237,
+              "empty": 0,
+              "empty_after_full": 0,
+              "starts": 1
+            },
+            "11": {
+              "case": 11,
+              "full": 11237,
+              "empty": 0,
+              "empty_after_full": 0,
+              "starts": 1
+            },
+            "13": {
+              "case": 13,
+              "full": 11237,
+              "empty": 0,
+              "empty_after_full": 0,
+              "starts": 1
+            },
+            "15": {
+              "case": 15,
+              "full": 11237,
+              "empty": 0,
+              "empty_after_full": 0,
+              "starts": 1
+            },
+            "17": {
+              "case": 17,
+              "full": 11237,
+              "empty": 0,
+              "empty_after_full": 0,
+              "starts": 1
+            },
+            "19": {
+              "case": 19,
+              "full": 11237,
+              "empty": 0,
+              "empty_after_full": 0,
+              "starts": 1
+            },
+            "21": {
+              "case": 21,
+              "full": 11237,
+              "empty": 0,
+              "empty_after_full": 0,
+              "starts": 1
+            },
+            "23": {
+              "case": 23,
+              "full": 11237,
+              "empty": 0,
+              "empty_after_full": 0,
+              "starts": 1
+            }
+          },
+          "loading_dma_counts": {
+            "1": {
+              "case": 1,
+              "host_payload": 11936,
+              "host_setup": 5,
+              "host_control": 5,
+              "dma_reads": 11936,
+              "dma_writes": 12672,
+              "cpu_output_words": 0,
+              "last_commit": 161233,
+              "last_ack": 161235
+            },
+            "3": {
+              "case": 3,
+              "host_payload": 11936,
+              "host_setup": 5,
+              "host_control": 5,
+              "dma_reads": 11936,
+              "dma_writes": 12672,
+              "cpu_output_words": 0,
+              "last_commit": 161233,
+              "last_ack": 161235
+            },
+            "7": {
+              "case": 7,
+              "host_payload": 11936,
+              "host_setup": 5,
+              "host_control": 5,
+              "dma_reads": 11936,
+              "dma_writes": 12672,
+              "cpu_output_words": 0,
+              "last_commit": 161233,
+              "last_ack": 161235
+            },
+            "5": {
+              "case": 5,
+              "host_payload": 11936,
+              "host_setup": 5,
+              "host_control": 5,
+              "dma_reads": 11936,
+              "dma_writes": 12672,
+              "cpu_output_words": 0,
+              "last_commit": 161233,
+              "last_ack": 161235
+            },
+            "13": {
+              "case": 13,
+              "host_payload": 11936,
+              "host_setup": 5,
+              "host_control": 5,
+              "dma_reads": 11936,
+              "dma_writes": 12672,
+              "cpu_output_words": 0,
+              "last_commit": 161233,
+              "last_ack": 161235
+            },
+            "17": {
+              "case": 17,
+              "host_payload": 11936,
+              "host_setup": 5,
+              "host_control": 5,
+              "dma_reads": 11936,
+              "dma_writes": 12672,
+              "cpu_output_words": 0,
+              "last_commit": 161233,
+              "last_ack": 161235
+            },
+            "11": {
+              "case": 11,
+              "host_payload": 11936,
+              "host_setup": 5,
+              "host_control": 5,
+              "dma_reads": 11936,
+              "dma_writes": 12672,
+              "cpu_output_words": 0,
+              "last_commit": 161233,
+              "last_ack": 161235
+            },
+            "23": {
+              "case": 23,
+              "host_payload": 11936,
+              "host_setup": 5,
+              "host_control": 5,
+              "dma_reads": 11936,
+              "dma_writes": 12672,
+              "cpu_output_words": 0,
+              "last_commit": 161233,
+              "last_ack": 161235
+            },
+            "9": {
+              "case": 9,
+              "host_payload": 11936,
+              "host_setup": 5,
+              "host_control": 5,
+              "dma_reads": 11936,
+              "dma_writes": 12672,
+              "cpu_output_words": 0,
+              "last_commit": 161233,
+              "last_ack": 161235
+            },
+            "21": {
+              "case": 21,
+              "host_payload": 11936,
+              "host_setup": 5,
+              "host_control": 5,
+              "dma_reads": 11936,
+              "dma_writes": 12672,
+              "cpu_output_words": 0,
+              "last_commit": 161233,
+              "last_ack": 161235
+            },
+            "19": {
+              "case": 19,
+              "host_payload": 11936,
+              "host_setup": 5,
+              "host_control": 5,
+              "dma_reads": 11936,
+              "dma_writes": 12672,
+              "cpu_output_words": 0,
+              "last_commit": 161233,
+              "last_ack": 161235
+            },
+            "15": {
+              "case": 15,
+              "host_payload": 11936,
+              "host_setup": 5,
+              "host_control": 5,
+              "dma_reads": 11936,
+              "dma_writes": 12672,
+              "cpu_output_words": 0,
+              "last_commit": 161233,
+              "last_ack": 161235
+            }
+          },
+          "tile_pipeline_counts": {
+            "1": {
+              "case": 1,
+              "seed": 1583,
+              "shadow_requests": 12664,
+              "shadow_captures": 12664,
+              "push_cycles": 12672,
+              "push_words": 25344,
+              "pair_pushes": 12672
+            },
+            "3": {
+              "case": 3,
+              "seed": 1583,
+              "shadow_requests": 12664,
+              "shadow_captures": 12664,
+              "push_cycles": 12672,
+              "push_words": 25344,
+              "pair_pushes": 12672
+            },
+            "7": {
+              "case": 7,
+              "seed": 1583,
+              "shadow_requests": 12664,
+              "shadow_captures": 12664,
+              "push_cycles": 12672,
+              "push_words": 25344,
+              "pair_pushes": 12672
+            },
+            "5": {
+              "case": 5,
+              "seed": 1583,
+              "shadow_requests": 12664,
+              "shadow_captures": 12664,
+              "push_cycles": 12672,
+              "push_words": 25344,
+              "pair_pushes": 12672
+            },
+            "13": {
+              "case": 13,
+              "seed": 1583,
+              "shadow_requests": 12664,
+              "shadow_captures": 12664,
+              "push_cycles": 12672,
+              "push_words": 25344,
+              "pair_pushes": 12672
+            },
+            "17": {
+              "case": 17,
+              "seed": 1583,
+              "shadow_requests": 12664,
+              "shadow_captures": 12664,
+              "push_cycles": 12672,
+              "push_words": 25344,
+              "pair_pushes": 12672
+            },
+            "11": {
+              "case": 11,
+              "seed": 1583,
+              "shadow_requests": 12664,
+              "shadow_captures": 12664,
+              "push_cycles": 12672,
+              "push_words": 25344,
+              "pair_pushes": 12672
+            },
+            "23": {
+              "case": 23,
+              "seed": 1583,
+              "shadow_requests": 12664,
+              "shadow_captures": 12664,
+              "push_cycles": 12672,
+              "push_words": 25344,
+              "pair_pushes": 12672
+            },
+            "9": {
+              "case": 9,
+              "seed": 1583,
+              "shadow_requests": 12664,
+              "shadow_captures": 12664,
+              "push_cycles": 12672,
+              "push_words": 25344,
+              "pair_pushes": 12672
+            },
+            "21": {
+              "case": 21,
+              "seed": 1583,
+              "shadow_requests": 12664,
+              "shadow_captures": 12664,
+              "push_cycles": 12672,
+              "push_words": 25344,
+              "pair_pushes": 12672
+            },
+            "19": {
+              "case": 19,
+              "seed": 1583,
+              "shadow_requests": 12664,
+              "shadow_captures": 12664,
+              "push_cycles": 12672,
+              "push_words": 25344,
+              "pair_pushes": 12672
+            },
+            "15": {
+              "case": 15,
+              "seed": 1583,
+              "shadow_requests": 12664,
+              "shadow_captures": 12664,
+              "push_cycles": 12672,
+              "push_words": 25344,
+              "pair_pushes": 12672
+            }
+          },
+          "task_intervals": {
+            "1": {
+              "case": 1,
+              "host_initial_begin": 0,
+              "host_initial_end": 3178,
+              "parameter_request": 3295,
+              "parameter_injection_end": 12066,
+              "input_first": 38514,
+              "input_last": 158920,
+              "parameter_first": 12116,
+              "parameter_last": 38456,
+              "mac_first": 38627,
+              "mac_last": 161209,
+              "result_writeback_first": 38764,
+              "first_emit": 38691,
+              "last_emit": 161217,
+              "result_last_store": 161233
+            },
+            "3": {
+              "case": 3,
+              "host_initial_begin": 0,
+              "host_initial_end": 3178,
+              "parameter_request": 3295,
+              "parameter_injection_end": 12066,
+              "input_first": 38514,
+              "input_last": 158920,
+              "parameter_first": 12116,
+              "parameter_last": 38456,
+              "mac_first": 38627,
+              "mac_last": 161209,
+              "result_writeback_first": 38764,
+              "first_emit": 38691,
+              "last_emit": 161217,
+              "result_last_store": 161233
+            },
+            "5": {
+              "case": 5,
+              "host_initial_begin": 0,
+              "host_initial_end": 3178,
+              "parameter_request": 3295,
+              "parameter_injection_end": 12066,
+              "input_first": 38514,
+              "input_last": 158920,
+              "parameter_first": 12116,
+              "parameter_last": 38456,
+              "mac_first": 38627,
+              "mac_last": 161209,
+              "result_writeback_first": 38764,
+              "first_emit": 38691,
+              "last_emit": 161217,
+              "result_last_store": 161233
+            },
+            "7": {
+              "case": 7,
+              "host_initial_begin": 0,
+              "host_initial_end": 3178,
+              "parameter_request": 3295,
+              "parameter_injection_end": 12066,
+              "input_first": 38514,
+              "input_last": 158920,
+              "parameter_first": 12116,
+              "parameter_last": 38456,
+              "mac_first": 38627,
+              "mac_last": 161209,
+              "result_writeback_first": 38764,
+              "first_emit": 38691,
+              "last_emit": 161217,
+              "result_last_store": 161233
+            },
+            "9": {
+              "case": 9,
+              "host_initial_begin": 0,
+              "host_initial_end": 3178,
+              "parameter_request": 3295,
+              "parameter_injection_end": 12066,
+              "input_first": 38514,
+              "input_last": 158920,
+              "parameter_first": 12116,
+              "parameter_last": 38456,
+              "mac_first": 38627,
+              "mac_last": 161209,
+              "result_writeback_first": 38764,
+              "first_emit": 38691,
+              "last_emit": 161217,
+              "result_last_store": 161233
+            },
+            "11": {
+              "case": 11,
+              "host_initial_begin": 0,
+              "host_initial_end": 3178,
+              "parameter_request": 3295,
+              "parameter_injection_end": 12066,
+              "input_first": 38514,
+              "input_last": 158920,
+              "parameter_first": 12116,
+              "parameter_last": 38456,
+              "mac_first": 38627,
+              "mac_last": 161209,
+              "result_writeback_first": 38764,
+              "first_emit": 38691,
+              "last_emit": 161217,
+              "result_last_store": 161233
+            },
+            "13": {
+              "case": 13,
+              "host_initial_begin": 0,
+              "host_initial_end": 3178,
+              "parameter_request": 3295,
+              "parameter_injection_end": 12066,
+              "input_first": 38514,
+              "input_last": 158920,
+              "parameter_first": 12116,
+              "parameter_last": 38456,
+              "mac_first": 38627,
+              "mac_last": 161209,
+              "result_writeback_first": 38764,
+              "first_emit": 38691,
+              "last_emit": 161217,
+              "result_last_store": 161233
+            },
+            "15": {
+              "case": 15,
+              "host_initial_begin": 0,
+              "host_initial_end": 3178,
+              "parameter_request": 3295,
+              "parameter_injection_end": 12066,
+              "input_first": 38514,
+              "input_last": 158920,
+              "parameter_first": 12116,
+              "parameter_last": 38456,
+              "mac_first": 38627,
+              "mac_last": 161209,
+              "result_writeback_first": 38764,
+              "first_emit": 38691,
+              "last_emit": 161217,
+              "result_last_store": 161233
+            },
+            "17": {
+              "case": 17,
+              "host_initial_begin": 0,
+              "host_initial_end": 3178,
+              "parameter_request": 3295,
+              "parameter_injection_end": 12066,
+              "input_first": 38514,
+              "input_last": 158920,
+              "parameter_first": 12116,
+              "parameter_last": 38456,
+              "mac_first": 38627,
+              "mac_last": 161209,
+              "result_writeback_first": 38764,
+              "first_emit": 38691,
+              "last_emit": 161217,
+              "result_last_store": 161233
+            },
+            "19": {
+              "case": 19,
+              "host_initial_begin": 0,
+              "host_initial_end": 3178,
+              "parameter_request": 3295,
+              "parameter_injection_end": 12066,
+              "input_first": 38514,
+              "input_last": 158920,
+              "parameter_first": 12116,
+              "parameter_last": 38456,
+              "mac_first": 38627,
+              "mac_last": 161209,
+              "result_writeback_first": 38764,
+              "first_emit": 38691,
+              "last_emit": 161217,
+              "result_last_store": 161233
+            },
+            "21": {
+              "case": 21,
+              "host_initial_begin": 0,
+              "host_initial_end": 3178,
+              "parameter_request": 3295,
+              "parameter_injection_end": 12066,
+              "input_first": 38514,
+              "input_last": 158920,
+              "parameter_first": 12116,
+              "parameter_last": 38456,
+              "mac_first": 38627,
+              "mac_last": 161209,
+              "result_writeback_first": 38764,
+              "first_emit": 38691,
+              "last_emit": 161217,
+              "result_last_store": 161233
+            },
+            "23": {
+              "case": 23,
+              "host_initial_begin": 0,
+              "host_initial_end": 3178,
+              "parameter_request": 3295,
+              "parameter_injection_end": 12066,
+              "input_first": 38514,
+              "input_last": 158920,
+              "parameter_first": 12116,
+              "parameter_last": 38456,
+              "mac_first": 38627,
+              "mac_last": 161209,
+              "result_writeback_first": 38764,
+              "first_emit": 38691,
+              "last_emit": 161217,
+              "result_last_store": 161233
+            }
+          },
+          "intervals_overlap": true,
+          "module_access_counts": {
+            "1": {
+              "case": 1,
+              "input_reads": 0,
+              "input_writes": 0,
+              "weight_reads": 1622016,
+              "weight_writes": 16432,
+              "bias_reads": 50688,
+              "bias_writes": 524,
+              "shift_reads": 12672,
+              "shift_writes": 131,
+              "stash_reads": 0,
+              "stash_writes": 0,
+              "wait_input": 217,
+              "stash_cycles": 0,
+              "input_cycles": 3168,
+              "input_mac_overlap": 2841
+            },
+            "3": {
+              "case": 3,
+              "input_reads": 0,
+              "input_writes": 0,
+              "weight_reads": 1622016,
+              "weight_writes": 16432,
+              "bias_reads": 50688,
+              "bias_writes": 524,
+              "shift_reads": 12672,
+              "shift_writes": 131,
+              "stash_reads": 0,
+              "stash_writes": 0,
+              "wait_input": 217,
+              "stash_cycles": 0,
+              "input_cycles": 3168,
+              "input_mac_overlap": 2841
+            },
+            "5": {
+              "case": 5,
+              "input_reads": 0,
+              "input_writes": 0,
+              "weight_reads": 1622016,
+              "weight_writes": 16432,
+              "bias_reads": 50688,
+              "bias_writes": 524,
+              "shift_reads": 12672,
+              "shift_writes": 131,
+              "stash_reads": 0,
+              "stash_writes": 0,
+              "wait_input": 217,
+              "stash_cycles": 0,
+              "input_cycles": 3168,
+              "input_mac_overlap": 2841
+            },
+            "7": {
+              "case": 7,
+              "input_reads": 0,
+              "input_writes": 0,
+              "weight_reads": 1622016,
+              "weight_writes": 16432,
+              "bias_reads": 50688,
+              "bias_writes": 524,
+              "shift_reads": 12672,
+              "shift_writes": 131,
+              "stash_reads": 0,
+              "stash_writes": 0,
+              "wait_input": 217,
+              "stash_cycles": 0,
+              "input_cycles": 3168,
+              "input_mac_overlap": 2841
+            },
+            "9": {
+              "case": 9,
+              "input_reads": 0,
+              "input_writes": 0,
+              "weight_reads": 1622016,
+              "weight_writes": 16432,
+              "bias_reads": 50688,
+              "bias_writes": 524,
+              "shift_reads": 12672,
+              "shift_writes": 131,
+              "stash_reads": 0,
+              "stash_writes": 0,
+              "wait_input": 217,
+              "stash_cycles": 0,
+              "input_cycles": 3168,
+              "input_mac_overlap": 2841
+            },
+            "11": {
+              "case": 11,
+              "input_reads": 0,
+              "input_writes": 0,
+              "weight_reads": 1622016,
+              "weight_writes": 16432,
+              "bias_reads": 50688,
+              "bias_writes": 524,
+              "shift_reads": 12672,
+              "shift_writes": 131,
+              "stash_reads": 0,
+              "stash_writes": 0,
+              "wait_input": 217,
+              "stash_cycles": 0,
+              "input_cycles": 3168,
+              "input_mac_overlap": 2841
+            },
+            "13": {
+              "case": 13,
+              "input_reads": 0,
+              "input_writes": 0,
+              "weight_reads": 1622016,
+              "weight_writes": 16432,
+              "bias_reads": 50688,
+              "bias_writes": 524,
+              "shift_reads": 12672,
+              "shift_writes": 131,
+              "stash_reads": 0,
+              "stash_writes": 0,
+              "wait_input": 217,
+              "stash_cycles": 0,
+              "input_cycles": 3168,
+              "input_mac_overlap": 2841
+            },
+            "15": {
+              "case": 15,
+              "input_reads": 0,
+              "input_writes": 0,
+              "weight_reads": 1622016,
+              "weight_writes": 16432,
+              "bias_reads": 50688,
+              "bias_writes": 524,
+              "shift_reads": 12672,
+              "shift_writes": 131,
+              "stash_reads": 0,
+              "stash_writes": 0,
+              "wait_input": 217,
+              "stash_cycles": 0,
+              "input_cycles": 3168,
+              "input_mac_overlap": 2841
+            },
+            "17": {
+              "case": 17,
+              "input_reads": 0,
+              "input_writes": 0,
+              "weight_reads": 1622016,
+              "weight_writes": 16432,
+              "bias_reads": 50688,
+              "bias_writes": 524,
+              "shift_reads": 12672,
+              "shift_writes": 131,
+              "stash_reads": 0,
+              "stash_writes": 0,
+              "wait_input": 217,
+              "stash_cycles": 0,
+              "input_cycles": 3168,
+              "input_mac_overlap": 2841
+            },
+            "19": {
+              "case": 19,
+              "input_reads": 0,
+              "input_writes": 0,
+              "weight_reads": 1622016,
+              "weight_writes": 16432,
+              "bias_reads": 50688,
+              "bias_writes": 524,
+              "shift_reads": 12672,
+              "shift_writes": 131,
+              "stash_reads": 0,
+              "stash_writes": 0,
+              "wait_input": 217,
+              "stash_cycles": 0,
+              "input_cycles": 3168,
+              "input_mac_overlap": 2841
+            },
+            "21": {
+              "case": 21,
+              "input_reads": 0,
+              "input_writes": 0,
+              "weight_reads": 1622016,
+              "weight_writes": 16432,
+              "bias_reads": 50688,
+              "bias_writes": 524,
+              "shift_reads": 12672,
+              "shift_writes": 131,
+              "stash_reads": 0,
+              "stash_writes": 0,
+              "wait_input": 217,
+              "stash_cycles": 0,
+              "input_cycles": 3168,
+              "input_mac_overlap": 2841
+            },
+            "23": {
+              "case": 23,
+              "input_reads": 0,
+              "input_writes": 0,
+              "weight_reads": 1622016,
+              "weight_writes": 16432,
+              "bias_reads": 50688,
+              "bias_writes": 524,
+              "shift_reads": 12672,
+              "shift_writes": 131,
+              "stash_reads": 0,
+              "stash_writes": 0,
+              "wait_input": 217,
+              "stash_cycles": 0,
+              "input_cycles": 3168,
+              "input_mac_overlap": 2841
+            }
+          },
+          "module_mean_energy_j": {
+            "input": 0.0,
+            "weight": 4.19823063032812e-06,
+            "bias": 4.8810942222731344e-08,
+            "shift": 1.072982432899036e-08,
+            "stash": 0.0,
+            "row_cache": 4.979114814672255e-08,
+            "accumulator": 4.117268245982565e-07,
+            "fifo": 1.781355479419308e-07,
+            "accelerator_other": 8.716917385101046e-07,
+            "cpu": 1.9604129408286238e-06,
+            "itcm": 1.116130989407397e-06,
+            "dtcm": 1.0957679836424437e-06,
+            "shared_sram": 4.65184467606813e-06,
+            "fixed_peripherals": 8.518057867087587e-06,
+            "dma": 2.9488820611214813e-07,
+            "shared_interface": 1.2479054958208133e-07,
+            "other": 0.0
+          },
+          "metrics": {
+            "tag": "opt_ffn_tp_BP_E2_final_ss_ema2",
+            "area": {
+              "accelerator_um2": 231334.904148864,
+              "cpu_um2": 1521818.572496007,
+              "fixed_peripherals_um2": 112836.169200035,
+              "shared_interface_um2": 2475.396,
+              "shared_sram_um2": 1761108.249984,
+              "total_um2": 3629573.291828905,
+              "accelerator_budget_including_shared_interface_mm2": 0.2338103,
+              "macros": {
+                "RAMSP1024X16": 16,
+                "RAMSP128X16": 5,
+                "RAMSP4096X16": 64,
+                "RAMSP4KX64": 8,
+                "RAMSP8KX32": 8,
+                "ROM1KX32": 1
+              }
+            },
+            "setup_slack_ns": 0.58307,
+            "hold_slack_ns": 0.144989,
+            "electrical_violation_rows": 0,
+            "timing_and_electrical_passed": true,
+            "power_reports": [
+              {
+                "source": "native PrimeTime current_design attributes",
+                "unit": "W",
+                "internal_w": 0.01493298825520162,
+                "switching_w": 0.001451187134150601,
+                "leakage_w": 0.005513096191296332,
+                "total_w": 0.02189727147140873,
+                "case": 1
+              },
+              {
+                "source": "native PrimeTime current_design attributes",
+                "unit": "W",
+                "internal_w": 0.01493431960728007,
+                "switching_w": 0.001453430333556468,
+                "leakage_w": 0.005513130002451485,
+                "total_w": 0.02190087985204232,
+                "case": 3
+              },
+              {
+                "source": "native PrimeTime current_design attributes",
+                "unit": "W",
+                "internal_w": 0.01489675934962343,
+                "switching_w": 0.001451091670082511,
+                "leakage_w": 0.005513099779337942,
+                "total_w": 0.02186095070264959,
+                "case": 5
+              },
+              {
+                "source": "native PrimeTime current_design attributes",
+                "unit": "W",
+                "internal_w": 0.01492626450929205,
+                "switching_w": 0.00145248813735348,
+                "leakage_w": 0.005513252657601775,
+                "total_w": 0.02189200525325008,
+                "case": 7
+              },
+              {
+                "source": "native PrimeTime current_design attributes",
+                "unit": "W",
+                "internal_w": 0.01492386267628484,
+                "switching_w": 0.001452007207932152,
+                "leakage_w": 0.005513112173434288,
+                "total_w": 0.02188898195070189,
+                "case": 9
+              },
+              {
+                "source": "native PrimeTime current_design attributes",
+                "unit": "W",
+                "internal_w": 0.01492134541259975,
+                "switching_w": 0.001449642122183947,
+                "leakage_w": 0.005513087219252023,
+                "total_w": 0.02188407470335664,
+                "case": 11
+              },
+              {
+                "source": "native PrimeTime current_design attributes",
+                "unit": "W",
+                "internal_w": 0.01490073426025804,
+                "switching_w": 0.001453480212725954,
+                "leakage_w": 0.005513114216036993,
+                "total_w": 0.02186732864581924,
+                "case": 13
+              },
+              {
+                "source": "native PrimeTime current_design attributes",
+                "unit": "W",
+                "internal_w": 0.0149343878002821,
+                "switching_w": 0.001451296672977844,
+                "leakage_w": 0.005513062476287897,
+                "total_w": 0.02189874678644163,
+                "case": 15
+              },
+              {
+                "source": "native PrimeTime current_design attributes",
+                "unit": "W",
+                "internal_w": 0.01494575909726681,
+                "switching_w": 0.001451977842573365,
+                "leakage_w": 0.005513126590576494,
+                "total_w": 0.02191086341867091,
+                "case": 17
+              },
+              {
+                "source": "native PrimeTime current_design attributes",
+                "unit": "W",
+                "internal_w": 0.0148941873838924,
+                "switching_w": 0.001452527950561682,
+                "leakage_w": 0.005513120182605913,
+                "total_w": 0.02185983543155215,
+                "case": 19
+              },
+              {
+                "source": "native PrimeTime current_design attributes",
+                "unit": "W",
+                "internal_w": 0.01490985576905577,
+                "switching_w": 0.001454683972980922,
+                "leakage_w": 0.005513170421961217,
+                "total_w": 0.02187771006672042,
+                "case": 21
+              },
+              {
+                "source": "native PrimeTime current_design attributes",
+                "unit": "W",
+                "internal_w": 0.01499255539415934,
+                "switching_w": 0.00145345401963039,
+                "leakage_w": 0.005513145506348585,
+                "total_w": 0.02195915481472709,
+                "case": 23
+              }
+            ]
+          },
+          "task_count": 12,
+          "cycles": [
+            161234,
+            161234,
+            161234,
+            161234,
+            161234,
+            161234,
+            161234,
+            161234,
+            161234,
+            161234,
+            161234,
+            161234
+          ],
+          "phases": {
+            "1": {
+              "case": 1,
+              "load_active": 12000,
+              "mac_active": 101376,
+              "emit_active": 12672,
+              "fifo_blocked": 3598,
+              "bus_wait": 142504,
+              "sram_reads": 1685376,
+              "sram_writes": 17087,
+              "first_load": 12116,
+              "first_mac": 38627,
+              "first_emit": 38691,
+              "last_emit": 161217
+            },
+            "3": {
+              "case": 3,
+              "load_active": 12000,
+              "mac_active": 101376,
+              "emit_active": 12672,
+              "fifo_blocked": 3598,
+              "bus_wait": 142504,
+              "sram_reads": 1685376,
+              "sram_writes": 17087,
+              "first_load": 12116,
+              "first_mac": 38627,
+              "first_emit": 38691,
+              "last_emit": 161217
+            },
+            "5": {
+              "case": 5,
+              "load_active": 12000,
+              "mac_active": 101376,
+              "emit_active": 12672,
+              "fifo_blocked": 3598,
+              "bus_wait": 142504,
+              "sram_reads": 1685376,
+              "sram_writes": 17087,
+              "first_load": 12116,
+              "first_mac": 38627,
+              "first_emit": 38691,
+              "last_emit": 161217
+            },
+            "7": {
+              "case": 7,
+              "load_active": 12000,
+              "mac_active": 101376,
+              "emit_active": 12672,
+              "fifo_blocked": 3598,
+              "bus_wait": 142504,
+              "sram_reads": 1685376,
+              "sram_writes": 17087,
+              "first_load": 12116,
+              "first_mac": 38627,
+              "first_emit": 38691,
+              "last_emit": 161217
+            },
+            "9": {
+              "case": 9,
+              "load_active": 12000,
+              "mac_active": 101376,
+              "emit_active": 12672,
+              "fifo_blocked": 3598,
+              "bus_wait": 142504,
+              "sram_reads": 1685376,
+              "sram_writes": 17087,
+              "first_load": 12116,
+              "first_mac": 38627,
+              "first_emit": 38691,
+              "last_emit": 161217
+            },
+            "11": {
+              "case": 11,
+              "load_active": 12000,
+              "mac_active": 101376,
+              "emit_active": 12672,
+              "fifo_blocked": 3598,
+              "bus_wait": 142504,
+              "sram_reads": 1685376,
+              "sram_writes": 17087,
+              "first_load": 12116,
+              "first_mac": 38627,
+              "first_emit": 38691,
+              "last_emit": 161217
+            },
+            "13": {
+              "case": 13,
+              "load_active": 12000,
+              "mac_active": 101376,
+              "emit_active": 12672,
+              "fifo_blocked": 3598,
+              "bus_wait": 142504,
+              "sram_reads": 1685376,
+              "sram_writes": 17087,
+              "first_load": 12116,
+              "first_mac": 38627,
+              "first_emit": 38691,
+              "last_emit": 161217
+            },
+            "15": {
+              "case": 15,
+              "load_active": 12000,
+              "mac_active": 101376,
+              "emit_active": 12672,
+              "fifo_blocked": 3598,
+              "bus_wait": 142504,
+              "sram_reads": 1685376,
+              "sram_writes": 17087,
+              "first_load": 12116,
+              "first_mac": 38627,
+              "first_emit": 38691,
+              "last_emit": 161217
+            },
+            "17": {
+              "case": 17,
+              "load_active": 12000,
+              "mac_active": 101376,
+              "emit_active": 12672,
+              "fifo_blocked": 3598,
+              "bus_wait": 142504,
+              "sram_reads": 1685376,
+              "sram_writes": 17087,
+              "first_load": 12116,
+              "first_mac": 38627,
+              "first_emit": 38691,
+              "last_emit": 161217
+            },
+            "19": {
+              "case": 19,
+              "load_active": 12000,
+              "mac_active": 101376,
+              "emit_active": 12672,
+              "fifo_blocked": 3598,
+              "bus_wait": 142504,
+              "sram_reads": 1685376,
+              "sram_writes": 17087,
+              "first_load": 12116,
+              "first_mac": 38627,
+              "first_emit": 38691,
+              "last_emit": 161217
+            },
+            "21": {
+              "case": 21,
+              "load_active": 12000,
+              "mac_active": 101376,
+              "emit_active": 12672,
+              "fifo_blocked": 3598,
+              "bus_wait": 142504,
+              "sram_reads": 1685376,
+              "sram_writes": 17087,
+              "first_load": 12116,
+              "first_mac": 38627,
+              "first_emit": 38691,
+              "last_emit": 161217
+            },
+            "23": {
+              "case": 23,
+              "load_active": 12000,
+              "mac_active": 101376,
+              "emit_active": 12672,
+              "fifo_blocked": 3598,
+              "bus_wait": 142504,
+              "sram_reads": 1685376,
+              "sram_writes": 17087,
+              "first_load": 12116,
+              "first_mac": 38627,
+              "first_emit": 38691,
+              "last_emit": 161217
+            }
+          },
+          "mean_energy_j": 2.3531009769220347e-05,
+          "throughput_per_second": 930.32486944441,
+          "mean_power_w": 0.021891483591445056,
+          "rtl_formal_passed": true,
+          "hold_repair_formal_passed": true,
+          "final_repair_formal_passed": true,
+          "formal_passed": true
+        },
+        "configuration": {
+          "variant": "ffn_tp_BP_E2",
+          "source_snapshot": "build/optimization/rtl_sources/ffn_tp_BP_E2",
+          "base_public_soc": "build/complete_soc",
+          "linear_images": "build/optimization/ffn_tile_pipeline/images/tile_16",
+          "encoder_package": "fixed16-v1 unchanged",
+          "firmware": "build/optimization/firmware/ffn_tp_BP_E2",
+          "old_background_builds_modified": false,
+          "adaptive_manifest": "constraints/ffn_tile_pipeline/candidates/ffn_tp_BP_E2.json",
+          "core_path": "dut.soc.u_e203_subsys_main.u_e203_subsys_perips.accelerator.controller.core",
+          "row_group": 1,
+          "stream": true,
+          "small_input": true,
+          "double_buffer": true,
+          "loading_layout": "tile",
+          "loading_dma": true,
+          "output_dma": true,
+          "host_loader": "required_data_v1",
+          "host_payload_words32": 11936
+        },
+        "features": {
+          "split_bias": true,
+          "unroll": true,
+          "fast_pair": true,
+          "overlap": false,
+          "clock_gating": true,
+          "lanes16": true
+        },
+        "effective_changes": {
+          "trim_clear": true,
+          "batch_load": true,
+          "batch_output": true,
+          "fast_response": true,
+          "row_cache": true,
+          "row_pair": false,
+          "bias32": true,
+          "stream": true,
+          "small_input": true,
+          "double_buffer": true,
+          "row_group": 1,
+          "clear_last": 0,
+          "zero_clear": false,
+          "transport_hardware": [
+            "F"
+          ],
+          "loading_layout": "tile",
+          "loading_dma": true,
+          "output_dma": true,
+          "post_dma_hardware": [
+            "DPIPE"
+          ],
+          "post_dma_flook": false,
+          "tile_pipeline_hardware": [
+            "BP",
+            "E2"
+          ]
+        },
+        "profile": {
+          "variant": "ffn_tp_BP_E2",
+          "tag": "opt_ffn_tp_BP_E2_final_ss_ema2",
+          "synthesis_from": "build/server/complete_soc_sm40_opt_ffn_tp_BP_E2_hold_ss_ema2/design.ddc",
+          "repair_script": "scripts/server/repair_optimization_electrical.tcl",
+          "svf_chain": [
+            "build/server/complete_soc_sm40_opt_ffn_tp_BP_E2_raw_ss_ema2/design.svf",
+            "build/server/complete_soc_sm40_opt_ffn_tp_BP_E2_hold_ss_ema2/design.svf",
+            "build/server/complete_soc_sm40_opt_ffn_tp_BP_E2_final_ss_ema2/design.svf"
+          ],
+          "sram_min_delay_ns": 0.6,
+          "internal_max_delay_ns": 5.8,
+          "assessment_sdc": "constraints/complete_soc.sdc"
+        },
+        "compiler": {
+          "optimization": "O2",
+          "lto": false,
+          "gc_sections": true
+        },
+        "pio_program": "build/optimization/ffn_loading_dma/frozen/program",
+        "firmware": "build/optimization/ffn_tile_pipeline/accepted_parents/ffn_tp_BP_E2/firmware",
+        "source_snapshot": "build/optimization/ffn_tile_pipeline/accepted_parents/ffn_tp_BP_E2/rtl_sources",
+        "program": "build/optimization/ffn_tile_pipeline/accepted_parents/ffn_tp_BP_E2/program",
+        "layout": "tile",
+        "dma": true,
+        "output_dma": true,
+        "flook": false
+      },
+      "features": {
+        "split_bias": true,
+        "unroll": true,
+        "fast_pair": true,
+        "overlap": false,
+        "clock_gating": true,
+        "lanes16": true
+      },
+      "effective_changes": {
+        "trim_clear": true,
+        "batch_load": true,
+        "batch_output": true,
+        "fast_response": true,
+        "row_cache": true,
+        "row_pair": false,
+        "bias32": true,
+        "stream": true,
+        "small_input": true,
+        "double_buffer": true,
+        "row_group": 1,
+        "clear_last": 0,
+        "zero_clear": false,
+        "transport_hardware": [
+          "F"
+        ],
+        "loading_layout": "tile",
+        "loading_dma": true,
+        "output_dma": true,
+        "post_dma_hardware": [
+          "DPIPE"
+        ],
+        "post_dma_flook": false,
+        "tile_pipeline_hardware": [
+          "BP",
+          "E2",
+          "IH",
+          "RH"
+        ]
+      },
+      "changes": {
+        "stream": true,
+        "small_input": true,
+        "row_group": 1,
+        "double_buffer": true
+      },
+      "layout": "tile",
+      "dma": true,
+      "output_dma": true,
+      "flook": false,
+      "hardware": [
+        "IH",
+        "RH"
+      ],
+      "purpose": "experiment",
+      "pio_program": "build/optimization/ffn_loading_dma/frozen/program",
+      "compiler": {
+        "optimization": "O2",
+        "lto": false,
+        "gc_sections": true
+      },
+      "loader": "required_data_v1",
+      "objective": [
+        "mean_task_energy",
+        "throughput",
+        "budget_area"
+      ],
+      "numerical_package": "models/kwt_unified_optimized_v1"
+    }
+  },
+  "cycles": [
+    149421,
+    149421,
+    149421,
+    149421,
+    149421,
+    149421,
+    149421,
+    149421,
+    149421,
+    149421,
+    149421,
+    149421
+  ],
+  "throughput_per_second": 1003.8749573353143,
+  "area_mm2": 0.234203555,
+  "mean_power_w": 0.022604664244114434,
+  "mean_energy_j": 2.251741024013215e-05,
+  "joint_feasible": false
+}

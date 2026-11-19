@@ -1,0 +1,102 @@
+{
+  "variant": "ffn_cg_B_O3",
+  "selected": false,
+  "belongs_to_this_round": true,
+  "stage": "formal_passed",
+  "parameters": {
+    "features": {
+      "split_bias": true,
+      "unroll": true,
+      "fast_pair": true,
+      "overlap": false,
+      "clock_gating": true,
+      "lanes16": true
+    },
+    "changes": {
+      "stream": true,
+      "small_input": true,
+      "row_group": 1,
+      "double_buffer": true
+    },
+    "candidate": {
+      "hardware": [],
+      "compiler": {
+        "optimization": "O3",
+        "lto": false,
+        "gc_sections": false
+      },
+      "effective_changes": {
+        "trim_clear": true,
+        "batch_load": true,
+        "batch_output": true,
+        "fast_response": true,
+        "row_cache": true,
+        "row_pair": false,
+        "bias32": true,
+        "stream": true,
+        "small_input": true,
+        "double_buffer": true,
+        "row_group": 1,
+        "clear_last": 0,
+        "zero_clear": false
+      },
+      "changes": {
+        "stream": true,
+        "small_input": true,
+        "row_group": 1,
+        "double_buffer": true
+      },
+      "purpose": "experiment",
+      "parent_variant": "ffn_res_sixteen_O"
+    },
+    "configuration": {
+      "variant": "ffn_cg_B_O3",
+      "source_snapshot": "build/optimization/rtl_sources/ffn_cg_B_O3",
+      "base_public_soc": "build/complete_soc",
+      "linear_images": "build/optimization/images/Q2_range",
+      "encoder_package": "fixed16-v1 unchanged",
+      "firmware": "build/optimization/firmware/ffn_cg_B_O3",
+      "old_background_builds_modified": false,
+      "adaptive_manifest": "constraints/ffn_codegen_schedule/candidates/ffn_cg_B_O3.json",
+      "core_path": "dut.soc.u_e203_subsys_main.u_e203_subsys_perips.accelerator.controller.core",
+      "row_group": 1,
+      "stream": true,
+      "small_input": true,
+      "double_buffer": true
+    },
+    "firmware_toolchain": {
+      "compiler": {
+        "optimization": "O3",
+        "lto": false,
+        "gc_sections": false
+      },
+      "macros": [
+        "-DKWU_ROW_GROUP=1",
+        "-DKWU_DOUBLE_BUFFER=1",
+        "-DKWU_FFN_UNROLL=8",
+        "-DKWU_BATCH_LOAD=4",
+        "-DKWU_BATCH_OUTPUT=4"
+      ],
+      "row_group": 1
+    }
+  },
+  "cycles": [
+    445917,
+    445917,
+    445917,
+    445917,
+    445917,
+    445917,
+    445917,
+    445917,
+    445917,
+    445917,
+    445917,
+    445917
+  ],
+  "throughput_per_second": 336.3854708387435,
+  "area_mm2": 0.223724857,
+  "mean_power_w": 0.020107863007288146,
+  "mean_energy_j": 5.977625299080606e-05,
+  "joint_feasible": null
+}

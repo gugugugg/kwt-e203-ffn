@@ -1,0 +1,20 @@
+{
+  "variant": "ffn_adp_NUIGL_B_load4",
+  "parent_variant": "ffn_adp_NUIGL_B",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": false,
+    "clock_gating": true,
+    "lanes16": true
+  },
+  "changes": {
+    "batch_load": true
+  },
+  "effective_changes": {
+    "trim_clear": true,
+    "batch_load": true
+  },
+  "purpose": "experiment"
+}

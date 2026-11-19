@@ -1,0 +1,22 @@
+{
+  "variant": "ffn_adp_NUIGL_B_GMR",
+  "parent_variant": "ffn_adp_NUIGL_B",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": false,
+    "clock_gating": true,
+    "lanes16": true
+  },
+  "changes": {
+    "fine_memory_gate": true,
+    "fine_register_gate": true
+  },
+  "effective_changes": {
+    "trim_clear": true,
+    "fine_memory_gate": true,
+    "fine_register_gate": true
+  },
+  "purpose": "experiment"
+}

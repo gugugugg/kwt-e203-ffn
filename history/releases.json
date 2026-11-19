@@ -1,0 +1,21 @@
+[
+  "AG-20261113",
+  "MGPR-20261113",
+  "V001_ffn_lp_IR",
+  "V002_ffn_cp_C16",
+  "V003_ffn_ce_W",
+  "V004_ffn_wen_C",
+  "V005_ffn_car_AR",
+  "V006_ffn_ara_SR",
+  "V007_ffn_sr_r3o",
+  "V008_ffn_r3o_stream",
+  "V009_ffn_m3_retire",
+  "V010_ffn_r4f2_q8",
+  "V011_ffn_q8_q16",
+  "V012_ffn_q16_staged",
+  "V013_ffn_s1_bank_I",
+  "V014_ffn_iw_W4Z_FT",
+  "V015_ffn_wp_P2",
+  "V016_ffn_ps_SG",
+  "V017_ffn_sg_reuse"
+]

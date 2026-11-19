@@ -1,0 +1,26 @@
+{
+  "variant": "ffn_res_eight_Z",
+  "parent_variant": "ffn_next_eight_S",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": true,
+    "clock_gating": true,
+    "lanes16": false
+  },
+  "changes": {
+    "zero_clear": true
+  },
+  "effective_changes": {
+    "trim_clear": true,
+    "fine_memory_gate": true,
+    "batch_load": true,
+    "batch_output": true,
+    "fast_response": true,
+    "row_cache": true,
+    "row_pair": false,
+    "zero_clear": true
+  },
+  "purpose": "experiment"
+}

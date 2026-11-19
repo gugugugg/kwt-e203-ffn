@@ -1,0 +1,54 @@
+{
+  "variant": "ffn_sr_ah",
+  "status": "rejected_at_final_ss150_timing_screen",
+  "baseline": "ffn_ara_SR",
+  "final_area_mm2": 0.24912863,
+  "baseline_area_mm2": 0.250707394,
+  "area_delta_um2": -1578.764,
+  "area_percent_change": -0.6297237487937757,
+  "setup_slack_ns": -0.410896,
+  "hold_slack_ns": 0.144989,
+  "gating_setup_slack_ns": 0.782961,
+  "gating_hold_slack_ns": 0.249219,
+  "setup_violations_in_constraints": 86,
+  "targeted_groups": {
+    "input": {
+      "setup_min_ns": -0.410896,
+      "hold_min_ns": 0.601076,
+      "reported_paths": 8
+    },
+    "weight": {
+      "setup_min_ns": 0.761393,
+      "hold_min_ns": 1.556832,
+      "reported_paths": 8
+    },
+    "feedback": {
+      "setup_min_ns": 2.446703,
+      "hold_min_ns": 0.361693,
+      "reported_paths": 8
+    },
+    "gate": {
+      "setup_min_ns": 1.350074,
+      "hold_min_ns": 0.544861,
+      "reported_paths": 8
+    }
+  },
+  "topology": {
+    "SR": {
+      "accumulator_bits": 1152,
+      "direct_or_inverted_q_at_d_last_gate": 1152
+    },
+    "AH": {
+      "accumulator_bits": 1152,
+      "direct_or_inverted_q_at_d_last_gate": 0
+    }
+  },
+  "local_main_tasks": 36,
+  "four_state_reload_tasks": 2,
+  "real_cpu12_started": false,
+  "native_throughput_measured": false,
+  "native_power_measured": false,
+  "recommended": false,
+  "selected": "ffn_ara_SR",
+  "native_archive_crc32": "74cd30bb"
+}

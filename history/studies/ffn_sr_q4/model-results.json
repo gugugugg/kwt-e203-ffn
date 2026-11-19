@@ -1,0 +1,10 @@
+{
+  "calibrated": true,
+  "functional_passed": true,
+  "timing_eligible": true,
+  "sr_cycles_total": 1185396,
+  "candidate_cycles_total": 1143924,
+  "candidate_throughput": 1573.5311087100192,
+  "internal_ready_replayed": false,
+  "hardware_measured": false
+}

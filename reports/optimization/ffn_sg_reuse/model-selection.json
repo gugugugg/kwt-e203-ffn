@@ -1,0 +1,23 @@
+{
+  "totals": {
+    "response_relative": {
+      "M0": 405900,
+      "T": 400524,
+      "TR": 399756,
+      "TRB": 399216
+    },
+    "fixed_cpu": {
+      "M0": 405900,
+      "T": 407280,
+      "TR": 407280,
+      "TRB": 407280
+    }
+  },
+  "eligible": [
+    "TRB",
+    "TR"
+  ],
+  "winner": "TRB",
+  "clock_hz": 150000000,
+  "exclusive_total_limit": 400000
+}

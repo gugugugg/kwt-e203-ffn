@@ -1,0 +1,21 @@
+{
+  "variant": "ffn_adp_NUITG_B_GM_load4",
+  "parent_variant": "ffn_adp_NUITG_B_GM",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": true,
+    "clock_gating": true,
+    "lanes16": false
+  },
+  "changes": {
+    "batch_load": true
+  },
+  "effective_changes": {
+    "trim_clear": true,
+    "fine_memory_gate": true,
+    "batch_load": true
+  },
+  "purpose": "experiment"
+}

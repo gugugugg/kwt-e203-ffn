@@ -1,0 +1,39 @@
+{
+  "variant": "ffn_tr_HW_FSQ",
+  "parent_variant": "ffn_tr_A",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": false,
+    "clock_gating": true,
+    "lanes16": true
+  },
+  "changes": {
+    "stream": true,
+    "small_input": true,
+    "row_group": 1,
+    "double_buffer": true
+  },
+  "effective_changes": {
+    "trim_clear": true,
+    "batch_load": true,
+    "batch_output": true,
+    "fast_response": true,
+    "row_cache": true,
+    "row_pair": false,
+    "bias32": true,
+    "stream": true,
+    "small_input": true,
+    "double_buffer": true,
+    "row_group": 1,
+    "clear_last": 0,
+    "zero_clear": false,
+    "transport_hardware": [
+      "F",
+      "Q",
+      "S"
+    ]
+  },
+  "purpose": "experiment"
+}

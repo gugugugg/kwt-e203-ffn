@@ -1,0 +1,19 @@
+{
+  "variant": "ffn_adp_NUIGL_response_development",
+  "parent_variant": "ffn_v3_NUIGL",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": false,
+    "clock_gating": true,
+    "lanes16": true
+  },
+  "changes": {
+    "fast_response": true
+  },
+  "effective_changes": {
+    "fast_response": true
+  },
+  "purpose": "implementation_check"
+}

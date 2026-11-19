@@ -1,0 +1,16 @@
+[
+  "R01_transport",
+  "R02_codegen_schedule",
+  "R03_loading_dma",
+  "R04_post_dma",
+  "R05_tile_pipeline",
+  "R06_area_power",
+  "R07_joint_power",
+  "R08_logic_power",
+  "R09_literature_power",
+  "早期01_ffn_round2",
+  "早期02_ffn_round3",
+  "早期03_ffn_residual",
+  "早期04_ffn_adaptive",
+  "早期05_ffn_adaptive_next"
+]

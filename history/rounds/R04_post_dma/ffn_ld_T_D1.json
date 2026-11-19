@@ -1,0 +1,73 @@
+{
+  "variant": "ffn_ld_T_D1",
+  "selected": false,
+  "belongs_to_this_round": false,
+  "stage": "formal_passed",
+  "parameters": {
+    "features": {
+      "split_bias": true,
+      "unroll": true,
+      "fast_pair": true,
+      "overlap": false,
+      "clock_gating": true,
+      "lanes16": true
+    },
+    "changes": {
+      "stream": true,
+      "small_input": true,
+      "row_group": 1,
+      "double_buffer": true
+    },
+    "configuration": {
+      "variant": "ffn_ld_T_D1",
+      "source_snapshot": "build/optimization/rtl_sources/ffn_ld_T_D1",
+      "base_public_soc": "build/complete_soc",
+      "linear_images": "build/optimization/ffn_loading_dma/images/tile_16",
+      "encoder_package": "fixed16-v1 unchanged",
+      "firmware": "build/optimization/firmware/ffn_ld_T_D1",
+      "old_background_builds_modified": false,
+      "adaptive_manifest": "constraints/ffn_loading_dma/candidates/ffn_ld_T_D1.json",
+      "core_path": "dut.soc.u_e203_subsys_main.u_e203_subsys_perips.accelerator.controller.core",
+      "row_group": 1,
+      "stream": true,
+      "small_input": true,
+      "double_buffer": true,
+      "loading_layout": "tile",
+      "loading_dma": true,
+      "output_dma": false,
+      "host_loader": "required_data_v1",
+      "host_payload_words32": 11936
+    },
+    "firmware_toolchain": {
+      "compiler": {
+        "optimization": "O2",
+        "lto": false,
+        "gc_sections": true
+      },
+      "macros": [
+        "-DKWU_ROW_GROUP=1",
+        "-DKWU_DOUBLE_BUFFER=1"
+      ],
+      "row_group": 1
+    }
+  },
+  "cycles": [
+    215367,
+    215367,
+    215367,
+    215367,
+    215367,
+    215367,
+    215367,
+    215367,
+    215367,
+    215367,
+    215367,
+    215367
+  ],
+  "throughput_per_second": 696.4855339954589,
+  "area_mm2": 0.224813648,
+  "mean_power_w": 0.022856081461298677,
+  "mean_energy_j": 3.2816304640503415e-05,
+  "joint_feasible": null
+}

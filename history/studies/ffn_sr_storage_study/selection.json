@@ -1,0 +1,10 @@
+{
+  "cold_passed": 12,
+  "normal_scenarios_passed": 3,
+  "cold_ordered_results": 304128,
+  "normal_ordered_results": 912384,
+  "odd_pair_pops": 143184,
+  "candidate_throughput": 1369.2252923295998,
+  "sr_throughput": 1518.4799003877185,
+  "recommended_for_hardware": false
+}

@@ -1,0 +1,51 @@
+{
+  "variant": "ffn_adp_NUIGL_B_load_out4_fast_response",
+  "selected": true,
+  "belongs_to_this_round": true,
+  "stage": "formal_passed",
+  "parameters": {
+    "features": {
+      "split_bias": true,
+      "unroll": true,
+      "fast_pair": true,
+      "overlap": false,
+      "clock_gating": true,
+      "lanes16": true
+    },
+    "changes": {
+      "fast_response": true
+    },
+    "candidate": {
+      "effective_changes": {
+        "trim_clear": true,
+        "batch_load": true,
+        "batch_output": true,
+        "fast_response": true
+      },
+      "changes": {
+        "fast_response": true
+      },
+      "purpose": "experiment",
+      "parent_variant": "ffn_adp_NUIGL_B_load_out4"
+    }
+  },
+  "cycles": [
+    445968,
+    445968,
+    445968,
+    445968,
+    445968,
+    445968,
+    445968,
+    445968,
+    445968,
+    445968,
+    445968,
+    445968
+  ],
+  "throughput_per_second": 336.34700247551393,
+  "area_mm2": 0.309478365,
+  "mean_power_w": 0.022090216774958565,
+  "mean_energy_j": 6.56768652979648e-05,
+  "joint_feasible": null
+}

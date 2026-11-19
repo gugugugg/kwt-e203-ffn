@@ -1,0 +1,23 @@
+set prefix soc/u_e203_subsys_main/u_e203_subsys_perips/accelerator/controller/core
+foreach {leaf old new} {
+    U12626 XNOR3V0_12TR40 XNOR3V4_12TR40
+    U151 NOR2CV2_12TR40 NOR2CV12_12TR40
+    U327 NOR2CV3_12TR40 NOR2CV12_12TR40
+    U4768 CLKINV2_12TR40 CLKINV12_12TR40
+    U4771 CLKINV0_12TR40 CLKINV12_12TR40
+    U4775 NOR2CV3_12TR40 NOR2CV12_12TR40
+    U4776 CLKINV2_12TR40 CLKINV12_12TR40
+    U4786 AND2V0_12TR40 AND2V8_12TR40
+    U4787 CLKINV2_12TR40 CLKINV12_12TR40
+    U5823 CLKINV2_12TR40 CLKINV12_12TR40
+    U8867 CLKINV0_12TR40 CLKINV12_12TR40
+    U9076 OR2V0_12TR40 OR2V6_12TR40
+    U9289 CLKINV2_12TR40 CLKINV12_12TR40
+    U9949 XNOR3V0_12TR40 XNOR3V4_12TR40
+} {
+    set cell [get_cells $prefix/$leaf]
+    if {[get_attribute $cell ref_name] ne $old} {error "Inspect actual PP18 failed-checkpoint driver $prefix/$leaf"}
+    puts "XPIAN_LITERATURE_OBSERVED_RESIZE $prefix/$leaf $old -> $new"
+    size_cell $cell [get_lib_cells */$new]
+}
+puts "XPIAN_LITERATURE_PP18_DRIVER_REPAIR_DONE=1"

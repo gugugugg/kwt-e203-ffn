@@ -1,0 +1,105 @@
+{
+  "variant": "ffn_cg_PE",
+  "selected": false,
+  "belongs_to_this_round": true,
+  "stage": "formal_passed",
+  "parameters": {
+    "features": {
+      "split_bias": true,
+      "unroll": true,
+      "fast_pair": true,
+      "overlap": false,
+      "clock_gating": true,
+      "lanes16": true
+    },
+    "changes": {
+      "stream": true,
+      "small_input": true,
+      "row_group": 1,
+      "double_buffer": true
+    },
+    "candidate": {
+      "hardware": [
+        "E",
+        "P"
+      ],
+      "compiler": {
+        "optimization": "O2",
+        "lto": false,
+        "gc_sections": false
+      },
+      "effective_changes": {
+        "trim_clear": true,
+        "batch_load": true,
+        "batch_output": true,
+        "fast_response": true,
+        "row_cache": true,
+        "row_pair": false,
+        "bias32": true,
+        "stream": true,
+        "small_input": true,
+        "double_buffer": true,
+        "row_group": 1,
+        "clear_last": 0,
+        "zero_clear": false,
+        "transport_hardware": [
+          "F"
+        ]
+      },
+      "changes": {
+        "stream": true,
+        "small_input": true,
+        "row_group": 1,
+        "double_buffer": true
+      },
+      "purpose": "experiment",
+      "parent_variant": "ffn_tr_HW_F"
+    },
+    "configuration": {
+      "variant": "ffn_cg_PE",
+      "source_snapshot": "build/optimization/rtl_sources/ffn_cg_PE",
+      "base_public_soc": "build/complete_soc",
+      "linear_images": "build/optimization/images/Q2_range",
+      "encoder_package": "fixed16-v1 unchanged",
+      "firmware": "build/optimization/firmware/ffn_cg_PE",
+      "old_background_builds_modified": false,
+      "adaptive_manifest": "constraints/ffn_codegen_schedule/candidates/ffn_cg_PE.json",
+      "core_path": "dut.soc.u_e203_subsys_main.u_e203_subsys_perips.accelerator.controller.core",
+      "row_group": 1,
+      "stream": true,
+      "small_input": true,
+      "double_buffer": true
+    },
+    "firmware_toolchain": {
+      "compiler": {
+        "optimization": "O2",
+        "lto": false,
+        "gc_sections": false
+      },
+      "macros": [
+        "-DKWU_ROW_GROUP=1",
+        "-DKWU_DOUBLE_BUFFER=1"
+      ],
+      "row_group": 1
+    }
+  },
+  "cycles": [
+    436423,
+    436423,
+    436423,
+    436423,
+    436423,
+    436423,
+    436423,
+    436423,
+    436423,
+    436423,
+    436423,
+    436423
+  ],
+  "throughput_per_second": 343.7032420381144,
+  "area_mm2": 0.224205572,
+  "mean_power_w": 0.02013338286368893,
+  "mean_energy_j": 5.85778089967981e-05,
+  "joint_feasible": null
+}

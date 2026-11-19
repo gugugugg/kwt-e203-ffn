@@ -1,0 +1,39 @@
+{
+  "variant": "ffn_adp_NUIGL_B_load_out4",
+  "selected": false,
+  "belongs_to_this_round": false,
+  "stage": "formal_passed",
+  "parameters": {
+    "features": {
+      "split_bias": true,
+      "unroll": true,
+      "fast_pair": true,
+      "overlap": false,
+      "clock_gating": true,
+      "lanes16": true
+    },
+    "changes": {
+      "batch_load": true,
+      "batch_output": true
+    }
+  },
+  "cycles": [
+    470594,
+    470594,
+    470594,
+    470594,
+    470594,
+    470594,
+    470594,
+    470594,
+    470594,
+    470594,
+    470594,
+    470594
+  ],
+  "throughput_per_second": 318.7460953603318,
+  "area_mm2": 0.309579233,
+  "mean_power_w": 0.021626809192620187,
+  "mean_energy_j": 6.784964430127936e-05,
+  "joint_feasible": null
+}

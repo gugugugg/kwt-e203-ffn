@@ -1,0 +1,197 @@
+{
+  "variant": "ffn_sg_reuse",
+  "stage": "full_native_acceptance",
+  "accepted": true,
+  "official_150mhz": true,
+  "proof_passed": true,
+  "mapped_passed": true,
+  "area_mm2": 0.387089831,
+  "faster_than_baseline": true,
+  "lower_task_energy": true,
+  "measured": {
+    "tag": "opt_ffn_sg_reuse_final_ss_ema2",
+    "clock_hz": 150000000,
+    "cycles_total": 399144,
+    "throughput": 4509.650652396128,
+    "mean_power_w": 0.04504034868027526,
+    "mean_energy_j": 9.987547185355438e-06,
+    "weighted_power": {
+      "internal_w": 0.0311305004715137,
+      "switching_w": 0.008149992086358679,
+      "leakage_w": 0.005759856235721369,
+      "total_w": 0.04504034868027526
+    },
+    "weighted_leaf_groups": {
+      "input": {
+        "mean_power_w": 0.0007857423801406563,
+        "mean_energy_j": 1.7423575365492342e-07
+      },
+      "weight": {
+        "mean_power_w": 0.005749373644121647,
+        "mean_energy_j": 1.2749044410051614e-06
+      },
+      "bias": {
+        "mean_power_w": 4.6554792149322566e-05,
+        "mean_energy_j": 1.0323369976471782e-08
+      },
+      "shift": {
+        "mean_power_w": 9.645806903287498e-06,
+        "mean_energy_j": 2.138925528114325e-09
+      },
+      "stash": {
+        "mean_power_w": 0.0001932654305101996,
+        "mean_energy_j": 4.285596499753506e-08
+      },
+      "row_cache": {
+        "mean_power_w": 0.0,
+        "mean_energy_j": 0.0
+      },
+      "accumulator": {
+        "mean_power_w": 0.002114143824563597,
+        "mean_energy_j": 4.6880434595089576e-07
+      },
+      "fifo": {
+        "mean_power_w": 0.0001476276709747924,
+        "mean_energy_j": 3.2735943946423636e-08
+      },
+      "accelerator_other": {
+        "mean_power_w": 0.016841043586388115,
+        "mean_energy_j": 3.73444527846961e-06
+      },
+      "cpu": {
+        "mean_power_w": 0.0019903246404754976,
+        "mean_energy_j": 4.413478546099734e-07
+      },
+      "itcm": {
+        "mean_power_w": 0.0011224066769324613,
+        "mean_energy_j": 2.488899392541835e-07
+      },
+      "dtcm": {
+        "mean_power_w": 0.001009690770193679,
+        "mean_energy_j": 2.2389556265454763e-07
+      },
+      "shared_sram": {
+        "mean_power_w": 0.00639059831468592,
+        "mean_energy_j": 1.4170938742872204e-06
+      },
+      "fixed_peripherals": {
+        "mean_power_w": 0.007982423483740234,
+        "mean_energy_j": 1.7700757994411176e-06
+      },
+      "dma": {
+        "mean_power_w": 0.0003300228711779919,
+        "mean_energy_j": 7.318147160748243e-08
+      },
+      "shared_interface": {
+        "mean_power_w": 0.00032717071221081935,
+        "mean_energy_j": 7.254901486370849e-08
+      },
+      "other": {
+        "mean_power_w": 3.1418842551256265e-07,
+        "mean_energy_j": 6.967023606265906e-11
+      }
+    },
+    "measurements": [
+      {
+        "case": 1,
+        "cycles": 33262,
+        "internal_w": 0.03114232781699242,
+        "switching_w": 0.008149295772665049,
+        "leakage_w": 0.005759850692660568,
+        "total_w": 0.04505147413430589
+      },
+      {
+        "case": 3,
+        "cycles": 33262,
+        "internal_w": 0.0311122233421525,
+        "switching_w": 0.008139087292979786,
+        "leakage_w": 0.005759857372676924,
+        "total_w": 0.04501116793501841
+      },
+      {
+        "case": 5,
+        "cycles": 33262,
+        "internal_w": 0.03114437494942084,
+        "switching_w": 0.008155982127454353,
+        "leakage_w": 0.005759852876426913,
+        "total_w": 0.04506020981066024
+      },
+      {
+        "case": 7,
+        "cycles": 33262,
+        "internal_w": 0.03115316995614115,
+        "switching_w": 0.008164736909656639,
+        "leakage_w": 0.005759869220121075,
+        "total_w": 0.04507777600342126
+      },
+      {
+        "case": 9,
+        "cycles": 33262,
+        "internal_w": 0.03114100531602005,
+        "switching_w": 0.008153834269582667,
+        "leakage_w": 0.005759840688038587,
+        "total_w": 0.04505468025156933
+      },
+      {
+        "case": 11,
+        "cycles": 33262,
+        "internal_w": 0.03109844614905795,
+        "switching_w": 0.008127888304900178,
+        "leakage_w": 0.005759866054991625,
+        "total_w": 0.04498620044067052
+      },
+      {
+        "case": 13,
+        "cycles": 33262,
+        "internal_w": 0.03114350163521431,
+        "switching_w": 0.008156083376186979,
+        "leakage_w": 0.005759865853934672,
+        "total_w": 0.04505945072181512
+      },
+      {
+        "case": 15,
+        "cycles": 33262,
+        "internal_w": 0.03111482279104473,
+        "switching_w": 0.008143686866172431,
+        "leakage_w": 0.00575982870255198,
+        "total_w": 0.04501833817061125
+      },
+      {
+        "case": 17,
+        "cycles": 33262,
+        "internal_w": 0.03113096405669317,
+        "switching_w": 0.008156752095590606,
+        "leakage_w": 0.005759846759751386,
+        "total_w": 0.04504756285263189
+      },
+      {
+        "case": 19,
+        "cycles": 33262,
+        "internal_w": 0.03115556945872185,
+        "switching_w": 0.008168096093660569,
+        "leakage_w": 0.005759869970945894,
+        "total_w": 0.04508353538880211
+      },
+      {
+        "case": 21,
+        "cycles": 33262,
+        "internal_w": 0.0311175800833541,
+        "switching_w": 0.008147841986378392,
+        "leakage_w": 0.00575988621991004,
+        "total_w": 0.04502530809479091
+      },
+      {
+        "case": 23,
+        "cycles": 33262,
+        "internal_w": 0.03111202010335126,
+        "switching_w": 0.008136619941076515,
+        "leakage_w": 0.005759840416646775,
+        "total_w": 0.04500848035900622
+      }
+    ]
+  },
+  "rules_status": "pending",
+  "publication_changed": false,
+  "strictly_above_4500": true,
+  "recommended": true
+}

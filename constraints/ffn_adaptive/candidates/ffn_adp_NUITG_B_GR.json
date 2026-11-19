@@ -1,0 +1,20 @@
+{
+  "variant": "ffn_adp_NUITG_B_GR",
+  "parent_variant": "ffn_adp_NUITG_B",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": true,
+    "clock_gating": true,
+    "lanes16": false
+  },
+  "changes": {
+    "fine_register_gate": true
+  },
+  "effective_changes": {
+    "trim_clear": true,
+    "fine_register_gate": true
+  },
+  "purpose": "experiment"
+}

@@ -1,0 +1,17 @@
+{
+  "variant": "ffn_adp_NUIGL_B_gating_profile",
+  "parent_variant": "ffn_adp_NUIGL_B",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": false,
+    "clock_gating": true,
+    "lanes16": true
+  },
+  "changes": {},
+  "effective_changes": {
+    "trim_clear": true
+  },
+  "purpose": "diagnostic"
+}

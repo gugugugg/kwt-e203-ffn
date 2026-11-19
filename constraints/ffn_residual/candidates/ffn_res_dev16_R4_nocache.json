@@ -1,0 +1,21 @@
+{
+  "variant": "ffn_res_dev16_R4_nocache",
+  "parent_variant": "ffn_next_dev16_R",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": false,
+    "clock_gating": true,
+    "lanes16": true
+  },
+  "changes": {
+    "row_group": 4
+  },
+  "effective_changes": {
+    "row_cache": false,
+    "row_pair": true,
+    "row_group": 4
+  },
+  "purpose": "implementation_check"
+}

@@ -1,0 +1,42 @@
+{
+  "baseline": "ffn_sysbus32_lossless",
+  "baseline_cycles": 545208,
+  "baseline_area_mm2": 0.378664843,
+  "baseline_power_w": "0.04600023512808623220308579478",
+  "baseline_energy_j": "0.00001393316455206313249276666667",
+  "candidates": {
+    "AG": {
+      "variant": "ffn_che_AG",
+      "accepted": true,
+      "recommended": true,
+      "timing_passed": true,
+      "area_mm2": 0.364551415,
+      "setup_slack_ns": 0.635005,
+      "hold_slack_ns": 0.144989,
+      "cycles_total": 545208,
+      "throughput": 3301.4922745080776,
+      "mean_power_w": "0.04206698058080556772288741178",
+      "mean_energy_j": "0.00001274180797138880109281111111",
+      "proofs_passed": true,
+      "physical_trace_matches": true,
+      "mapped_passed": true
+    },
+    "PR": {
+      "variant": "ffn_che_PR",
+      "accepted": true,
+      "recommended": true,
+      "timing_passed": true,
+      "area_mm2": 0.371987738,
+      "setup_slack_ns": 0.533142,
+      "hold_slack_ns": 0.144989,
+      "cycles_total": 545208,
+      "throughput": 3301.4922745080776,
+      "mean_power_w": "0.04483432313854038776547666212",
+      "mean_energy_j": "0.00001358001758317629318491111111",
+      "proofs_passed": true,
+      "physical_trace_matches": true,
+      "mapped_passed": true
+    }
+  },
+  "recommended": "ffn_che_AG"
+}

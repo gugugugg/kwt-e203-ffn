@@ -1,0 +1,21 @@
+{
+  "variant": "ffn_res_dev8_ZM32",
+  "parent_variant": "ffn_v3_NUITG",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": true,
+    "clock_gating": true,
+    "lanes16": false
+  },
+  "changes": {
+    "zero_clear": true,
+    "bias32": true
+  },
+  "effective_changes": {
+    "zero_clear": true,
+    "bias32": true
+  },
+  "purpose": "implementation_check"
+}

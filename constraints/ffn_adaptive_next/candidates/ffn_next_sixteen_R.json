@@ -1,0 +1,25 @@
+{
+  "variant": "ffn_next_sixteen_R",
+  "parent_variant": "ffn_adp_NUIGL_B_load_out4_fast_response",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": false,
+    "clock_gating": true,
+    "lanes16": true
+  },
+  "changes": {
+    "row_cache": false,
+    "row_pair": true
+  },
+  "effective_changes": {
+    "trim_clear": true,
+    "batch_load": true,
+    "batch_output": true,
+    "fast_response": true,
+    "row_cache": false,
+    "row_pair": true
+  },
+  "purpose": "experiment"
+}

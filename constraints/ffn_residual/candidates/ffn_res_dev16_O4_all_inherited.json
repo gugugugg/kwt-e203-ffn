@@ -1,0 +1,38 @@
+{
+  "variant": "ffn_res_dev16_O4_all_inherited",
+  "parent_variant": "development_inherited_fast_parent",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": true,
+    "clock_gating": true,
+    "lanes16": true
+  },
+  "changes": {
+    "row_group": 4,
+    "stream": true,
+    "small_input": true,
+    "double_buffer": true,
+    "bias32": true,
+    "zero_clear": true
+  },
+  "effective_changes": {
+    "compact_bias": true,
+    "fine_memory_gate": true,
+    "fine_register_gate": true,
+    "fifo64": true,
+    "trim_clear": true,
+    "quiet_reset": true,
+    "row_cache": true,
+    "row_pair": true,
+    "fast_response": true,
+    "row_group": 4,
+    "stream": true,
+    "small_input": true,
+    "double_buffer": true,
+    "bias32": true,
+    "zero_clear": true
+  },
+  "purpose": "implementation_check"
+}

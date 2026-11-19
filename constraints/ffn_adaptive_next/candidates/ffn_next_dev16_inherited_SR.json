@@ -1,0 +1,27 @@
+{
+  "variant": "ffn_next_dev16_inherited_SR",
+  "parent_variant": "ffn_adp_NUITGL_dev_all",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": true,
+    "clock_gating": true,
+    "lanes16": true
+  },
+  "changes": {
+    "row_cache": true,
+    "row_pair": true
+  },
+  "effective_changes": {
+    "compact_bias": true,
+    "fine_memory_gate": true,
+    "fine_register_gate": true,
+    "fifo64": true,
+    "trim_clear": true,
+    "quiet_reset": true,
+    "row_cache": true,
+    "row_pair": true
+  },
+  "purpose": "implementation_check"
+}

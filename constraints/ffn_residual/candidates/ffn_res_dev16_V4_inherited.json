@@ -1,0 +1,29 @@
+{
+  "variant": "ffn_res_dev16_V4_inherited",
+  "parent_variant": "ffn_res_dev16_R4_ZM32",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": false,
+    "clock_gating": true,
+    "lanes16": true
+  },
+  "changes": {
+    "row_group": 4,
+    "stream": true,
+    "small_input": true,
+    "double_buffer": false
+  },
+  "effective_changes": {
+    "row_cache": true,
+    "row_pair": true,
+    "row_group": 4,
+    "zero_clear": true,
+    "bias32": true,
+    "stream": true,
+    "small_input": true,
+    "double_buffer": false
+  },
+  "purpose": "implementation_check"
+}

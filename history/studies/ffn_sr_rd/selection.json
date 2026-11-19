@@ -1,0 +1,23 @@
+{
+  "local_regression_passed": true,
+  "local_tasks": 36,
+  "pointer_ff_removed": 15,
+  "base_raw_area_mm2": 0.246807727,
+  "rd_raw_area_mm2": 0.246556517,
+  "rd_hold_area_mm2": 0.251304298,
+  "rd_final_area_mm2": 0.251310682,
+  "baseline_final_area_mm2": 0.250707394,
+  "rd_final_area_delta_um2": 603.288,
+  "accelerator_delta_um2": 251.5296,
+  "shared_interface_delta_um2": 351.7584,
+  "global_setup_slack_ns": -0.439163,
+  "global_hold_slack_ns": 0.144989,
+  "targeted_valid_path_count": 30,
+  "targeted_sram_min_setup_ns": 2.457488,
+  "targeted_sram_min_hold_ns": 0.609495,
+  "real_cpu12_started": false,
+  "native_task_throughput_measured": false,
+  "native_task_energy_measured": false,
+  "mapped_cpu_started": false,
+  "recommended": false
+}

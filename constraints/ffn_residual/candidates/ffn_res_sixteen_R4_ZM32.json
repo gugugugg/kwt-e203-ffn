@@ -1,0 +1,29 @@
+{
+  "variant": "ffn_res_sixteen_R4_ZM32",
+  "parent_variant": "ffn_res_sixteen_R4",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": false,
+    "clock_gating": true,
+    "lanes16": true
+  },
+  "changes": {
+    "row_group": 4,
+    "zero_clear": true,
+    "bias32": true
+  },
+  "effective_changes": {
+    "trim_clear": true,
+    "batch_load": true,
+    "batch_output": true,
+    "fast_response": true,
+    "row_cache": true,
+    "row_pair": true,
+    "row_group": 4,
+    "zero_clear": true,
+    "bias32": true
+  },
+  "purpose": "experiment"
+}

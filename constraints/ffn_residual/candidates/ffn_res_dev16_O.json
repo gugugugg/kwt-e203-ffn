@@ -1,0 +1,27 @@
+{
+  "variant": "ffn_res_dev16_O",
+  "parent_variant": "ffn_next_dev16_SR",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": false,
+    "clock_gating": true,
+    "lanes16": true
+  },
+  "changes": {
+    "stream": true,
+    "small_input": true,
+    "double_buffer": true,
+    "row_group": 2
+  },
+  "effective_changes": {
+    "row_cache": true,
+    "row_pair": true,
+    "stream": true,
+    "small_input": true,
+    "double_buffer": true,
+    "row_group": 2
+  },
+  "purpose": "implementation_check"
+}

@@ -1,0 +1,25 @@
+{
+  "variant": "ffn_adp_I_dev_gates",
+  "parent_variant": "ffn_v3_I",
+  "features": {
+    "split_bias": false,
+    "unroll": false,
+    "fast_pair": true,
+    "overlap": false,
+    "clock_gating": false,
+    "lanes16": false
+  },
+  "changes": {
+    "trim_clear": true,
+    "quiet_reset": true,
+    "fine_memory_gate": true,
+    "fine_register_gate": true
+  },
+  "effective_changes": {
+    "trim_clear": true,
+    "quiet_reset": true,
+    "fine_memory_gate": true,
+    "fine_register_gate": true
+  },
+  "purpose": "implementation_check"
+}

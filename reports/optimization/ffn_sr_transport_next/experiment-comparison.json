@@ -1,0 +1,195 @@
+{
+  "baseline": {
+    "variant": "ffn_ara_SR",
+    "clock_hz": 150000000,
+    "cycles": [
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783
+    ],
+    "throughput": 1518.4799003877185,
+    "area_mm2": 0.250707394,
+    "mean_power_w": 0.027318392824690587,
+    "mean_energy_j": 1.7990618656009402e-05
+  },
+  "selected_dma_model": {
+    "winner": "PRF_W1",
+    "cycles_total": {
+      "SR": 1185396,
+      "PRF": 1080948,
+      "W1": 1184832,
+      "PRF_W1": 1080384
+    }
+  },
+  "candidates": [
+    {
+      "variant": "ffn_sr_bidir",
+      "tag": "opt_ffn_sr_bidir_final_inv_ss_ema2",
+      "clock_hz": 150000000,
+      "cycles": [
+        90032,
+        90032,
+        90032,
+        90032,
+        90032,
+        90032,
+        90032,
+        90032,
+        90032,
+        90032,
+        90032,
+        90032
+      ],
+      "throughput": 1666.0742846987737,
+      "area_mm2": 0.251386651,
+      "mean_power_w": 0.028301289133499635,
+      "mean_energy_j": 1.698681108844826e-05,
+      "timing": {
+        "setup_slack_ns": 0.0,
+        "hold_slack_ns": 0.144989,
+        "clock_gating_setup": {
+          "violations": 0
+        },
+        "clock_gating_hold": {
+          "violations": 0
+        },
+        "constraints": {
+          "violations": 0
+        },
+        "pr1_paths": {
+          "violations": 0,
+          "groups": {
+            "macro_to_slot": {
+              "sources": 1029,
+              "targets": 64,
+              "max_paths": 5,
+              "min_paths": 5
+            },
+            "bank_to_slot": {
+              "sources": 5,
+              "targets": 64,
+              "max_paths": 5,
+              "min_paths": 5
+            },
+            "turnover_to_macro": {
+              "sources": 2,
+              "targets": 2714,
+              "max_paths": 5,
+              "min_paths": 5
+            }
+          }
+        }
+      },
+      "proof": {
+        "variant": "ffn_sr_bidir",
+        "tag": "opt_ffn_sr_bidir_final_inv_ss_ema2",
+        "clock_hz": 150000000,
+        "proofs": {
+          "rtl_formal_passed": true,
+          "hold_repair_formal_passed": true,
+          "final_repair_formal_passed": true
+        },
+        "proof_basis": "complete composed reference plus exact accepted physical-core identity",
+        "independent_full_rtl_attempt_passed": false,
+        "next_stage": "actual_netlist_activity_review"
+      },
+      "native_gate_case1_passed": true,
+      "energy_change_percent": -5.579616725552916,
+      "area_change_percent": 0.2709361655285125,
+      "throughput_change_percent": 9.71987737693265
+    },
+    {
+      "variant": "ffn_sr_r3o",
+      "tag": "opt_ffn_sr_r3o_final_ss_ema2",
+      "clock_hz": 150000000,
+      "cycles": [
+        87626,
+        87626,
+        87626,
+        87626,
+        87626,
+        87626,
+        87626,
+        87626,
+        87626,
+        87626,
+        87626,
+        87626
+      ],
+      "throughput": 1711.8206924885308,
+      "area_mm2": 0.297294396,
+      "mean_power_w": 0.029021504144359247,
+      "mean_energy_j": 1.695358881435749e-05,
+      "timing": {
+        "setup_slack_ns": 0.574956,
+        "hold_slack_ns": 0.144989,
+        "clock_gating_setup": {
+          "violations": 0
+        },
+        "clock_gating_hold": {
+          "violations": 0
+        },
+        "constraints": {
+          "violations": 0
+        },
+        "pr1_paths": {
+          "violations": 0,
+          "groups": {
+            "input_to_stage": {
+              "sources": 57,
+              "targets": 96,
+              "max_paths": 5,
+              "min_paths": 5
+            },
+            "weight_to_stage": {
+              "sources": 272,
+              "targets": 256,
+              "max_paths": 5,
+              "min_paths": 5
+            },
+            "operands_to_accumulator": {
+              "sources": 352,
+              "targets": 1728,
+              "max_paths": 5,
+              "min_paths": 5
+            },
+            "feedback_to_accumulator": {
+              "sources": 1728,
+              "targets": 1728,
+              "max_paths": 5,
+              "min_paths": 5
+            }
+          }
+        }
+      },
+      "proof": {
+        "variant": "ffn_sr_r3o",
+        "tag": "opt_ffn_sr_r3o_final_ss_ema2",
+        "clock_hz": 150000000,
+        "proofs": {
+          "rtl_formal_passed": true,
+          "hold_repair_formal_passed": true,
+          "final_repair_formal_passed": true
+        },
+        "next_stage": "actual_netlist_activity_review"
+      },
+      "native_gate_case1_passed": true,
+      "energy_change_percent": -5.76428115942258,
+      "area_change_percent": 18.58222099345026,
+      "throughput_change_percent": 12.7325223107297
+    }
+  ],
+  "fastest_and_lowest_energy": "ffn_sr_r3o",
+  "smallest_candidate": "ffn_sr_bidir",
+  "publication": "ffn_ara_SR",
+  "publication_changed": false
+}

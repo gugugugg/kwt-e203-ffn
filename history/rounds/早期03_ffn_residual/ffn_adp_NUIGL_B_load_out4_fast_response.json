@@ -1,0 +1,38 @@
+{
+  "variant": "ffn_adp_NUIGL_B_load_out4_fast_response",
+  "selected": false,
+  "belongs_to_this_round": false,
+  "stage": "formal_passed",
+  "parameters": {
+    "features": {
+      "split_bias": true,
+      "unroll": true,
+      "fast_pair": true,
+      "overlap": false,
+      "clock_gating": true,
+      "lanes16": true
+    },
+    "changes": {
+      "fast_response": true
+    }
+  },
+  "cycles": [
+    445968,
+    445968,
+    445968,
+    445968,
+    445968,
+    445968,
+    445968,
+    445968,
+    445968,
+    445968,
+    445968,
+    445968
+  ],
+  "throughput_per_second": 336.34700247551393,
+  "area_mm2": 0.309478365,
+  "mean_power_w": 0.022090216774958565,
+  "mean_energy_j": 6.56768652979648e-05,
+  "joint_feasible": null
+}

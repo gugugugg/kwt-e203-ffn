@@ -1,0 +1,18 @@
+{
+  "variant": "ffn_adp_NUIL_dev_ABC",
+  "parent_variant": "ffn_v3_NUIL",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": false,
+    "clock_gating": false,
+    "lanes16": true
+  },
+  "changes": {
+    "compact_bias": true,
+    "trim_clear": true,
+    "quiet_reset": true
+  },
+  "purpose": "implementation_check"
+}

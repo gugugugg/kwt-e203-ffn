@@ -1,0 +1,10 @@
+{
+  "variant": "ffn_trb_w32",
+  "stage": "native_area_timing_screen",
+  "accepted": false,
+  "official_150mhz": true,
+  "area_mm2": 0.415240398,
+  "measured": null,
+  "rules_status": "pending",
+  "publication_changed": false
+}

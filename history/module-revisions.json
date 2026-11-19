@@ -1,0 +1,70 @@
+{
+  "ffn_ag_mgpr": [
+    "history/archived-module-revisions/ffn_ag_mgpr/rev-1/encoder/decode.sv",
+    "history/archived-module-revisions/ffn_ag_mgpr/rev-2/encoder/kwt_threebank_core.sv"
+  ],
+  "ffn_che_AG": [
+    "history/archived-module-revisions/ffn_che_AG/rev-1/encoder/kwt_threebank_core.sv"
+  ],
+  "ffn_che_PR": [
+    "history/archived-module-revisions/ffn_che_PR/rev-1/encoder/decode.sv"
+  ],
+  "ffn_cp_C16": [
+    "history/archived-module-revisions/ffn_cp_C16/rev-1/encoder/kwt_encoder.sv"
+  ],
+  "ffn_jp_HM2": [
+    "history/archived-module-revisions/ffn_jp_HM2/rev-1/encoder/kwt_encoder.sv"
+  ],
+  "ffn_jp_M2": [
+    "history/archived-module-revisions/ffn_jp_M2/rev-1/encoder/kwt_encoder.sv",
+    "history/archived-module-revisions/ffn_jp_M2/rev-2/encoder/kwt_encoder.sv"
+  ],
+  "ffn_jp_H": [
+    "history/archived-module-revisions/ffn_jp_H/rev-1/encoder/kwt_encoder.sv"
+  ],
+  "ffn_lit_BA": [
+    "history/archived-module-revisions/ffn_lit_BA/rev-1/encoder/kwt_encoder.sv"
+  ],
+  "ffn_lit_BW": [
+    "history/archived-module-revisions/ffn_lit_BW/rev-1/encoder/kwt_encoder.sv"
+  ],
+  "ffn_trb_4x32_pair_gq": [
+    "history/archived-module-revisions/ffn_trb_4x32_pair_gq/rev-1/encoder/kwt_threebank_core.sv"
+  ],
+  "ffn_trb_4x32_pair_qm": [
+    "history/archived-module-revisions/ffn_trb_4x32_pair_qm/rev-1/encoder/kwt_threebank_core.sv"
+  ],
+  "ffn_cg_dev_E": [
+    "history/archived-module-revisions/ffn_cg_dev_E/rev-1/encoder/kwt_encoder.sv"
+  ],
+  "ffn_cg_dev_inherited_PE_MD18_U": [
+    "history/archived-module-revisions/ffn_cg_dev_inherited_PE_MD18_U/rev-1/encoder/kwt_encoder.sv"
+  ],
+  "ffn_cg_E": [
+    "history/archived-module-revisions/ffn_cg_E/rev-1/encoder/kwt_encoder.sv"
+  ],
+  "ffn_cg_PE": [
+    "history/archived-module-revisions/ffn_cg_PE/rev-1/encoder/kwt_encoder.sv",
+    "history/archived-module-revisions/ffn_cg_PE/rev-2/encoder/kwt_encoder.sv"
+  ],
+  "ffn_cg_P": [
+    "history/archived-module-revisions/ffn_cg_P/rev-1/encoder/kwt_encoder.sv",
+    "history/archived-module-revisions/ffn_cg_P/rev-2/encoder/kwt_encoder.sv"
+  ],
+  "ffn_ld_D1": [
+    "history/archived-module-revisions/ffn_ld_D1/rev-1/encoder/kwt_encoder.sv",
+    "history/archived-module-revisions/ffn_ld_D1/rev-2/encoder_bus/kwt_icb_encoder.sv"
+  ],
+  "ffn_ld_T_D1": [
+    "history/archived-module-revisions/ffn_ld_T_D1/rev-1/encoder/kwt_encoder.sv",
+    "history/archived-module-revisions/ffn_ld_T_D1/rev-2/encoder_bus/kwt_icb_encoder.sv"
+  ],
+  "ffn_pd_DPIPE_DHAND_IN": [
+    "history/archived-module-revisions/ffn_pd_DPIPE_DHAND_IN/rev-1/encoder/kwt_ld_engine.sv",
+    "history/archived-module-revisions/ffn_pd_DPIPE_DHAND_IN/rev-2/encoder/kwt_ld_engine.sv"
+  ],
+  "ffn_pd_DPIPE_IN": [
+    "history/archived-module-revisions/ffn_pd_DPIPE_IN/rev-1/encoder/kwt_ld_engine.sv",
+    "history/archived-module-revisions/ffn_pd_DPIPE_IN/rev-2/encoder/kwt_ld_engine.sv"
+  ]
+}

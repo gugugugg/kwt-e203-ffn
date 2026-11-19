@@ -1,0 +1,59 @@
+{
+  "variant": "ffn_tr_A_c16_c4",
+  "selected": false,
+  "belongs_to_this_round": false,
+  "stage": "formal_passed",
+  "parameters": {
+    "features": {
+      "split_bias": true,
+      "unroll": true,
+      "fast_pair": true,
+      "overlap": false,
+      "clock_gating": true,
+      "lanes16": true
+    },
+    "changes": {
+      "stream": true,
+      "small_input": true,
+      "row_group": 1,
+      "double_buffer": true
+    },
+    "configuration": {
+      "variant": "ffn_tr_A_c16_c4",
+      "source_snapshot": "build/optimization/rtl_sources/ffn_tr_A_c16_c4",
+      "base_public_soc": "build/complete_soc",
+      "linear_images": "build/optimization/images/Q2_range",
+      "encoder_package": "fixed16-v1 unchanged",
+      "firmware": "build/optimization/firmware/ffn_tr_A_c16_c4",
+      "old_background_builds_modified": false,
+      "adaptive_manifest": "constraints/ffn_transport/candidates/ffn_tr_A_c16_c4.json",
+      "core_path": "dut.soc.u_e203_subsys_main.u_e203_subsys_perips.accelerator.controller.core",
+      "row_group": 1,
+      "stream": true,
+      "small_input": true,
+      "double_buffer": true
+    },
+    "firmware_toolchain": {
+      "row_group": 1
+    }
+  },
+  "cycles": [
+    438448,
+    438448,
+    438448,
+    438448,
+    438448,
+    438448,
+    438448,
+    438448,
+    438448,
+    438448,
+    438448,
+    438448
+  ],
+  "throughput_per_second": 342.11582673429916,
+  "area_mm2": 0.223724857,
+  "mean_power_w": 0.02012866010461666,
+  "mean_energy_j": 5.883580510365976e-05,
+  "joint_feasible": null
+}

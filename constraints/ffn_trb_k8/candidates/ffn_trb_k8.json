@@ -1,0 +1,108 @@
+{
+  "variant": "ffn_trb_k8",
+  "parent_variant": "ffn_sg_reuse",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": false,
+    "clock_gating": true,
+    "lanes16": true
+  },
+  "changes": {
+    "stream": true,
+    "small_input": true,
+    "row_group": 4,
+    "double_buffer": true,
+    "compute_mac_count": 64,
+    "requantizers": 16,
+    "pf2": true,
+    "staged_input_words": 256,
+    "compact_bias": true,
+    "shared_bank_overlap": "I",
+    "parameter_stream_first_words": 1,
+    "wavefront": "W4Z_FT",
+    "prologue": "P2",
+    "startup_dma_order": "shift_bias_input_weight",
+    "continuous_row_groups": true,
+    "prologue_result_transpose": true,
+    "progressive_slot_reuse": true,
+    "weight_tail_input_dual": true,
+    "chained_input_weight": true,
+    "boot_input_words": 384,
+    "prologue_g2_tiles": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "shared_physical_shift": true
+  },
+  "effective_changes": {
+    "trim_clear": true,
+    "batch_load": true,
+    "batch_output": true,
+    "fast_response": true,
+    "row_cache": true,
+    "row_pair": false,
+    "bias32": true,
+    "stream": true,
+    "small_input": true,
+    "double_buffer": true,
+    "row_group": 3,
+    "clear_last": 0,
+    "zero_clear": false,
+    "transport_hardware": [
+      "F"
+    ],
+    "loading_layout": "tile",
+    "loading_dma": true,
+    "output_dma": true,
+    "post_dma_hardware": [
+      "DPIPE"
+    ],
+    "post_dma_flook": false,
+    "tile_pipeline_hardware": [
+      "BP",
+      "E2",
+      "IH",
+      "RH"
+    ],
+    "area_power_hardware": [
+      "C",
+      "R",
+      "G"
+    ],
+    "joint_power_hardware": [
+      "S",
+      "H",
+      "M2"
+    ],
+    "logic_power_hardware": [
+      "IR"
+    ],
+    "column_parallel_hardware": [
+      "C16"
+    ],
+    "compute_lanes": 32,
+    "compute_columns": 16,
+    "weight_banks": 16,
+    "c16_efficiency_hardware": [
+      "W"
+    ],
+    "w_energy_hardware": [
+      "C"
+    ],
+    "c_area_hardware": [
+      "AR"
+    ],
+    "ar_area_hardware": [
+      "SR"
+    ]
+  },
+  "purpose": "experiment"
+}

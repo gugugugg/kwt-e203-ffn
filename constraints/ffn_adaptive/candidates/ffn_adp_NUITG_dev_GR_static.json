@@ -1,0 +1,19 @@
+{
+  "variant": "ffn_adp_NUITG_dev_GR_static",
+  "parent_variant": "ffn_v3_NUITG",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": true,
+    "clock_gating": true,
+    "lanes16": false
+  },
+  "changes": {
+    "fine_register_gate": true
+  },
+  "effective_changes": {
+    "fine_register_gate": true
+  },
+  "purpose": "implementation_check"
+}

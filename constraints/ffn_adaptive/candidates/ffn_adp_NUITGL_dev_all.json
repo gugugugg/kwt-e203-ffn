@@ -1,0 +1,21 @@
+{
+  "variant": "ffn_adp_NUITGL_dev_all",
+  "parent_variant": "ffn_v3_NUITGL",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": true,
+    "clock_gating": true,
+    "lanes16": true
+  },
+  "changes": {
+    "compact_bias": true,
+    "trim_clear": true,
+    "quiet_reset": true,
+    "fine_memory_gate": true,
+    "fine_register_gate": true,
+    "fifo64": true
+  },
+  "purpose": "implementation_check"
+}

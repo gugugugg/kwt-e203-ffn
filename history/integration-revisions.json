@@ -1,0 +1,1322 @@
+{
+  "ffn_ag_mgpr": {
+    "build/optimization/complete_soc/ffn_ag_mgpr/eda/area.tcl": "build/optimization/complete_soc/ffn_ag_mgpr/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_ag_mgpr/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_ag_mgpr/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_ag_mgpr/eda/power.tcl": "build/optimization/complete_soc/ffn_ag_mgpr/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_ag_mgpr/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_ag_mgpr/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_ag_mgpr/eda/q8_leaf_power.tcl": "build/optimization/complete_soc/ffn_ag_mgpr/eda/q8_leaf_power.tcl",
+    "build/optimization/complete_soc/ffn_ag_mgpr/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_ag_mgpr/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_ag_mgpr/eda/time.tcl": "build/optimization/complete_soc/ffn_ag_mgpr/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_ag_mgpr/8/complete_soc/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_ag_mgpr/eda/pr1_assessment.tcl"
+  },
+  "ffn_ap_X": {
+    "build/optimization/complete_soc/ffn_ap_X/eda/area.tcl": "build/optimization/complete_soc/ffn_ap_X/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_ap_X/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_ap_X/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_ap_X/eda/power.tcl": "build/optimization/complete_soc/ffn_ap_X/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_ap_X/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_ap_X/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_ap_X/eda/time.tcl": "build/optimization/complete_soc/ffn_ap_X/eda/time.tcl"
+  },
+  "ffn_ara_SR": {
+    "build/optimization/complete_soc/ffn_ara_SR/eda/area.tcl": "build/optimization/complete_soc/ffn_ara_SR/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_ara_SR/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_ara_SR/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_ara_SR/eda/power.tcl": "build/optimization/complete_soc/ffn_ara_SR/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_ara_SR/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_ara_SR/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_ara_SR/eda/time.tcl": "build/optimization/complete_soc/ffn_ara_SR/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_ara_SR/6/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_ara_SR/gate_tb.sv"
+  },
+  "ffn_ara_SS": {
+    "build/optimization/complete_soc/ffn_ara_SS/eda/area.tcl": "build/optimization/complete_soc/ffn_ara_SS/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_ara_SS/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_ara_SS/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_ara_SS/eda/power.tcl": "build/optimization/complete_soc/ffn_ara_SS/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_ara_SS/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_ara_SS/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_ara_SS/eda/time.tcl": "build/optimization/complete_soc/ffn_ara_SS/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_ara_SS/6/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_ara_SS/gate_tb.sv"
+  },
+  "ffn_car_AR": {
+    "build/optimization/complete_soc/ffn_car_AR/eda/area.tcl": "build/optimization/complete_soc/ffn_car_AR/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_car_AR/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_car_AR/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_car_AR/eda/power.tcl": "build/optimization/complete_soc/ffn_car_AR/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_car_AR/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_car_AR/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_car_AR/eda/time.tcl": "build/optimization/complete_soc/ffn_car_AR/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_car_AR/6/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_car_AR/gate_tb.sv"
+  },
+  "ffn_car_D1": {
+    "build/optimization/complete_soc/ffn_car_D1/eda/area.tcl": "build/optimization/complete_soc/ffn_car_D1/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_car_D1/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_car_D1/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_car_D1/eda/power.tcl": "build/optimization/complete_soc/ffn_car_D1/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_car_D1/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_car_D1/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_car_D1/eda/time.tcl": "build/optimization/complete_soc/ffn_car_D1/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_car_D1/6/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_car_D1/gate_tb.sv"
+  },
+  "ffn_ce_W": {
+    "build/optimization/complete_soc/ffn_ce_W/eda/area.tcl": "build/optimization/complete_soc/ffn_ce_W/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_ce_W/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_ce_W/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_ce_W/eda/power.tcl": "build/optimization/complete_soc/ffn_ce_W/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_ce_W/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_ce_W/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_ce_W/eda/time.tcl": "build/optimization/complete_soc/ffn_ce_W/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_ce_W/6/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_ce_W/gate_tb.sv",
+    "history/archived-integration-revisions/ffn_ce_W/7/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_ce_W/gate_tb.sv"
+  },
+  "ffn_cen_SL": {
+    "build/optimization/complete_soc/ffn_cen_SL/eda/area.tcl": "build/optimization/complete_soc/ffn_cen_SL/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cen_SL/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cen_SL/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cen_SL/eda/power.tcl": "build/optimization/complete_soc/ffn_cen_SL/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cen_SL/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cen_SL/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cen_SL/eda/time.tcl": "build/optimization/complete_soc/ffn_cen_SL/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_cen_SL/6/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_cen_SL/gate_tb.sv"
+  },
+  "ffn_cfe_O1": {
+    "build/optimization/complete_soc/ffn_cfe_O1/eda/area.tcl": "build/optimization/complete_soc/ffn_cfe_O1/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cfe_O1/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cfe_O1/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cfe_O1/eda/power.tcl": "build/optimization/complete_soc/ffn_cfe_O1/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cfe_O1/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cfe_O1/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cfe_O1/eda/time.tcl": "build/optimization/complete_soc/ffn_cfe_O1/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_cfe_O1/6/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_cfe_O1/gate_tb.sv"
+  },
+  "ffn_cfe_SS": {
+    "build/optimization/complete_soc/ffn_cfe_SS/eda/area.tcl": "build/optimization/complete_soc/ffn_cfe_SS/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cfe_SS/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cfe_SS/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cfe_SS/eda/power.tcl": "build/optimization/complete_soc/ffn_cfe_SS/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cfe_SS/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cfe_SS/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cfe_SS/eda/time.tcl": "build/optimization/complete_soc/ffn_cfe_SS/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_cfe_SS/6/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_cfe_SS/gate_tb.sv"
+  },
+  "ffn_che_AG": {
+    "build/optimization/complete_soc/ffn_che_AG/eda/area.tcl": "build/optimization/complete_soc/ffn_che_AG/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_che_AG/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_che_AG/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_che_AG/eda/power.tcl": "build/optimization/complete_soc/ffn_che_AG/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_che_AG/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_che_AG/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_che_AG/eda/q8_leaf_power.tcl": "build/optimization/complete_soc/ffn_che_AG/eda/q8_leaf_power.tcl",
+    "build/optimization/complete_soc/ffn_che_AG/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_che_AG/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_che_AG/eda/time.tcl": "build/optimization/complete_soc/ffn_che_AG/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_che_AG/8/complete_soc/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_che_AG/eda/pr1_assessment.tcl"
+  },
+  "ffn_che_PR": {
+    "build/optimization/complete_soc/ffn_che_PR/eda/area.tcl": "build/optimization/complete_soc/ffn_che_PR/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_che_PR/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_che_PR/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_che_PR/eda/power.tcl": "build/optimization/complete_soc/ffn_che_PR/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_che_PR/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_che_PR/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_che_PR/eda/q8_leaf_power.tcl": "build/optimization/complete_soc/ffn_che_PR/eda/q8_leaf_power.tcl",
+    "build/optimization/complete_soc/ffn_che_PR/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_che_PR/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_che_PR/eda/time.tcl": "build/optimization/complete_soc/ffn_che_PR/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_che_PR/8/complete_soc/complete_soc_tb.sv": "build/optimization/complete_soc/ffn_che_PR/complete_soc_tb.sv",
+    "history/archived-integration-revisions/ffn_che_PR/9/complete_soc/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_che_PR/eda/pr1_assessment.tcl"
+  },
+  "ffn_cp_C16": {
+    "build/optimization/complete_soc/ffn_cp_C16/eda/area.tcl": "build/optimization/complete_soc/ffn_cp_C16/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cp_C16/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cp_C16/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cp_C16/eda/power.tcl": "build/optimization/complete_soc/ffn_cp_C16/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cp_C16/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cp_C16/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cp_C16/eda/time.tcl": "build/optimization/complete_soc/ffn_cp_C16/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_cp_C16/6/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_cp_C16/gate_tb.sv"
+  },
+  "ffn_iw_W4Z_FT": {
+    "build/optimization/complete_soc/ffn_iw_W4Z_FT/eda/area.tcl": "build/optimization/complete_soc/ffn_iw_W4Z_FT/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_iw_W4Z_FT/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_iw_W4Z_FT/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_iw_W4Z_FT/eda/power.tcl": "build/optimization/complete_soc/ffn_iw_W4Z_FT/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_iw_W4Z_FT/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_iw_W4Z_FT/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_iw_W4Z_FT/eda/q8_leaf_power.tcl": "build/optimization/complete_soc/ffn_iw_W4Z_FT/eda/q8_leaf_power.tcl",
+    "build/optimization/complete_soc/ffn_iw_W4Z_FT/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_iw_W4Z_FT/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_iw_W4Z_FT/eda/time.tcl": "build/optimization/complete_soc/ffn_iw_W4Z_FT/eda/time.tcl"
+  },
+  "ffn_jp_HM2": {
+    "build/optimization/complete_soc/ffn_jp_HM2/eda/area.tcl": "build/optimization/complete_soc/ffn_jp_HM2/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_jp_HM2/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_jp_HM2/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_jp_HM2/eda/power.tcl": "build/optimization/complete_soc/ffn_jp_HM2/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_jp_HM2/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_jp_HM2/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_jp_HM2/eda/time.tcl": "build/optimization/complete_soc/ffn_jp_HM2/eda/time.tcl"
+  },
+  "ffn_jp_H": {
+    "build/optimization/complete_soc/ffn_jp_H/eda/area.tcl": "build/optimization/complete_soc/ffn_jp_H/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_jp_H/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_jp_H/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_jp_H/eda/power.tcl": "build/optimization/complete_soc/ffn_jp_H/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_jp_H/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_jp_H/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_jp_H/eda/time.tcl": "build/optimization/complete_soc/ffn_jp_H/eda/time.tcl"
+  },
+  "ffn_jp_M2": {
+    "build/optimization/complete_soc/ffn_jp_M2/eda/area.tcl": "build/optimization/complete_soc/ffn_jp_M2/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_jp_M2/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_jp_M2/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_jp_M2/eda/power.tcl": "build/optimization/complete_soc/ffn_jp_M2/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_jp_M2/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_jp_M2/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_jp_M2/eda/time.tcl": "build/optimization/complete_soc/ffn_jp_M2/eda/time.tcl"
+  },
+  "ffn_jp_S": {
+    "build/optimization/complete_soc/ffn_jp_S/eda/area.tcl": "build/optimization/complete_soc/ffn_jp_S/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_jp_S/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_jp_S/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_jp_S/eda/power.tcl": "build/optimization/complete_soc/ffn_jp_S/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_jp_S/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_jp_S/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_jp_S/eda/time.tcl": "build/optimization/complete_soc/ffn_jp_S/eda/time.tcl"
+  },
+  "ffn_lit_BA": {
+    "build/optimization/complete_soc/ffn_lit_BA/eda/area.tcl": "build/optimization/complete_soc/ffn_lit_BA/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_lit_BA/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_lit_BA/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_lit_BA/eda/power.tcl": "build/optimization/complete_soc/ffn_lit_BA/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_lit_BA/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_lit_BA/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_lit_BA/eda/time.tcl": "build/optimization/complete_soc/ffn_lit_BA/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_lit_BA/6/complete_soc/eda/power.tcl": "build/optimization/complete_soc/ffn_lit_BA/eda/power.tcl"
+  },
+  "ffn_lit_BW": {
+    "build/optimization/complete_soc/ffn_lit_BW/eda/area.tcl": "build/optimization/complete_soc/ffn_lit_BW/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_lit_BW/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_lit_BW/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_lit_BW/eda/power.tcl": "build/optimization/complete_soc/ffn_lit_BW/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_lit_BW/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_lit_BW/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_lit_BW/eda/time.tcl": "build/optimization/complete_soc/ffn_lit_BW/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_lit_BW/6/complete_soc/eda/power.tcl": "build/optimization/complete_soc/ffn_lit_BW/eda/power.tcl"
+  },
+  "ffn_lit_CROSS": {
+    "build/optimization/complete_soc/ffn_lit_CROSS/eda/area.tcl": "build/optimization/complete_soc/ffn_lit_CROSS/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_lit_CROSS/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_lit_CROSS/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_lit_CROSS/eda/power.tcl": "build/optimization/complete_soc/ffn_lit_CROSS/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_lit_CROSS/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_lit_CROSS/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_lit_CROSS/eda/time.tcl": "build/optimization/complete_soc/ffn_lit_CROSS/eda/time.tcl"
+  },
+  "ffn_lit_IE": {
+    "build/optimization/complete_soc/ffn_lit_IE/eda/area.tcl": "build/optimization/complete_soc/ffn_lit_IE/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_lit_IE/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_lit_IE/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_lit_IE/eda/power.tcl": "build/optimization/complete_soc/ffn_lit_IE/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_lit_IE/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_lit_IE/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_lit_IE/eda/time.tcl": "build/optimization/complete_soc/ffn_lit_IE/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_lit_IE/6/complete_soc/eda/power.tcl": "build/optimization/complete_soc/ffn_lit_IE/eda/power.tcl"
+  },
+  "ffn_lit_M28": {
+    "build/optimization/complete_soc/ffn_lit_M28/eda/area.tcl": "build/optimization/complete_soc/ffn_lit_M28/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_lit_M28/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_lit_M28/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_lit_M28/eda/power.tcl": "build/optimization/complete_soc/ffn_lit_M28/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_lit_M28/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_lit_M28/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_lit_M28/eda/time.tcl": "build/optimization/complete_soc/ffn_lit_M28/eda/time.tcl"
+  },
+  "ffn_lit_WE": {
+    "build/optimization/complete_soc/ffn_lit_WE/eda/area.tcl": "build/optimization/complete_soc/ffn_lit_WE/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_lit_WE/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_lit_WE/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_lit_WE/eda/power.tcl": "build/optimization/complete_soc/ffn_lit_WE/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_lit_WE/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_lit_WE/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_lit_WE/eda/time.tcl": "build/optimization/complete_soc/ffn_lit_WE/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_lit_WE/6/complete_soc/eda/power.tcl": "build/optimization/complete_soc/ffn_lit_WE/eda/power.tcl"
+  },
+  "ffn_lp_ALL": {
+    "build/optimization/complete_soc/ffn_lp_ALL/eda/area.tcl": "build/optimization/complete_soc/ffn_lp_ALL/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_lp_ALL/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_lp_ALL/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_lp_ALL/eda/power.tcl": "build/optimization/complete_soc/ffn_lp_ALL/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_lp_ALL/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_lp_ALL/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_lp_ALL/eda/time.tcl": "build/optimization/complete_soc/ffn_lp_ALL/eda/time.tcl"
+  },
+  "ffn_lp_C4": {
+    "build/optimization/complete_soc/ffn_lp_C4/eda/area.tcl": "build/optimization/complete_soc/ffn_lp_C4/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_lp_C4/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_lp_C4/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_lp_C4/eda/power.tcl": "build/optimization/complete_soc/ffn_lp_C4/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_lp_C4/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_lp_C4/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_lp_C4/eda/time.tcl": "build/optimization/complete_soc/ffn_lp_C4/eda/time.tcl"
+  },
+  "ffn_lp_DQ": {
+    "build/optimization/complete_soc/ffn_lp_DQ/eda/area.tcl": "build/optimization/complete_soc/ffn_lp_DQ/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_lp_DQ/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_lp_DQ/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_lp_DQ/eda/power.tcl": "build/optimization/complete_soc/ffn_lp_DQ/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_lp_DQ/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_lp_DQ/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_lp_DQ/eda/time.tcl": "build/optimization/complete_soc/ffn_lp_DQ/eda/time.tcl"
+  },
+  "ffn_lp_IR": {
+    "build/optimization/complete_soc/ffn_lp_IR/eda/area.tcl": "build/optimization/complete_soc/ffn_lp_IR/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_lp_IR/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_lp_IR/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_lp_IR/eda/power.tcl": "build/optimization/complete_soc/ffn_lp_IR/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_lp_IR/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_lp_IR/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_lp_IR/eda/time.tcl": "build/optimization/complete_soc/ffn_lp_IR/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_lp_IR/6/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_lp_IR/gate_tb.sv"
+  },
+  "ffn_m3_retire": {
+    "build/optimization/complete_soc/ffn_m3_retire/eda/area.tcl": "build/optimization/complete_soc/ffn_m3_retire/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_m3_retire/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_m3_retire/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_m3_retire/eda/power.tcl": "build/optimization/complete_soc/ffn_m3_retire/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_m3_retire/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_m3_retire/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_m3_retire/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_m3_retire/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_m3_retire/eda/time.tcl": "build/optimization/complete_soc/ffn_m3_retire/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_m3_retire/7/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_m3_retire/gate_tb.sv",
+    "history/archived-integration-revisions/ffn_m3_retire/8/complete_soc/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_m3_retire/eda/pr1_assessment.tcl"
+  },
+  "ffn_ps_SG": {
+    "build/optimization/complete_soc/ffn_ps_SG/eda/area.tcl": "build/optimization/complete_soc/ffn_ps_SG/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_ps_SG/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_ps_SG/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_ps_SG/eda/power.tcl": "build/optimization/complete_soc/ffn_ps_SG/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_ps_SG/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_ps_SG/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_ps_SG/eda/q8_leaf_power.tcl": "build/optimization/complete_soc/ffn_ps_SG/eda/q8_leaf_power.tcl",
+    "build/optimization/complete_soc/ffn_ps_SG/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_ps_SG/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_ps_SG/eda/time.tcl": "build/optimization/complete_soc/ffn_ps_SG/eda/time.tcl"
+  },
+  "ffn_q16_staged": {
+    "build/optimization/complete_soc/ffn_q16_staged/eda/area.tcl": "build/optimization/complete_soc/ffn_q16_staged/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_q16_staged/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_q16_staged/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_q16_staged/eda/power.tcl": "build/optimization/complete_soc/ffn_q16_staged/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_q16_staged/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_q16_staged/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_q16_staged/eda/q8_leaf_power.tcl": "build/optimization/complete_soc/ffn_q16_staged/eda/q8_leaf_power.tcl",
+    "build/optimization/complete_soc/ffn_q16_staged/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_q16_staged/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_q16_staged/eda/time.tcl": "build/optimization/complete_soc/ffn_q16_staged/eda/time.tcl"
+  },
+  "ffn_q8_q16": {
+    "build/optimization/complete_soc/ffn_q8_q16/eda/area.tcl": "build/optimization/complete_soc/ffn_q8_q16/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_q8_q16/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_q8_q16/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_q8_q16/eda/power.tcl": "build/optimization/complete_soc/ffn_q8_q16/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_q8_q16/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_q8_q16/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_q8_q16/eda/q8_leaf_power.tcl": "build/optimization/complete_soc/ffn_q8_q16/eda/q8_leaf_power.tcl",
+    "build/optimization/complete_soc/ffn_q8_q16/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_q8_q16/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_q8_q16/eda/time.tcl": "build/optimization/complete_soc/ffn_q8_q16/eda/time.tcl"
+  },
+  "ffn_r3o_stream": {
+    "build/optimization/complete_soc/ffn_r3o_stream/eda/area.tcl": "build/optimization/complete_soc/ffn_r3o_stream/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_r3o_stream/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_r3o_stream/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_r3o_stream/eda/power.tcl": "build/optimization/complete_soc/ffn_r3o_stream/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_r3o_stream/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_r3o_stream/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_r3o_stream/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_r3o_stream/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_r3o_stream/eda/time.tcl": "build/optimization/complete_soc/ffn_r3o_stream/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_r3o_stream/7/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_r3o_stream/gate_tb.sv",
+    "history/archived-integration-revisions/ffn_r3o_stream/8/complete_soc/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_r3o_stream/eda/pr1_assessment.tcl"
+  },
+  "ffn_r4f2_q8": {
+    "build/optimization/complete_soc/ffn_r4f2_q8/eda/area.tcl": "build/optimization/complete_soc/ffn_r4f2_q8/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_r4f2_q8/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_r4f2_q8/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_r4f2_q8/eda/power.tcl": "build/optimization/complete_soc/ffn_r4f2_q8/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_r4f2_q8/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_r4f2_q8/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_r4f2_q8/eda/q8_leaf_power.tcl": "build/optimization/complete_soc/ffn_r4f2_q8/eda/q8_leaf_power.tcl",
+    "build/optimization/complete_soc/ffn_r4f2_q8/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_r4f2_q8/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_r4f2_q8/eda/time.tcl": "build/optimization/complete_soc/ffn_r4f2_q8/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_r4f2_q8/8/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_r4f2_q8/gate_tb.sv",
+    "history/archived-integration-revisions/ffn_r4f2_q8/9/complete_soc/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_r4f2_q8/eda/pr1_assessment.tcl"
+  },
+  "ffn_s1_bank_I": {
+    "build/optimization/complete_soc/ffn_s1_bank_I/eda/area.tcl": "build/optimization/complete_soc/ffn_s1_bank_I/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_s1_bank_I/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_s1_bank_I/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_s1_bank_I/eda/power.tcl": "build/optimization/complete_soc/ffn_s1_bank_I/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_s1_bank_I/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_s1_bank_I/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_s1_bank_I/eda/q8_leaf_power.tcl": "build/optimization/complete_soc/ffn_s1_bank_I/eda/q8_leaf_power.tcl",
+    "build/optimization/complete_soc/ffn_s1_bank_I/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_s1_bank_I/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_s1_bank_I/eda/time.tcl": "build/optimization/complete_soc/ffn_s1_bank_I/eda/time.tcl"
+  },
+  "ffn_s1_bank_N": {
+    "build/optimization/complete_soc/ffn_s1_bank_N/eda/area.tcl": "build/optimization/complete_soc/ffn_s1_bank_N/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_s1_bank_N/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_s1_bank_N/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_s1_bank_N/eda/power.tcl": "build/optimization/complete_soc/ffn_s1_bank_N/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_s1_bank_N/eda/q8_leaf_power.tcl": "build/optimization/complete_soc/ffn_s1_bank_N/eda/q8_leaf_power.tcl",
+    "build/optimization/complete_soc/ffn_s1_bank_N/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_s1_bank_N/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_s1_bank_N/eda/time.tcl": "build/optimization/complete_soc/ffn_s1_bank_N/eda/time.tcl",
+    "build/optimization/complete_soc/ffn_s1_bank_N/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_s1_bank_N/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_s1_bank_N/gate_tb.sv": "build/optimization/complete_soc/ffn_s1_bank_N/gate_tb.sv"
+  },
+  "ffn_sg_reuse": {
+    "build/optimization/complete_soc/ffn_sg_reuse/eda/area.tcl": "build/optimization/complete_soc/ffn_sg_reuse/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_sg_reuse/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_sg_reuse/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_sg_reuse/eda/power.tcl": "build/optimization/complete_soc/ffn_sg_reuse/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_sg_reuse/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_sg_reuse/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_sg_reuse/eda/q8_leaf_power.tcl": "build/optimization/complete_soc/ffn_sg_reuse/eda/q8_leaf_power.tcl",
+    "build/optimization/complete_soc/ffn_sg_reuse/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_sg_reuse/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_sg_reuse/eda/time.tcl": "build/optimization/complete_soc/ffn_sg_reuse/eda/time.tcl"
+  },
+  "ffn_sr_bidir": {
+    "build/optimization/complete_soc/ffn_sr_bidir/eda/area.tcl": "build/optimization/complete_soc/ffn_sr_bidir/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_sr_bidir/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_sr_bidir/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_sr_bidir/eda/power.tcl": "build/optimization/complete_soc/ffn_sr_bidir/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_sr_bidir/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_sr_bidir/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_sr_bidir/eda/synthesize_frozen_core.tcl": "build/optimization/complete_soc/ffn_sr_bidir/eda/synthesize_frozen_core.tcl",
+    "build/optimization/complete_soc/ffn_sr_bidir/eda/time.tcl": "build/optimization/complete_soc/ffn_sr_bidir/eda/time.tcl",
+    "build/optimization/complete_soc/ffn_sr_bidir/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_sr_bidir/eda/pr1_assessment.tcl",
+    "history/archived-integration-revisions/ffn_sr_bidir/8/complete_soc/eda/synthesize_frozen_core.tcl": "build/optimization/complete_soc/ffn_sr_bidir/eda/synthesize_frozen_core.tcl",
+    "build/optimization/complete_soc/ffn_sr_bidir/gate_tb.sv": "build/optimization/complete_soc/ffn_sr_bidir/gate_tb.sv"
+  },
+  "ffn_sr_r3o": {
+    "build/optimization/complete_soc/ffn_sr_r3o/eda/area.tcl": "build/optimization/complete_soc/ffn_sr_r3o/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_sr_r3o/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_sr_r3o/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_sr_r3o/eda/power.tcl": "build/optimization/complete_soc/ffn_sr_r3o/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_sr_r3o/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_sr_r3o/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_sr_r3o/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_sr_r3o/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_sr_r3o/eda/time.tcl": "build/optimization/complete_soc/ffn_sr_r3o/eda/time.tcl"
+  },
+  "ffn_sra_S3": {
+    "build/optimization/complete_soc/ffn_sra_S3/eda/area.tcl": "build/optimization/complete_soc/ffn_sra_S3/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_sra_S3/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_sra_S3/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_sra_S3/eda/power.tcl": "build/optimization/complete_soc/ffn_sra_S3/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_sra_S3/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_sra_S3/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_sra_S3/eda/time.tcl": "build/optimization/complete_soc/ffn_sra_S3/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_sra_S3/6/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_sra_S3/gate_tb.sv"
+  },
+  "ffn_sra_SS": {
+    "build/optimization/complete_soc/ffn_sra_SS/eda/area.tcl": "build/optimization/complete_soc/ffn_sra_SS/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_sra_SS/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_sra_SS/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_sra_SS/eda/power.tcl": "build/optimization/complete_soc/ffn_sra_SS/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_sra_SS/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_sra_SS/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_sra_SS/eda/time.tcl": "build/optimization/complete_soc/ffn_sra_SS/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_sra_SS/6/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_sra_SS/gate_tb.sv"
+  },
+  "ffn_sysbus32_3k": {
+    "build/optimization/complete_soc/ffn_sysbus32_3k/eda/area.tcl": "build/optimization/complete_soc/ffn_sysbus32_3k/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_sysbus32_3k/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_sysbus32_3k/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_sysbus32_3k/eda/power.tcl": "build/optimization/complete_soc/ffn_sysbus32_3k/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_sysbus32_3k/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_sysbus32_3k/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_sysbus32_3k/eda/q8_leaf_power.tcl": "build/optimization/complete_soc/ffn_sysbus32_3k/eda/q8_leaf_power.tcl",
+    "build/optimization/complete_soc/ffn_sysbus32_3k/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_sysbus32_3k/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_sysbus32_3k/eda/time.tcl": "build/optimization/complete_soc/ffn_sysbus32_3k/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_sysbus32_3k/8/complete_soc/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_sysbus32_3k/eda/pr1_assessment.tcl"
+  },
+  "ffn_sysbus32_lossless": {
+    "build/optimization/complete_soc/ffn_sysbus32_lossless/eda/area.tcl": "build/optimization/complete_soc/ffn_sysbus32_lossless/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_sysbus32_lossless/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_sysbus32_lossless/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_sysbus32_lossless/eda/power.tcl": "build/optimization/complete_soc/ffn_sysbus32_lossless/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_sysbus32_lossless/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_sysbus32_lossless/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_sysbus32_lossless/eda/q8_leaf_power.tcl": "build/optimization/complete_soc/ffn_sysbus32_lossless/eda/q8_leaf_power.tcl",
+    "build/optimization/complete_soc/ffn_sysbus32_lossless/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_sysbus32_lossless/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_sysbus32_lossless/eda/time.tcl": "build/optimization/complete_soc/ffn_sysbus32_lossless/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_sysbus32_lossless/8/complete_soc/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_sysbus32_lossless/eda/pr1_assessment.tcl"
+  },
+  "ffn_tp_CROSS": {
+    "build/optimization/complete_soc/ffn_tp_CROSS/eda/area.tcl": "build/optimization/complete_soc/ffn_tp_CROSS/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tp_CROSS/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tp_CROSS/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tp_CROSS/eda/power.tcl": "build/optimization/complete_soc/ffn_tp_CROSS/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tp_CROSS/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tp_CROSS/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tp_CROSS/eda/time.tcl": "build/optimization/complete_soc/ffn_tp_CROSS/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_tp_CROSS/6/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_tp_CROSS/gate_tb.sv"
+  },
+  "ffn_trb_4x32": {
+    "build/optimization/complete_soc/ffn_trb_4x32/eda/area.tcl": "build/optimization/complete_soc/ffn_trb_4x32/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_trb_4x32/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32/eda/power.tcl": "build/optimization/complete_soc/ffn_trb_4x32/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_trb_4x32/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32/eda/time.tcl": "build/optimization/complete_soc/ffn_trb_4x32/eda/time.tcl"
+  },
+  "ffn_trb_4x32_pair_gq": {
+    "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/area.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/power.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/time.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/6/complete_soc/boot_count.svh": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/boot_count.svh",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/7/complete_soc/complete_soc_tb.sv": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/complete_soc_tb.sv",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/8/complete_soc/dtcm_wrapper.sv": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/dtcm_wrapper.sv",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/9/complete_soc/e203_subsys_main.v": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/e203_subsys_main.v",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/10/complete_soc/e203_subsys_perips.v": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/e203_subsys_perips.v",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/11/complete_soc/e203_subsys_top.v": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/e203_subsys_top.v",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/12/complete_soc/eda/area.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/area.tcl",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/13/complete_soc/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/map_activity.tcl",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/14/complete_soc/eda/power.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/power_observed_memory.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/power_observed_memory.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/pr1_assessment.tcl",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/17/complete_soc/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/threebank_power_groups.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/threebank_power_groups.tcl",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/19/complete_soc/eda/time.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/20/complete_soc/files.f": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/files.f",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/21/complete_soc/itcm_wrapper.sv": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/itcm_wrapper.sv",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/22/complete_soc/kwt_complete_soc.sv": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/kwt_complete_soc.sv",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/23/complete_soc/kwt_encoder_platform.sv": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/kwt_encoder_platform.sv",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/24/complete_soc/kwt_loading_dma_accelerator.sv": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/kwt_loading_dma_accelerator.sv",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/25/complete_soc/kwt_loading_dma_endpoint.svh": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/kwt_loading_dma_endpoint.svh",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/26/complete_soc/kwt_shared_dma_icb_sm40.sv": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/kwt_shared_dma_icb_sm40.sv",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/27/complete_soc/platform_instance.svh": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/platform_instance.svh",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/28/complete_soc/sirv_mrom_top.v": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/sirv_mrom_top.v",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_gq/29/complete_soc/synthesis_files.f": "build/optimization/complete_soc/ffn_trb_4x32_pair_gq/synthesis_files.f"
+  },
+  "ffn_trb_4x32_pair_qm": {
+    "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/area.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/power.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/time.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/6/complete_soc/boot_count.svh": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/boot_count.svh",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/7/complete_soc/complete_soc_tb.sv": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/complete_soc_tb.sv",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/8/complete_soc/dtcm_wrapper.sv": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/dtcm_wrapper.sv",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/9/complete_soc/e203_subsys_main.v": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/e203_subsys_main.v",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/10/complete_soc/e203_subsys_perips.v": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/e203_subsys_perips.v",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/11/complete_soc/e203_subsys_top.v": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/e203_subsys_top.v",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/12/complete_soc/eda/area.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/area.tcl",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/13/complete_soc/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/map_activity.tcl",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/14/complete_soc/eda/power.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/power_observed_memory.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/power_observed_memory.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/pr1_assessment.tcl",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/17/complete_soc/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/threebank_power_groups.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/threebank_power_groups.tcl",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/19/complete_soc/eda/time.tcl": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/20/complete_soc/files.f": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/files.f",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/21/complete_soc/itcm_wrapper.sv": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/itcm_wrapper.sv",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/22/complete_soc/kwt_complete_soc.sv": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/kwt_complete_soc.sv",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/23/complete_soc/kwt_encoder_platform.sv": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/kwt_encoder_platform.sv",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/24/complete_soc/kwt_loading_dma_accelerator.sv": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/kwt_loading_dma_accelerator.sv",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/25/complete_soc/kwt_loading_dma_endpoint.svh": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/kwt_loading_dma_endpoint.svh",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/26/complete_soc/kwt_shared_dma_icb_sm40.sv": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/kwt_shared_dma_icb_sm40.sv",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/27/complete_soc/platform_instance.svh": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/platform_instance.svh",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/28/complete_soc/sirv_mrom_top.v": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/sirv_mrom_top.v",
+    "history/archived-integration-revisions/ffn_trb_4x32_pair_qm/29/complete_soc/synthesis_files.f": "build/optimization/complete_soc/ffn_trb_4x32_pair_qm/synthesis_files.f"
+  },
+  "ffn_trb_4x32_serial32": {
+    "build/optimization/complete_soc/ffn_trb_4x32_serial32/eda/area.tcl": "build/optimization/complete_soc/ffn_trb_4x32_serial32/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_serial32/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_trb_4x32_serial32/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_serial32/eda/power.tcl": "build/optimization/complete_soc/ffn_trb_4x32_serial32/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_serial32/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_trb_4x32_serial32/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_serial32/eda/time.tcl": "build/optimization/complete_soc/ffn_trb_4x32_serial32/eda/time.tcl"
+  },
+  "ffn_trb_4x32_shared_pair": {
+    "build/optimization/complete_soc/ffn_trb_4x32_shared_pair/eda/area.tcl": "build/optimization/complete_soc/ffn_trb_4x32_shared_pair/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_shared_pair/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_trb_4x32_shared_pair/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_shared_pair/eda/power.tcl": "build/optimization/complete_soc/ffn_trb_4x32_shared_pair/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_shared_pair/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_trb_4x32_shared_pair/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_trb_4x32_shared_pair/eda/time.tcl": "build/optimization/complete_soc/ffn_trb_4x32_shared_pair/eda/time.tcl"
+  },
+  "ffn_trb_k8": {
+    "build/optimization/complete_soc/ffn_trb_k8/eda/area.tcl": "build/optimization/complete_soc/ffn_trb_k8/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_trb_k8/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_trb_k8/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_trb_k8/eda/power.tcl": "build/optimization/complete_soc/ffn_trb_k8/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_trb_k8/eda/q8_leaf_power.tcl": "build/optimization/complete_soc/ffn_trb_k8/eda/q8_leaf_power.tcl",
+    "build/optimization/complete_soc/ffn_trb_k8/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_trb_k8/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_trb_k8/eda/time.tcl": "build/optimization/complete_soc/ffn_trb_k8/eda/time.tcl",
+    "build/optimization/complete_soc/ffn_trb_k8/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_trb_k8/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_trb_k8/gate_tb.sv": "build/optimization/complete_soc/ffn_trb_k8/gate_tb.sv"
+  },
+  "ffn_trb_sixteen": {
+    "build/optimization/complete_soc/ffn_trb_sixteen/eda/area.tcl": "build/optimization/complete_soc/ffn_trb_sixteen/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_trb_sixteen/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_trb_sixteen/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_trb_sixteen/eda/power.tcl": "build/optimization/complete_soc/ffn_trb_sixteen/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_trb_sixteen/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_trb_sixteen/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_trb_sixteen/eda/time.tcl": "build/optimization/complete_soc/ffn_trb_sixteen/eda/time.tcl",
+    "build/optimization/complete_soc/ffn_trb_sixteen/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_trb_sixteen/eda/pr1_assessment.tcl",
+    "history/archived-integration-revisions/ffn_trb_sixteen/7/complete_soc/kwt_shared_dma_icb_sm40.sv": "build/optimization/complete_soc/ffn_trb_sixteen/kwt_shared_dma_icb_sm40.sv"
+  },
+  "ffn_trb_sysbus32": {
+    "build/optimization/complete_soc/ffn_trb_sysbus32/eda/area.tcl": "build/optimization/complete_soc/ffn_trb_sysbus32/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_trb_sysbus32/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_trb_sysbus32/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_trb_sysbus32/eda/power.tcl": "build/optimization/complete_soc/ffn_trb_sysbus32/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_trb_sysbus32/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_trb_sysbus32/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_trb_sysbus32/eda/q8_leaf_power.tcl": "build/optimization/complete_soc/ffn_trb_sysbus32/eda/q8_leaf_power.tcl",
+    "build/optimization/complete_soc/ffn_trb_sysbus32/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_trb_sysbus32/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_trb_sysbus32/eda/time.tcl": "build/optimization/complete_soc/ffn_trb_sysbus32/eda/time.tcl"
+  },
+  "ffn_trb_threebank": {
+    "build/optimization/complete_soc/ffn_trb_threebank/eda/area.tcl": "build/optimization/complete_soc/ffn_trb_threebank/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_trb_threebank/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_trb_threebank/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_trb_threebank/eda/power.tcl": "build/optimization/complete_soc/ffn_trb_threebank/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_trb_threebank/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_trb_threebank/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_trb_threebank/eda/time.tcl": "build/optimization/complete_soc/ffn_trb_threebank/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_trb_threebank/6/complete_soc/boot_count.svh": "build/optimization/complete_soc/ffn_trb_threebank/boot_count.svh",
+    "history/archived-integration-revisions/ffn_trb_threebank/7/complete_soc/complete_soc_tb.sv": "build/optimization/complete_soc/ffn_trb_threebank/complete_soc_tb.sv",
+    "history/archived-integration-revisions/ffn_trb_threebank/8/complete_soc/dtcm_wrapper.sv": "build/optimization/complete_soc/ffn_trb_threebank/dtcm_wrapper.sv",
+    "history/archived-integration-revisions/ffn_trb_threebank/9/complete_soc/e203_subsys_main.v": "build/optimization/complete_soc/ffn_trb_threebank/e203_subsys_main.v",
+    "history/archived-integration-revisions/ffn_trb_threebank/10/complete_soc/e203_subsys_perips.v": "build/optimization/complete_soc/ffn_trb_threebank/e203_subsys_perips.v",
+    "history/archived-integration-revisions/ffn_trb_threebank/11/complete_soc/e203_subsys_top.v": "build/optimization/complete_soc/ffn_trb_threebank/e203_subsys_top.v",
+    "history/archived-integration-revisions/ffn_trb_threebank/12/complete_soc/eda/area.tcl": "build/optimization/complete_soc/ffn_trb_threebank/eda/area.tcl",
+    "history/archived-integration-revisions/ffn_trb_threebank/13/complete_soc/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_trb_threebank/eda/map_activity.tcl",
+    "history/archived-integration-revisions/ffn_trb_threebank/14/complete_soc/eda/power.tcl": "build/optimization/complete_soc/ffn_trb_threebank/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_trb_threebank/eda/power_observed_memory.tcl": "build/optimization/complete_soc/ffn_trb_threebank/eda/power_observed_memory.tcl",
+    "build/optimization/complete_soc/ffn_trb_threebank/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_trb_threebank/eda/pr1_assessment.tcl",
+    "history/archived-integration-revisions/ffn_trb_threebank/17/complete_soc/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_trb_threebank/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_trb_threebank/eda/threebank_power_groups.tcl": "build/optimization/complete_soc/ffn_trb_threebank/eda/threebank_power_groups.tcl",
+    "history/archived-integration-revisions/ffn_trb_threebank/19/complete_soc/eda/time.tcl": "build/optimization/complete_soc/ffn_trb_threebank/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_trb_threebank/20/complete_soc/files.f": "build/optimization/complete_soc/ffn_trb_threebank/files.f",
+    "build/optimization/complete_soc/ffn_trb_threebank/gate_tb.sv": "build/optimization/complete_soc/ffn_trb_threebank/gate_tb.sv",
+    "history/archived-integration-revisions/ffn_trb_threebank/22/complete_soc/itcm_wrapper.sv": "build/optimization/complete_soc/ffn_trb_threebank/itcm_wrapper.sv",
+    "history/archived-integration-revisions/ffn_trb_threebank/23/complete_soc/kwt_complete_soc.sv": "build/optimization/complete_soc/ffn_trb_threebank/kwt_complete_soc.sv",
+    "history/archived-integration-revisions/ffn_trb_threebank/24/complete_soc/kwt_encoder_platform.sv": "build/optimization/complete_soc/ffn_trb_threebank/kwt_encoder_platform.sv",
+    "history/archived-integration-revisions/ffn_trb_threebank/25/complete_soc/kwt_loading_dma_accelerator.sv": "build/optimization/complete_soc/ffn_trb_threebank/kwt_loading_dma_accelerator.sv",
+    "history/archived-integration-revisions/ffn_trb_threebank/26/complete_soc/kwt_loading_dma_endpoint.svh": "build/optimization/complete_soc/ffn_trb_threebank/kwt_loading_dma_endpoint.svh",
+    "history/archived-integration-revisions/ffn_trb_threebank/27/complete_soc/kwt_shared_dma_icb_sm40.sv": "build/optimization/complete_soc/ffn_trb_threebank/kwt_shared_dma_icb_sm40.sv",
+    "history/archived-integration-revisions/ffn_trb_threebank/28/complete_soc/platform_instance.svh": "build/optimization/complete_soc/ffn_trb_threebank/platform_instance.svh",
+    "history/archived-integration-revisions/ffn_trb_threebank/29/complete_soc/profile_tb.sv": "build/optimization/complete_soc/ffn_trb_threebank/profile_tb.sv",
+    "history/archived-integration-revisions/ffn_trb_threebank/30/complete_soc/sirv_mrom_top.v": "build/optimization/complete_soc/ffn_trb_threebank/sirv_mrom_top.v",
+    "history/archived-integration-revisions/ffn_trb_threebank/31/complete_soc/synthesis_files.f": "build/optimization/complete_soc/ffn_trb_threebank/synthesis_files.f"
+  },
+  "ffn_trb_w32": {
+    "build/optimization/complete_soc/ffn_trb_w32/eda/area.tcl": "build/optimization/complete_soc/ffn_trb_w32/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_trb_w32/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_trb_w32/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_trb_w32/eda/power.tcl": "build/optimization/complete_soc/ffn_trb_w32/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_trb_w32/eda/q8_leaf_power.tcl": "build/optimization/complete_soc/ffn_trb_w32/eda/q8_leaf_power.tcl",
+    "build/optimization/complete_soc/ffn_trb_w32/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_trb_w32/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_trb_w32/eda/time.tcl": "build/optimization/complete_soc/ffn_trb_w32/eda/time.tcl",
+    "build/optimization/complete_soc/ffn_trb_w32/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_trb_w32/eda/pr1_assessment.tcl"
+  },
+  "ffn_wen_C": {
+    "build/optimization/complete_soc/ffn_wen_C/eda/area.tcl": "build/optimization/complete_soc/ffn_wen_C/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_wen_C/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_wen_C/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_wen_C/eda/power.tcl": "build/optimization/complete_soc/ffn_wen_C/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_wen_C/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_wen_C/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_wen_C/eda/time.tcl": "build/optimization/complete_soc/ffn_wen_C/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_wen_C/6/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_wen_C/gate_tb.sv",
+    "history/archived-integration-revisions/ffn_wen_C/7/complete_soc/eda/power.tcl": "build/optimization/complete_soc/ffn_wen_C/eda/power.tcl"
+  },
+  "ffn_wen_SL": {
+    "build/optimization/complete_soc/ffn_wen_SL/eda/area.tcl": "build/optimization/complete_soc/ffn_wen_SL/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_wen_SL/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_wen_SL/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_wen_SL/eda/power.tcl": "build/optimization/complete_soc/ffn_wen_SL/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_wen_SL/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_wen_SL/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_wen_SL/eda/time.tcl": "build/optimization/complete_soc/ffn_wen_SL/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_wen_SL/6/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_wen_SL/gate_tb.sv",
+    "history/archived-integration-revisions/ffn_wen_SL/7/complete_soc/eda/power.tcl": "build/optimization/complete_soc/ffn_wen_SL/eda/power.tcl"
+  },
+  "ffn_wp_P2": {
+    "build/optimization/complete_soc/ffn_wp_P2/eda/area.tcl": "build/optimization/complete_soc/ffn_wp_P2/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_wp_P2/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_wp_P2/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_wp_P2/eda/power.tcl": "build/optimization/complete_soc/ffn_wp_P2/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_wp_P2/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_wp_P2/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_wp_P2/eda/q8_leaf_power.tcl": "build/optimization/complete_soc/ffn_wp_P2/eda/q8_leaf_power.tcl",
+    "build/optimization/complete_soc/ffn_wp_P2/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_wp_P2/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_wp_P2/eda/time.tcl": "build/optimization/complete_soc/ffn_wp_P2/eda/time.tcl"
+  },
+  "ffn_ap_C": {
+    "build/optimization/complete_soc/ffn_ap_C/eda/power.tcl": "build/optimization/complete_soc/ffn_ap_C/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_ap_C/eda/area.tcl": "build/optimization/complete_soc/ffn_ap_C/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_ap_C/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_ap_C/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_ap_C/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_ap_C/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_ap_C/eda/time.tcl": "build/optimization/complete_soc/ffn_ap_C/eda/time.tcl"
+  },
+  "ffn_ap_G": {
+    "build/optimization/complete_soc/ffn_ap_G/eda/power.tcl": "build/optimization/complete_soc/ffn_ap_G/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_ap_G/eda/area.tcl": "build/optimization/complete_soc/ffn_ap_G/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_ap_G/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_ap_G/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_ap_G/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_ap_G/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_ap_G/eda/time.tcl": "build/optimization/complete_soc/ffn_ap_G/eda/time.tcl"
+  },
+  "ffn_ap_R": {
+    "build/optimization/complete_soc/ffn_ap_R/eda/power.tcl": "build/optimization/complete_soc/ffn_ap_R/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_ap_R/eda/area.tcl": "build/optimization/complete_soc/ffn_ap_R/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_ap_R/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_ap_R/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_ap_R/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_ap_R/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_ap_R/eda/time.tcl": "build/optimization/complete_soc/ffn_ap_R/eda/time.tcl"
+  },
+  "ffn_sr_ah": {
+    "build/optimization/complete_soc/ffn_sr_ah/boot_count.svh": "build/optimization/complete_soc/ffn_sr_ah/boot_count.svh",
+    "build/optimization/complete_soc/ffn_sr_ah/complete_soc_tb.sv": "build/optimization/complete_soc/ffn_sr_ah/complete_soc_tb.sv",
+    "build/optimization/complete_soc/ffn_sr_ah/dtcm_wrapper.sv": "build/optimization/complete_soc/ffn_sr_ah/dtcm_wrapper.sv",
+    "build/optimization/complete_soc/ffn_sr_ah/e203_subsys_main.v": "build/optimization/complete_soc/ffn_sr_ah/e203_subsys_main.v",
+    "build/optimization/complete_soc/ffn_sr_ah/e203_subsys_perips.v": "build/optimization/complete_soc/ffn_sr_ah/e203_subsys_perips.v",
+    "build/optimization/complete_soc/ffn_sr_ah/e203_subsys_top.v": "build/optimization/complete_soc/ffn_sr_ah/e203_subsys_top.v",
+    "build/optimization/complete_soc/ffn_sr_ah/eda/ah_assess.tcl": "build/optimization/complete_soc/ffn_sr_ah/eda/ah_assess.tcl",
+    "build/optimization/complete_soc/ffn_sr_ah/eda/area.tcl": "build/optimization/complete_soc/ffn_sr_ah/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_sr_ah/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_sr_ah/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_sr_ah/eda/power.tcl": "build/optimization/complete_soc/ffn_sr_ah/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_sr_ah/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_sr_ah/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_sr_ah/eda/time.tcl": "build/optimization/complete_soc/ffn_sr_ah/eda/time.tcl",
+    "build/optimization/complete_soc/ffn_sr_ah/files.f": "build/optimization/complete_soc/ffn_sr_ah/files.f",
+    "build/optimization/complete_soc/ffn_sr_ah/itcm_wrapper.sv": "build/optimization/complete_soc/ffn_sr_ah/itcm_wrapper.sv",
+    "build/optimization/complete_soc/ffn_sr_ah/kwt_complete_soc.sv": "build/optimization/complete_soc/ffn_sr_ah/kwt_complete_soc.sv",
+    "build/optimization/complete_soc/ffn_sr_ah/kwt_encoder_platform.sv": "build/optimization/complete_soc/ffn_sr_ah/kwt_encoder_platform.sv",
+    "build/optimization/complete_soc/ffn_sr_ah/kwt_loading_dma_accelerator.sv": "build/optimization/complete_soc/ffn_sr_ah/kwt_loading_dma_accelerator.sv",
+    "build/optimization/complete_soc/ffn_sr_ah/kwt_loading_dma_endpoint.svh": "build/optimization/complete_soc/ffn_sr_ah/kwt_loading_dma_endpoint.svh",
+    "build/optimization/complete_soc/ffn_sr_ah/kwt_shared_dma_icb_sm40.sv": "build/optimization/complete_soc/ffn_sr_ah/kwt_shared_dma_icb_sm40.sv",
+    "build/optimization/complete_soc/ffn_sr_ah/platform_instance.svh": "build/optimization/complete_soc/ffn_sr_ah/platform_instance.svh",
+    "build/optimization/complete_soc/ffn_sr_ah/profile_tb.sv": "build/optimization/complete_soc/ffn_sr_ah/profile_tb.sv",
+    "build/optimization/complete_soc/ffn_sr_ah/sirv_mrom_top.v": "build/optimization/complete_soc/ffn_sr_ah/sirv_mrom_top.v",
+    "build/optimization/complete_soc/ffn_sr_ah/sram_probes.svh": "build/optimization/complete_soc/ffn_sr_ah/sram_probes.svh",
+    "build/optimization/complete_soc/ffn_sr_ah/synthesis_files.f": "build/optimization/complete_soc/ffn_sr_ah/synthesis_files.f",
+    "build/optimization/complete_soc/ffn_sr_ah/gate_tb.sv": "build/optimization/complete_soc/ffn_sr_ah/gate_tb.sv"
+  },
+  "ffn_sr_pr1": {
+    "build/optimization/complete_soc/ffn_sr_pr1/boot_count.svh": "build/optimization/complete_soc/ffn_sr_pr1/boot_count.svh",
+    "build/optimization/complete_soc/ffn_sr_pr1/complete_soc_tb.sv": "build/optimization/complete_soc/ffn_sr_pr1/complete_soc_tb.sv",
+    "build/optimization/complete_soc/ffn_sr_pr1/dtcm_wrapper.sv": "build/optimization/complete_soc/ffn_sr_pr1/dtcm_wrapper.sv",
+    "build/optimization/complete_soc/ffn_sr_pr1/e203_subsys_main.v": "build/optimization/complete_soc/ffn_sr_pr1/e203_subsys_main.v",
+    "build/optimization/complete_soc/ffn_sr_pr1/e203_subsys_perips.v": "build/optimization/complete_soc/ffn_sr_pr1/e203_subsys_perips.v",
+    "build/optimization/complete_soc/ffn_sr_pr1/e203_subsys_top.v": "build/optimization/complete_soc/ffn_sr_pr1/e203_subsys_top.v",
+    "build/optimization/complete_soc/ffn_sr_pr1/eda/area.tcl": "build/optimization/complete_soc/ffn_sr_pr1/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_sr_pr1/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_sr_pr1/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_sr_pr1/eda/power.tcl": "build/optimization/complete_soc/ffn_sr_pr1/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_sr_pr1/eda/pr1_assessment.tcl": "build/optimization/complete_soc/ffn_sr_pr1/eda/pr1_assessment.tcl",
+    "build/optimization/complete_soc/ffn_sr_pr1/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_sr_pr1/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_sr_pr1/eda/time.tcl": "build/optimization/complete_soc/ffn_sr_pr1/eda/time.tcl",
+    "build/optimization/complete_soc/ffn_sr_pr1/files.f": "build/optimization/complete_soc/ffn_sr_pr1/files.f",
+    "build/optimization/complete_soc/ffn_sr_pr1/itcm_wrapper.sv": "build/optimization/complete_soc/ffn_sr_pr1/itcm_wrapper.sv",
+    "build/optimization/complete_soc/ffn_sr_pr1/kwt_complete_soc.sv": "build/optimization/complete_soc/ffn_sr_pr1/kwt_complete_soc.sv",
+    "build/optimization/complete_soc/ffn_sr_pr1/kwt_encoder_platform.sv": "build/optimization/complete_soc/ffn_sr_pr1/kwt_encoder_platform.sv",
+    "build/optimization/complete_soc/ffn_sr_pr1/kwt_loading_dma_accelerator.sv": "build/optimization/complete_soc/ffn_sr_pr1/kwt_loading_dma_accelerator.sv",
+    "build/optimization/complete_soc/ffn_sr_pr1/kwt_loading_dma_endpoint.svh": "build/optimization/complete_soc/ffn_sr_pr1/kwt_loading_dma_endpoint.svh",
+    "build/optimization/complete_soc/ffn_sr_pr1/kwt_shared_dma_icb_sm40.sv": "build/optimization/complete_soc/ffn_sr_pr1/kwt_shared_dma_icb_sm40.sv",
+    "build/optimization/complete_soc/ffn_sr_pr1/platform_instance.svh": "build/optimization/complete_soc/ffn_sr_pr1/platform_instance.svh",
+    "build/optimization/complete_soc/ffn_sr_pr1/profile_tb.sv": "build/optimization/complete_soc/ffn_sr_pr1/profile_tb.sv",
+    "build/optimization/complete_soc/ffn_sr_pr1/sirv_mrom_top.v": "build/optimization/complete_soc/ffn_sr_pr1/sirv_mrom_top.v",
+    "build/optimization/complete_soc/ffn_sr_pr1/sram_probes.svh": "build/optimization/complete_soc/ffn_sr_pr1/sram_probes.svh",
+    "build/optimization/complete_soc/ffn_sr_pr1/synthesis_files.f": "build/optimization/complete_soc/ffn_sr_pr1/synthesis_files.f"
+  },
+  "ffn_sr_q4": {
+    "build/optimization/complete_soc/ffn_sr_q4/boot_count.svh": "build/optimization/complete_soc/ffn_sr_q4/boot_count.svh",
+    "build/optimization/complete_soc/ffn_sr_q4/complete_soc_tb.sv": "build/optimization/complete_soc/ffn_sr_q4/complete_soc_tb.sv",
+    "build/optimization/complete_soc/ffn_sr_q4/dtcm_wrapper.sv": "build/optimization/complete_soc/ffn_sr_q4/dtcm_wrapper.sv",
+    "build/optimization/complete_soc/ffn_sr_q4/e203_subsys_main.v": "build/optimization/complete_soc/ffn_sr_q4/e203_subsys_main.v",
+    "build/optimization/complete_soc/ffn_sr_q4/e203_subsys_perips.v": "build/optimization/complete_soc/ffn_sr_q4/e203_subsys_perips.v",
+    "build/optimization/complete_soc/ffn_sr_q4/e203_subsys_top.v": "build/optimization/complete_soc/ffn_sr_q4/e203_subsys_top.v",
+    "build/optimization/complete_soc/ffn_sr_q4/eda/ah_assess.tcl": "build/optimization/complete_soc/ffn_sr_q4/eda/ah_assess.tcl",
+    "build/optimization/complete_soc/ffn_sr_q4/eda/area.tcl": "build/optimization/complete_soc/ffn_sr_q4/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_sr_q4/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_sr_q4/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_sr_q4/eda/power.tcl": "build/optimization/complete_soc/ffn_sr_q4/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_sr_q4/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_sr_q4/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_sr_q4/eda/time.tcl": "build/optimization/complete_soc/ffn_sr_q4/eda/time.tcl",
+    "build/optimization/complete_soc/ffn_sr_q4/files.f": "build/optimization/complete_soc/ffn_sr_q4/files.f",
+    "build/optimization/complete_soc/ffn_sr_q4/itcm_wrapper.sv": "build/optimization/complete_soc/ffn_sr_q4/itcm_wrapper.sv",
+    "build/optimization/complete_soc/ffn_sr_q4/kwt_complete_soc.sv": "build/optimization/complete_soc/ffn_sr_q4/kwt_complete_soc.sv",
+    "build/optimization/complete_soc/ffn_sr_q4/kwt_encoder_platform.sv": "build/optimization/complete_soc/ffn_sr_q4/kwt_encoder_platform.sv",
+    "build/optimization/complete_soc/ffn_sr_q4/kwt_loading_dma_accelerator.sv": "build/optimization/complete_soc/ffn_sr_q4/kwt_loading_dma_accelerator.sv",
+    "build/optimization/complete_soc/ffn_sr_q4/kwt_loading_dma_endpoint.svh": "build/optimization/complete_soc/ffn_sr_q4/kwt_loading_dma_endpoint.svh",
+    "build/optimization/complete_soc/ffn_sr_q4/kwt_shared_dma_icb_sm40.sv": "build/optimization/complete_soc/ffn_sr_q4/kwt_shared_dma_icb_sm40.sv",
+    "build/optimization/complete_soc/ffn_sr_q4/platform_instance.svh": "build/optimization/complete_soc/ffn_sr_q4/platform_instance.svh",
+    "build/optimization/complete_soc/ffn_sr_q4/profile_tb.sv": "build/optimization/complete_soc/ffn_sr_q4/profile_tb.sv",
+    "build/optimization/complete_soc/ffn_sr_q4/sirv_mrom_top.v": "build/optimization/complete_soc/ffn_sr_q4/sirv_mrom_top.v",
+    "build/optimization/complete_soc/ffn_sr_q4/sram_probes.svh": "build/optimization/complete_soc/ffn_sr_q4/sram_probes.svh",
+    "build/optimization/complete_soc/ffn_sr_q4/synthesis_files.f": "build/optimization/complete_soc/ffn_sr_q4/synthesis_files.f"
+  },
+  "ffn_sr_rd": {
+    "build/optimization/complete_soc/ffn_sr_rd/boot_count.svh": "build/optimization/complete_soc/ffn_sr_rd/boot_count.svh",
+    "build/optimization/complete_soc/ffn_sr_rd/complete_soc_tb.sv": "build/optimization/complete_soc/ffn_sr_rd/complete_soc_tb.sv",
+    "build/optimization/complete_soc/ffn_sr_rd/dtcm_wrapper.sv": "build/optimization/complete_soc/ffn_sr_rd/dtcm_wrapper.sv",
+    "build/optimization/complete_soc/ffn_sr_rd/e203_subsys_main.v": "build/optimization/complete_soc/ffn_sr_rd/e203_subsys_main.v",
+    "build/optimization/complete_soc/ffn_sr_rd/e203_subsys_perips.v": "build/optimization/complete_soc/ffn_sr_rd/e203_subsys_perips.v",
+    "build/optimization/complete_soc/ffn_sr_rd/e203_subsys_top.v": "build/optimization/complete_soc/ffn_sr_rd/e203_subsys_top.v",
+    "build/optimization/complete_soc/ffn_sr_rd/eda/area.tcl": "build/optimization/complete_soc/ffn_sr_rd/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_sr_rd/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_sr_rd/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_sr_rd/eda/power.tcl": "build/optimization/complete_soc/ffn_sr_rd/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_sr_rd/eda/rd_assess.tcl": "build/optimization/complete_soc/ffn_sr_rd/eda/rd_assess.tcl",
+    "build/optimization/complete_soc/ffn_sr_rd/eda/rd_targeted.tcl": "build/optimization/complete_soc/ffn_sr_rd/eda/rd_targeted.tcl",
+    "build/optimization/complete_soc/ffn_sr_rd/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_sr_rd/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_sr_rd/eda/time.tcl": "build/optimization/complete_soc/ffn_sr_rd/eda/time.tcl",
+    "build/optimization/complete_soc/ffn_sr_rd/files.f": "build/optimization/complete_soc/ffn_sr_rd/files.f",
+    "build/optimization/complete_soc/ffn_sr_rd/itcm_wrapper.sv": "build/optimization/complete_soc/ffn_sr_rd/itcm_wrapper.sv",
+    "build/optimization/complete_soc/ffn_sr_rd/kwt_complete_soc.sv": "build/optimization/complete_soc/ffn_sr_rd/kwt_complete_soc.sv",
+    "build/optimization/complete_soc/ffn_sr_rd/kwt_encoder_platform.sv": "build/optimization/complete_soc/ffn_sr_rd/kwt_encoder_platform.sv",
+    "build/optimization/complete_soc/ffn_sr_rd/kwt_loading_dma_accelerator.sv": "build/optimization/complete_soc/ffn_sr_rd/kwt_loading_dma_accelerator.sv",
+    "build/optimization/complete_soc/ffn_sr_rd/kwt_loading_dma_endpoint.svh": "build/optimization/complete_soc/ffn_sr_rd/kwt_loading_dma_endpoint.svh",
+    "build/optimization/complete_soc/ffn_sr_rd/kwt_shared_dma_icb_sm40.sv": "build/optimization/complete_soc/ffn_sr_rd/kwt_shared_dma_icb_sm40.sv",
+    "build/optimization/complete_soc/ffn_sr_rd/platform_instance.svh": "build/optimization/complete_soc/ffn_sr_rd/platform_instance.svh",
+    "build/optimization/complete_soc/ffn_sr_rd/profile_tb.sv": "build/optimization/complete_soc/ffn_sr_rd/profile_tb.sv",
+    "build/optimization/complete_soc/ffn_sr_rd/sirv_mrom_top.v": "build/optimization/complete_soc/ffn_sr_rd/sirv_mrom_top.v",
+    "build/optimization/complete_soc/ffn_sr_rd/sram_probes.svh": "build/optimization/complete_soc/ffn_sr_rd/sram_probes.svh",
+    "build/optimization/complete_soc/ffn_sr_rd/synthesis_files.f": "build/optimization/complete_soc/ffn_sr_rd/synthesis_files.f"
+  },
+  "ffn_tp_BP": {
+    "history/archived-integration-revisions/ffn_tp_BP/1/complete_soc/kwt_loading_dma_accelerator.sv": "build/optimization/complete_soc/ffn_tp_BP/kwt_loading_dma_accelerator.sv",
+    "build/optimization/complete_soc/ffn_tp_BP/eda/area.tcl": "build/optimization/complete_soc/ffn_tp_BP/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tp_BP/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tp_BP/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tp_BP/eda/power.tcl": "build/optimization/complete_soc/ffn_tp_BP/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tp_BP/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tp_BP/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tp_BP/eda/time.tcl": "build/optimization/complete_soc/ffn_tp_BP/eda/time.tcl"
+  },
+  "ffn_tp_BP_E2": {
+    "history/archived-integration-revisions/ffn_tp_BP_E2/1/complete_soc/kwt_loading_dma_accelerator.sv": "build/optimization/complete_soc/ffn_tp_BP_E2/kwt_loading_dma_accelerator.sv",
+    "build/optimization/complete_soc/ffn_tp_BP_E2/eda/area.tcl": "build/optimization/complete_soc/ffn_tp_BP_E2/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tp_BP_E2/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tp_BP_E2/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tp_BP_E2/eda/power.tcl": "build/optimization/complete_soc/ffn_tp_BP_E2/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tp_BP_E2/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tp_BP_E2/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tp_BP_E2/eda/time.tcl": "build/optimization/complete_soc/ffn_tp_BP_E2/eda/time.tcl"
+  },
+  "ffn_tp_E2": {
+    "history/archived-integration-revisions/ffn_tp_E2/1/complete_soc/kwt_loading_dma_accelerator.sv": "build/optimization/complete_soc/ffn_tp_E2/kwt_loading_dma_accelerator.sv",
+    "build/optimization/complete_soc/ffn_tp_E2/eda/area.tcl": "build/optimization/complete_soc/ffn_tp_E2/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tp_E2/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tp_E2/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tp_E2/eda/power.tcl": "build/optimization/complete_soc/ffn_tp_E2/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tp_E2/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tp_E2/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tp_E2/eda/time.tcl": "build/optimization/complete_soc/ffn_tp_E2/eda/time.tcl"
+  },
+  "ffn_tp_IH": {
+    "history/archived-integration-revisions/ffn_tp_IH/1/complete_soc/kwt_loading_dma_accelerator.sv": "build/optimization/complete_soc/ffn_tp_IH/kwt_loading_dma_accelerator.sv",
+    "build/optimization/complete_soc/ffn_tp_IH/eda/area.tcl": "build/optimization/complete_soc/ffn_tp_IH/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tp_IH/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tp_IH/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tp_IH/eda/power.tcl": "build/optimization/complete_soc/ffn_tp_IH/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tp_IH/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tp_IH/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tp_IH/eda/time.tcl": "build/optimization/complete_soc/ffn_tp_IH/eda/time.tcl"
+  },
+  "ffn_tr_A": {
+    "build/optimization/complete_soc/ffn_tr_A/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_A/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_A/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_A/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_A/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_A/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_A/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_A/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_A/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_A/eda/time.tcl"
+  },
+  "ffn_tr_A_asm4_asm4": {
+    "build/optimization/complete_soc/ffn_tr_A_asm4_asm4/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_asm4/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_asm4_asm4/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_asm4/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_asm4_asm4/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_asm4/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_asm4_asm4/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_asm4/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_asm4_asm4/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_asm4/eda/time.tcl"
+  },
+  "ffn_tr_A_asm4_c16": {
+    "build/optimization/complete_soc/ffn_tr_A_asm4_c16/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_c16/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_asm4_c16/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_c16/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_asm4_c16/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_c16/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_asm4_c16/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_c16/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_asm4_c16/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_c16/eda/time.tcl"
+  },
+  "ffn_tr_A_asm4_c4": {
+    "build/optimization/complete_soc/ffn_tr_A_asm4_c4/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_c4/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_asm4_c4/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_c4/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_asm4_c4/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_c4/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_asm4_c4/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_c4/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_asm4_c4/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_c4/eda/time.tcl"
+  },
+  "ffn_tr_A_asm4_c8": {
+    "build/optimization/complete_soc/ffn_tr_A_asm4_c8/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_c8/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_asm4_c8/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_c8/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_asm4_c8/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_c8/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_asm4_c8/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_c8/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_asm4_c8/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_A_asm4_c8/eda/time.tcl"
+  },
+  "ffn_tr_A_c16_asm4": {
+    "build/optimization/complete_soc/ffn_tr_A_c16_asm4/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_asm4/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c16_asm4/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_asm4/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c16_asm4/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_asm4/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c16_asm4/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_asm4/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c16_asm4/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_asm4/eda/time.tcl"
+  },
+  "ffn_tr_A_c16_c16": {
+    "build/optimization/complete_soc/ffn_tr_A_c16_c16/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_c16/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c16_c16/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_c16/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c16_c16/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_c16/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c16_c16/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_c16/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c16_c16/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_c16/eda/time.tcl"
+  },
+  "ffn_tr_A_c16_c4": {
+    "build/optimization/complete_soc/ffn_tr_A_c16_c4/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_c4/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c16_c4/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_c4/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c16_c4/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_c4/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c16_c4/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_c4/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c16_c4/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_c4/eda/time.tcl"
+  },
+  "ffn_tr_A_c16_c8": {
+    "build/optimization/complete_soc/ffn_tr_A_c16_c8/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_c8/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c16_c8/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_c8/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c16_c8/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_c8/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c16_c8/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_c8/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c16_c8/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_A_c16_c8/eda/time.tcl"
+  },
+  "ffn_tr_A_c4_asm4": {
+    "build/optimization/complete_soc/ffn_tr_A_c4_asm4/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_A_c4_asm4/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c4_asm4/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_A_c4_asm4/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c4_asm4/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_A_c4_asm4/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c4_asm4/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_A_c4_asm4/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c4_asm4/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_A_c4_asm4/eda/time.tcl"
+  },
+  "ffn_tr_A_c4_c16": {
+    "build/optimization/complete_soc/ffn_tr_A_c4_c16/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_A_c4_c16/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c4_c16/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_A_c4_c16/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c4_c16/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_A_c4_c16/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c4_c16/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_A_c4_c16/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c4_c16/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_A_c4_c16/eda/time.tcl"
+  },
+  "ffn_tr_A_c4_c8": {
+    "build/optimization/complete_soc/ffn_tr_A_c4_c8/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_A_c4_c8/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c4_c8/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_A_c4_c8/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c4_c8/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_A_c4_c8/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c4_c8/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_A_c4_c8/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c4_c8/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_A_c4_c8/eda/time.tcl"
+  },
+  "ffn_tr_A_c8_asm4": {
+    "build/optimization/complete_soc/ffn_tr_A_c8_asm4/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_asm4/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c8_asm4/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_asm4/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c8_asm4/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_asm4/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c8_asm4/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_asm4/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c8_asm4/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_asm4/eda/time.tcl"
+  },
+  "ffn_tr_A_c8_c16": {
+    "build/optimization/complete_soc/ffn_tr_A_c8_c16/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_c16/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c8_c16/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_c16/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c8_c16/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_c16/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c8_c16/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_c16/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c8_c16/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_c16/eda/time.tcl"
+  },
+  "ffn_tr_A_c8_c4": {
+    "build/optimization/complete_soc/ffn_tr_A_c8_c4/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_c4/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c8_c4/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_c4/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c8_c4/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_c4/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c8_c4/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_c4/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c8_c4/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_c4/eda/time.tcl"
+  },
+  "ffn_tr_A_c8_c8": {
+    "build/optimization/complete_soc/ffn_tr_A_c8_c8/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_c8/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c8_c8/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_c8/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c8_c8/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_c8/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c8_c8/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_c8/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_A_c8_c8/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_A_c8_c8/eda/time.tcl"
+  },
+  "ffn_tr_CROSS_A_c4_c8": {
+    "build/optimization/complete_soc/ffn_tr_CROSS_A_c4_c8/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_CROSS_A_c4_c8/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_CROSS_A_c4_c8/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_CROSS_A_c4_c8/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_CROSS_A_c4_c8/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_CROSS_A_c4_c8/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_CROSS_A_c4_c8/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_CROSS_A_c4_c8/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_CROSS_A_c4_c8/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_CROSS_A_c4_c8/eda/time.tcl"
+  },
+  "ffn_tr_FIFO64": {
+    "build/optimization/complete_soc/ffn_tr_FIFO64/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_FIFO64/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_FIFO64/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_FIFO64/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_FIFO64/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_FIFO64/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_FIFO64/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_FIFO64/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_FIFO64/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_FIFO64/eda/time.tcl"
+  },
+  "ffn_tr_HW_FQ": {
+    "build/optimization/complete_soc/ffn_tr_HW_FQ/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_HW_FQ/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_FQ/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_HW_FQ/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_FQ/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_HW_FQ/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_FQ/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_HW_FQ/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_FQ/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_HW_FQ/eda/time.tcl"
+  },
+  "ffn_tr_HW_FSQ": {
+    "build/optimization/complete_soc/ffn_tr_HW_FSQ/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_HW_FSQ/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_FSQ/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_HW_FSQ/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_FSQ/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_HW_FSQ/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_FSQ/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_HW_FSQ/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_FSQ/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_HW_FSQ/eda/time.tcl"
+  },
+  "ffn_tr_HW_FS": {
+    "build/optimization/complete_soc/ffn_tr_HW_FS/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_HW_FS/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_FS/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_HW_FS/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_FS/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_HW_FS/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_FS/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_HW_FS/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_FS/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_HW_FS/eda/time.tcl"
+  },
+  "ffn_tr_HW_F": {
+    "build/optimization/complete_soc/ffn_tr_HW_F/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_HW_F/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_F/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_HW_F/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_F/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_HW_F/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_F/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_HW_F/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_F/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_HW_F/eda/time.tcl"
+  },
+  "ffn_tr_HW_F_G": {
+    "build/optimization/complete_soc/ffn_tr_HW_F_G/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_HW_F_G/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_F_G/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_HW_F_G/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_F_G/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_HW_F_G/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_F_G/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_HW_F_G/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_F_G/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_HW_F_G/eda/time.tcl"
+  },
+  "ffn_tr_HW_G": {
+    "build/optimization/complete_soc/ffn_tr_HW_G/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_HW_G/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_G/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_HW_G/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_G/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_HW_G/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_G/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_HW_G/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_G/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_HW_G/eda/time.tcl"
+  },
+  "ffn_tr_HW_HFQ": {
+    "build/optimization/complete_soc/ffn_tr_HW_HFQ/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_HW_HFQ/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HFQ/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_HW_HFQ/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HFQ/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_HW_HFQ/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HFQ/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_HW_HFQ/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HFQ/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_HW_HFQ/eda/time.tcl"
+  },
+  "ffn_tr_HW_HFSQ": {
+    "build/optimization/complete_soc/ffn_tr_HW_HFSQ/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_HW_HFSQ/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HFSQ/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_HW_HFSQ/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HFSQ/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_HW_HFSQ/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HFSQ/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_HW_HFSQ/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HFSQ/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_HW_HFSQ/eda/time.tcl"
+  },
+  "ffn_tr_HW_HFS": {
+    "build/optimization/complete_soc/ffn_tr_HW_HFS/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_HW_HFS/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HFS/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_HW_HFS/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HFS/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_HW_HFS/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HFS/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_HW_HFS/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HFS/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_HW_HFS/eda/time.tcl"
+  },
+  "ffn_tr_HW_HF": {
+    "build/optimization/complete_soc/ffn_tr_HW_HF/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_HW_HF/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HF/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_HW_HF/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HF/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_HW_HF/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HF/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_HW_HF/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HF/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_HW_HF/eda/time.tcl"
+  },
+  "ffn_tr_HW_HQ": {
+    "build/optimization/complete_soc/ffn_tr_HW_HQ/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_HW_HQ/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HQ/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_HW_HQ/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HQ/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_HW_HQ/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HQ/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_HW_HQ/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HQ/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_HW_HQ/eda/time.tcl"
+  },
+  "ffn_tr_HW_HSQ": {
+    "build/optimization/complete_soc/ffn_tr_HW_HSQ/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_HW_HSQ/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HSQ/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_HW_HSQ/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HSQ/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_HW_HSQ/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HSQ/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_HW_HSQ/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HSQ/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_HW_HSQ/eda/time.tcl"
+  },
+  "ffn_tr_HW_HS": {
+    "build/optimization/complete_soc/ffn_tr_HW_HS/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_HW_HS/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HS/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_HW_HS/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HS/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_HW_HS/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HS/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_HW_HS/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_HS/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_HW_HS/eda/time.tcl"
+  },
+  "ffn_tr_HW_H": {
+    "build/optimization/complete_soc/ffn_tr_HW_H/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_HW_H/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_H/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_HW_H/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_H/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_HW_H/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_H/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_HW_H/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_H/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_HW_H/eda/time.tcl"
+  },
+  "ffn_tr_HW_Q": {
+    "build/optimization/complete_soc/ffn_tr_HW_Q/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_HW_Q/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_Q/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_HW_Q/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_Q/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_HW_Q/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_Q/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_HW_Q/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_Q/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_HW_Q/eda/time.tcl"
+  },
+  "ffn_tr_HW_SQ": {
+    "build/optimization/complete_soc/ffn_tr_HW_SQ/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_HW_SQ/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_SQ/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_HW_SQ/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_SQ/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_HW_SQ/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_SQ/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_HW_SQ/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_SQ/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_HW_SQ/eda/time.tcl"
+  },
+  "ffn_tr_HW_S": {
+    "build/optimization/complete_soc/ffn_tr_HW_S/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_HW_S/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_S/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_HW_S/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_S/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_HW_S/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_S/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_HW_S/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_HW_S/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_HW_S/eda/time.tcl"
+  },
+  "ffn_tr_L16": {
+    "build/optimization/complete_soc/ffn_tr_L16/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_L16/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_L16/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_L16/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_L16/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_L16/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_L16/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_L16/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_L16/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_L16/eda/time.tcl"
+  },
+  "ffn_tr_L8": {
+    "build/optimization/complete_soc/ffn_tr_L8/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_L8/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_L8/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_L8/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_L8/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_L8/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_L8/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_L8/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_L8/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_L8/eda/time.tcl"
+  },
+  "ffn_tr_O16": {
+    "build/optimization/complete_soc/ffn_tr_O16/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_O16/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_O16/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_O16/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_O16/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_O16/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_O16/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_O16/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_O16/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_O16/eda/time.tcl"
+  },
+  "ffn_tr_O8": {
+    "build/optimization/complete_soc/ffn_tr_O8/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_O8/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_O8/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_O8/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_O8/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_O8/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_O8/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_O8/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_O8/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_O8/eda/time.tcl"
+  },
+  "ffn_tr_V0": {
+    "build/optimization/complete_soc/ffn_tr_V0/eda/area.tcl": "build/optimization/complete_soc/ffn_tr_V0/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tr_V0/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tr_V0/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tr_V0/eda/power.tcl": "build/optimization/complete_soc/ffn_tr_V0/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tr_V0/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tr_V0/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tr_V0/eda/time.tcl": "build/optimization/complete_soc/ffn_tr_V0/eda/time.tcl"
+  },
+  "ffn_cg_B_O2_LTO": {
+    "build/optimization/complete_soc/ffn_cg_B_O2_LTO/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_B_O2_LTO/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_O2_LTO/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_B_O2_LTO/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_O2_LTO/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_B_O2_LTO/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_O2_LTO/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_B_O2_LTO/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_O2_LTO/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_B_O2_LTO/eda/time.tcl"
+  },
+  "ffn_cg_B_O3": {
+    "build/optimization/complete_soc/ffn_cg_B_O3/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_B_O3/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_O3/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_B_O3/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_O3/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_B_O3/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_O3/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_B_O3/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_O3/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_B_O3/eda/time.tcl"
+  },
+  "ffn_cg_B_O3_LTO": {
+    "build/optimization/complete_soc/ffn_cg_B_O3_LTO/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_B_O3_LTO/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_O3_LTO/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_B_O3_LTO/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_O3_LTO/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_B_O3_LTO/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_O3_LTO/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_B_O3_LTO/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_O3_LTO/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_B_O3_LTO/eda/time.tcl"
+  },
+  "ffn_cg_B_Os": {
+    "build/optimization/complete_soc/ffn_cg_B_Os/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_B_Os/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_Os/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_B_Os/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_Os/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_B_Os/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_Os/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_B_Os/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_Os/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_B_Os/eda/time.tcl"
+  },
+  "ffn_cg_B_Os_LTO": {
+    "build/optimization/complete_soc/ffn_cg_B_Os_LTO/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_B_Os_LTO/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_Os_LTO/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_B_Os_LTO/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_Os_LTO/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_B_Os_LTO/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_Os_LTO/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_B_Os_LTO/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_B_Os_LTO/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_B_Os_LTO/eda/time.tcl"
+  },
+  "ffn_cg_CROSS_B_TO_W": {
+    "build/optimization/complete_soc/ffn_cg_CROSS_B_TO_W/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_CROSS_B_TO_W/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_CROSS_B_TO_W/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_CROSS_B_TO_W/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_CROSS_B_TO_W/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_CROSS_B_TO_W/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_CROSS_B_TO_W/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_CROSS_B_TO_W/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_CROSS_B_TO_W/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_CROSS_B_TO_W/eda/time.tcl"
+  },
+  "ffn_cg_CROSS_W_TO_B": {
+    "build/optimization/complete_soc/ffn_cg_CROSS_W_TO_B/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_CROSS_W_TO_B/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_CROSS_W_TO_B/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_CROSS_W_TO_B/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_CROSS_W_TO_B/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_CROSS_W_TO_B/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_CROSS_W_TO_B/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_CROSS_W_TO_B/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_CROSS_W_TO_B/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_CROSS_W_TO_B/eda/time.tcl"
+  },
+  "ffn_cg_D18": {
+    "build/optimization/complete_soc/ffn_cg_D18/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_D18/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_D18/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_D18/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_D18/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_D18/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_D18/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_D18/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_D18/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_D18/eda/time.tcl"
+  },
+  "ffn_cg_E": {
+    "build/optimization/complete_soc/ffn_cg_E/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_E/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_E/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_E/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_E/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_E/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_E/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_E/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_E/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_E/eda/time.tcl"
+  },
+  "ffn_cg_MD18": {
+    "build/optimization/complete_soc/ffn_cg_MD18/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_MD18/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_MD18/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_MD18/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_MD18/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_MD18/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_MD18/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_MD18/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_MD18/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_MD18/eda/time.tcl"
+  },
+  "ffn_cg_M": {
+    "build/optimization/complete_soc/ffn_cg_M/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_M/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_M/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_M/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_M/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_M/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_M/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_M/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_M/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_M/eda/time.tcl"
+  },
+  "ffn_cg_PE": {
+    "build/optimization/complete_soc/ffn_cg_PE/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_PE/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_PE/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_PE/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_PE/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_PE/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_PE/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_PE/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_PE/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_PE/eda/time.tcl"
+  },
+  "ffn_cg_P": {
+    "build/optimization/complete_soc/ffn_cg_P/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_P/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_P/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_P/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_P/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_P/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_P/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_P/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_P/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_P/eda/time.tcl"
+  },
+  "ffn_cg_U": {
+    "build/optimization/complete_soc/ffn_cg_U/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_U/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_U/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_U/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_U/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_U/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_U/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_U/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_U/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_U/eda/time.tcl"
+  },
+  "ffn_cg_W_GC_O2": {
+    "build/optimization/complete_soc/ffn_cg_W_GC_O2/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_W_GC_O2/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_GC_O2/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_W_GC_O2/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_GC_O2/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_W_GC_O2/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_GC_O2/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_W_GC_O2/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_GC_O2/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_W_GC_O2/eda/time.tcl"
+  },
+  "ffn_cg_W_O2_LTO": {
+    "build/optimization/complete_soc/ffn_cg_W_O2_LTO/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_W_O2_LTO/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_O2_LTO/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_W_O2_LTO/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_O2_LTO/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_W_O2_LTO/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_O2_LTO/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_W_O2_LTO/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_O2_LTO/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_W_O2_LTO/eda/time.tcl"
+  },
+  "ffn_cg_W_O3": {
+    "build/optimization/complete_soc/ffn_cg_W_O3/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_W_O3/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_O3/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_W_O3/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_O3/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_W_O3/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_O3/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_W_O3/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_O3/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_W_O3/eda/time.tcl"
+  },
+  "ffn_cg_W_O3_LTO": {
+    "build/optimization/complete_soc/ffn_cg_W_O3_LTO/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_W_O3_LTO/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_O3_LTO/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_W_O3_LTO/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_O3_LTO/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_W_O3_LTO/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_O3_LTO/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_W_O3_LTO/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_O3_LTO/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_W_O3_LTO/eda/time.tcl"
+  },
+  "ffn_cg_W_Os": {
+    "build/optimization/complete_soc/ffn_cg_W_Os/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_W_Os/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_Os/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_W_Os/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_Os/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_W_Os/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_Os/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_W_Os/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_Os/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_W_Os/eda/time.tcl"
+  },
+  "ffn_cg_W_Os_LTO": {
+    "build/optimization/complete_soc/ffn_cg_W_Os_LTO/eda/area.tcl": "build/optimization/complete_soc/ffn_cg_W_Os_LTO/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_Os_LTO/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_cg_W_Os_LTO/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_Os_LTO/eda/power.tcl": "build/optimization/complete_soc/ffn_cg_W_Os_LTO/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_Os_LTO/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_cg_W_Os_LTO/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_cg_W_Os_LTO/eda/time.tcl": "build/optimization/complete_soc/ffn_cg_W_Os_LTO/eda/time.tcl"
+  },
+  "ffn_ld_D1": {
+    "build/optimization/complete_soc/ffn_ld_D1/eda/area.tcl": "build/optimization/complete_soc/ffn_ld_D1/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_ld_D1/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_ld_D1/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_ld_D1/eda/power.tcl": "build/optimization/complete_soc/ffn_ld_D1/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_ld_D1/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_ld_D1/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_ld_D1/eda/time.tcl": "build/optimization/complete_soc/ffn_ld_D1/eda/time.tcl"
+  },
+  "ffn_ld_D2": {
+    "build/optimization/complete_soc/ffn_ld_D2/eda/area.tcl": "build/optimization/complete_soc/ffn_ld_D2/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_ld_D2/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_ld_D2/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_ld_D2/eda/power.tcl": "build/optimization/complete_soc/ffn_ld_D2/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_ld_D2/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_ld_D2/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_ld_D2/eda/time.tcl": "build/optimization/complete_soc/ffn_ld_D2/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_ld_D2/6/complete_soc/gate_tb.sv": "build/optimization/complete_soc/ffn_ld_D2/gate_tb.sv"
+  },
+  "ffn_ld_L1": {
+    "build/optimization/complete_soc/ffn_ld_L1/eda/area.tcl": "build/optimization/complete_soc/ffn_ld_L1/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_ld_L1/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_ld_L1/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_ld_L1/eda/power.tcl": "build/optimization/complete_soc/ffn_ld_L1/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_ld_L1/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_ld_L1/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_ld_L1/eda/time.tcl": "build/optimization/complete_soc/ffn_ld_L1/eda/time.tcl"
+  },
+  "ffn_ld_L2": {
+    "build/optimization/complete_soc/ffn_ld_L2/eda/area.tcl": "build/optimization/complete_soc/ffn_ld_L2/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_ld_L2/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_ld_L2/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_ld_L2/eda/power.tcl": "build/optimization/complete_soc/ffn_ld_L2/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_ld_L2/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_ld_L2/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_ld_L2/eda/time.tcl": "build/optimization/complete_soc/ffn_ld_L2/eda/time.tcl"
+  },
+  "ffn_ld_T_D1": {
+    "build/optimization/complete_soc/ffn_ld_T_D1/eda/area.tcl": "build/optimization/complete_soc/ffn_ld_T_D1/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_ld_T_D1/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_ld_T_D1/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_ld_T_D1/eda/power.tcl": "build/optimization/complete_soc/ffn_ld_T_D1/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_ld_T_D1/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_ld_T_D1/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_ld_T_D1/eda/time.tcl": "build/optimization/complete_soc/ffn_ld_T_D1/eda/time.tcl"
+  },
+  "ffn_ld_T_D2": {
+    "build/optimization/complete_soc/ffn_ld_T_D2/eda/area.tcl": "build/optimization/complete_soc/ffn_ld_T_D2/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_ld_T_D2/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_ld_T_D2/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_ld_T_D2/eda/power.tcl": "build/optimization/complete_soc/ffn_ld_T_D2/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_ld_T_D2/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_ld_T_D2/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_ld_T_D2/eda/time.tcl": "build/optimization/complete_soc/ffn_ld_T_D2/eda/time.tcl"
+  },
+  "ffn_pd_AREG": {
+    "build/optimization/complete_soc/ffn_pd_AREG/eda/area.tcl": "build/optimization/complete_soc/ffn_pd_AREG/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_pd_AREG/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_pd_AREG/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_pd_AREG/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_AREG/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_pd_AREG/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_pd_AREG/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_pd_AREG/eda/time.tcl": "build/optimization/complete_soc/ffn_pd_AREG/eda/time.tcl"
+  },
+  "ffn_pd_AREG_PM": {
+    "build/optimization/complete_soc/ffn_pd_AREG_PM/eda/area.tcl": "build/optimization/complete_soc/ffn_pd_AREG_PM/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_pd_AREG_PM/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_pd_AREG_PM/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_pd_AREG_PM/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_AREG_PM/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_pd_AREG_PM/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_pd_AREG_PM/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_pd_AREG_PM/eda/time.tcl": "build/optimization/complete_soc/ffn_pd_AREG_PM/eda/time.tcl"
+  },
+  "ffn_pd_CROSS_LAYOUT": {
+    "build/optimization/complete_soc/ffn_pd_CROSS_LAYOUT/eda/area.tcl": "build/optimization/complete_soc/ffn_pd_CROSS_LAYOUT/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_pd_CROSS_LAYOUT/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_pd_CROSS_LAYOUT/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_pd_CROSS_LAYOUT/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_CROSS_LAYOUT/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_pd_CROSS_LAYOUT/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_pd_CROSS_LAYOUT/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_pd_CROSS_LAYOUT/eda/time.tcl": "build/optimization/complete_soc/ffn_pd_CROSS_LAYOUT/eda/time.tcl"
+  },
+  "ffn_pd_DHAND_IN": {
+    "build/optimization/complete_soc/ffn_pd_DHAND_IN/eda/area.tcl": "build/optimization/complete_soc/ffn_pd_DHAND_IN/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_pd_DHAND_IN/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_pd_DHAND_IN/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_pd_DHAND_IN/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_DHAND_IN/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_pd_DHAND_IN/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_pd_DHAND_IN/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_pd_DHAND_IN/eda/time.tcl": "build/optimization/complete_soc/ffn_pd_DHAND_IN/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_pd_DHAND_IN/6/complete_soc/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_DHAND_IN/eda/power.tcl"
+  },
+  "ffn_pd_DHAND_OUT": {
+    "build/optimization/complete_soc/ffn_pd_DHAND_OUT/eda/area.tcl": "build/optimization/complete_soc/ffn_pd_DHAND_OUT/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_pd_DHAND_OUT/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_pd_DHAND_OUT/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_pd_DHAND_OUT/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_DHAND_OUT/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_pd_DHAND_OUT/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_pd_DHAND_OUT/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_pd_DHAND_OUT/eda/time.tcl": "build/optimization/complete_soc/ffn_pd_DHAND_OUT/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_pd_DHAND_OUT/6/complete_soc/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_DHAND_OUT/eda/power.tcl"
+  },
+  "ffn_pd_DPIPE_DHAND_IN": {
+    "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_IN/eda/area.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_IN/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_IN/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_IN/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_IN/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_IN/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_IN/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_IN/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_IN/eda/time.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_IN/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_pd_DPIPE_DHAND_IN/6/complete_soc/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_IN/eda/power.tcl"
+  },
+  "ffn_pd_DPIPE_DHAND_OUT": {
+    "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_OUT/eda/area.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_OUT/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_OUT/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_OUT/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_OUT/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_OUT/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_OUT/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_OUT/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_OUT/eda/time.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_DHAND_OUT/eda/time.tcl"
+  },
+  "ffn_pd_DPIPE_FLOOK_IN": {
+    "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_IN/eda/area.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_IN/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_IN/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_IN/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_IN/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_IN/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_IN/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_IN/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_IN/eda/time.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_IN/eda/time.tcl"
+  },
+  "ffn_pd_DPIPE_FLOOK_OUT": {
+    "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_OUT/eda/area.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_OUT/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_OUT/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_OUT/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_OUT/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_OUT/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_OUT/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_OUT/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_OUT/eda/time.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_FLOOK_OUT/eda/time.tcl"
+  },
+  "ffn_pd_DPIPE_IN": {
+    "build/optimization/complete_soc/ffn_pd_DPIPE_IN/eda/area.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_IN/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_IN/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_IN/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_IN/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_IN/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_IN/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_IN/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_IN/eda/time.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_IN/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_pd_DPIPE_IN/6/complete_soc/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_IN/eda/power.tcl"
+  },
+  "ffn_pd_DPIPE_OUT": {
+    "build/optimization/complete_soc/ffn_pd_DPIPE_OUT/eda/area.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_OUT/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_OUT/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_OUT/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_OUT/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_OUT/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_OUT/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_OUT/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_pd_DPIPE_OUT/eda/time.tcl": "build/optimization/complete_soc/ffn_pd_DPIPE_OUT/eda/time.tcl"
+  },
+  "ffn_pd_FLOOK_IN": {
+    "build/optimization/complete_soc/ffn_pd_FLOOK_IN/eda/area.tcl": "build/optimization/complete_soc/ffn_pd_FLOOK_IN/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_pd_FLOOK_IN/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_pd_FLOOK_IN/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_pd_FLOOK_IN/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_FLOOK_IN/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_pd_FLOOK_IN/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_pd_FLOOK_IN/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_pd_FLOOK_IN/eda/time.tcl": "build/optimization/complete_soc/ffn_pd_FLOOK_IN/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_pd_FLOOK_IN/6/complete_soc/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_FLOOK_IN/eda/power.tcl"
+  },
+  "ffn_pd_FLOOK_OUT": {
+    "build/optimization/complete_soc/ffn_pd_FLOOK_OUT/eda/area.tcl": "build/optimization/complete_soc/ffn_pd_FLOOK_OUT/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_pd_FLOOK_OUT/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_pd_FLOOK_OUT/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_pd_FLOOK_OUT/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_FLOOK_OUT/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_pd_FLOOK_OUT/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_pd_FLOOK_OUT/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_pd_FLOOK_OUT/eda/time.tcl": "build/optimization/complete_soc/ffn_pd_FLOOK_OUT/eda/time.tcl",
+    "history/archived-integration-revisions/ffn_pd_FLOOK_OUT/6/complete_soc/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_FLOOK_OUT/eda/power.tcl"
+  },
+  "ffn_pd_OBS_D0": {
+    "build/optimization/complete_soc/ffn_pd_OBS_D0/eda/area.tcl": "build/optimization/complete_soc/ffn_pd_OBS_D0/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_pd_OBS_D0/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_pd_OBS_D0/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_pd_OBS_D0/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_OBS_D0/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_pd_OBS_D0/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_pd_OBS_D0/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_pd_OBS_D0/eda/time.tcl": "build/optimization/complete_soc/ffn_pd_OBS_D0/eda/time.tcl"
+  },
+  "ffn_pd_OBS_D1": {
+    "build/optimization/complete_soc/ffn_pd_OBS_D1/eda/area.tcl": "build/optimization/complete_soc/ffn_pd_OBS_D1/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_pd_OBS_D1/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_pd_OBS_D1/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_pd_OBS_D1/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_OBS_D1/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_pd_OBS_D1/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_pd_OBS_D1/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_pd_OBS_D1/eda/time.tcl": "build/optimization/complete_soc/ffn_pd_OBS_D1/eda/time.tcl"
+  },
+  "ffn_pd_PM": {
+    "build/optimization/complete_soc/ffn_pd_PM/eda/area.tcl": "build/optimization/complete_soc/ffn_pd_PM/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_pd_PM/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_pd_PM/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_pd_PM/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_PM/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_pd_PM/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_pd_PM/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_pd_PM/eda/time.tcl": "build/optimization/complete_soc/ffn_pd_PM/eda/time.tcl"
+  },
+  "ffn_pd_QD4": {
+    "build/optimization/complete_soc/ffn_pd_QD4/eda/area.tcl": "build/optimization/complete_soc/ffn_pd_QD4/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_pd_QD4/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_pd_QD4/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_pd_QD4/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_QD4/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_pd_QD4/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_pd_QD4/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_pd_QD4/eda/time.tcl": "build/optimization/complete_soc/ffn_pd_QD4/eda/time.tcl"
+  },
+  "ffn_pd_dev_ALL_IN": {
+    "build/optimization/complete_soc/ffn_pd_dev_ALL_IN/eda/area.tcl": "build/optimization/complete_soc/ffn_pd_dev_ALL_IN/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_pd_dev_ALL_IN/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_pd_dev_ALL_IN/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_pd_dev_ALL_IN/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_dev_ALL_IN/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_pd_dev_ALL_IN/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_pd_dev_ALL_IN/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_pd_dev_ALL_IN/eda/time.tcl": "build/optimization/complete_soc/ffn_pd_dev_ALL_IN/eda/time.tcl"
+  },
+  "ffn_pd_dev_ALL_OUT": {
+    "build/optimization/complete_soc/ffn_pd_dev_ALL_OUT/eda/area.tcl": "build/optimization/complete_soc/ffn_pd_dev_ALL_OUT/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_pd_dev_ALL_OUT/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_pd_dev_ALL_OUT/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_pd_dev_ALL_OUT/eda/power.tcl": "build/optimization/complete_soc/ffn_pd_dev_ALL_OUT/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_pd_dev_ALL_OUT/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_pd_dev_ALL_OUT/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_pd_dev_ALL_OUT/eda/time.tcl": "build/optimization/complete_soc/ffn_pd_dev_ALL_OUT/eda/time.tcl"
+  },
+  "ffn_tp_IH_RH": {
+    "build/optimization/complete_soc/ffn_tp_IH_RH/eda/area.tcl": "build/optimization/complete_soc/ffn_tp_IH_RH/eda/area.tcl",
+    "build/optimization/complete_soc/ffn_tp_IH_RH/eda/map_activity.tcl": "build/optimization/complete_soc/ffn_tp_IH_RH/eda/map_activity.tcl",
+    "build/optimization/complete_soc/ffn_tp_IH_RH/eda/power.tcl": "build/optimization/complete_soc/ffn_tp_IH_RH/eda/power.tcl",
+    "build/optimization/complete_soc/ffn_tp_IH_RH/eda/synthesize.tcl": "build/optimization/complete_soc/ffn_tp_IH_RH/eda/synthesize.tcl",
+    "build/optimization/complete_soc/ffn_tp_IH_RH/eda/time.tcl": "build/optimization/complete_soc/ffn_tp_IH_RH/eda/time.tcl"
+  }
+}

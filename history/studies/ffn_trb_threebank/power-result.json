@@ -1,0 +1,10 @@
+{
+  "clock_hz": 150000000,
+  "cycles_total": 337116,
+  "throughput": 5339.408393549995,
+  "mean_power_w": 0.03611693759688723,
+  "mean_energy_j": 6.7642208527290195e-06,
+  "original_default_mean_power_w": 0.03486593281380562,
+  "all_cases_private_q_verified": true,
+  "measured_private_q_bits": 384
+}

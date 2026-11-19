@@ -1,0 +1,21 @@
+{
+  "variant": "ffn_next_dev8_SR",
+  "parent_variant": "ffn_v3_NUITG",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": true,
+    "clock_gating": true,
+    "lanes16": false
+  },
+  "changes": {
+    "row_cache": true,
+    "row_pair": true
+  },
+  "effective_changes": {
+    "row_cache": true,
+    "row_pair": true
+  },
+  "purpose": "implementation_check"
+}

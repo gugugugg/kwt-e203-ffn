@@ -1,0 +1,25 @@
+{
+  "variant": "ffn_res_dev16_V1",
+  "parent_variant": "ffn_v3_NUIGL",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": false,
+    "clock_gating": true,
+    "lanes16": true
+  },
+  "changes": {
+    "stream": true,
+    "small_input": true,
+    "double_buffer": false,
+    "row_group": 1
+  },
+  "effective_changes": {
+    "stream": true,
+    "small_input": true,
+    "double_buffer": false,
+    "row_group": 1
+  },
+  "purpose": "implementation_check"
+}

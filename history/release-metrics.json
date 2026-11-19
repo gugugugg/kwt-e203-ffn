@@ -1,0 +1,222 @@
+{
+  "AG-20261113": {
+    "variant": "ffn_che_AG",
+    "throughput_tasks_per_second": 3301.4922745080776,
+    "weighted_mean_power_w": 0.04206698058080557,
+    "mean_energy_j": 1.2741807971388802e-05,
+    "scoring_area_mm2": 0.364551415
+  },
+  "MGPR-20261113": {
+    "variant": "ffn_ag_mgpr",
+    "accepted": true,
+    "cycles_total": 545208,
+    "throughput": 3301.4922745080776,
+    "area_mm2": 0.357867926,
+    "setup_slack_ns": 0.527496,
+    "hold_slack_ns": 0.144989,
+    "mean_power_w": "0.03898225134836243476339305366",
+    "mean_energy_j": "0.00001180746405174332574026666667"
+  },
+  "V001_ffn_lp_IR": {
+    "variant": "ffn_lp_IR",
+    "throughput_tasks_per_second": 1011.661080049369,
+    "scoring_area_mm2": 0.221187458,
+    "weighted_mean_power_w": 0.022464915030806946,
+    "mean_task_energy_j": 2.220596944355184e-05,
+    "accumulator_effective_bits": 36,
+    "macs": 16,
+    "clock_hz": 150000000
+  },
+  "V002_ffn_cp_C16": {
+    "variant": "ffn_cp_C16",
+    "throughput_per_second": 1491.5429514651923,
+    "mean_energy_j": 1.8435083907942435e-05,
+    "mean_power_w": 0.027496719462560937,
+    "scoring_area_mm2": 0.253049045
+  },
+  "V003_ffn_ce_W": {
+    "clock_hz": 150000000,
+    "cycles": [
+      99016,
+      99016,
+      99016,
+      99016,
+      99016,
+      99016,
+      99016,
+      99016,
+      99016,
+      99016,
+      99016,
+      99016
+    ],
+    "throughput_tasks_per_second": 1514.9066817484043,
+    "mean_energy_j": 1.822518977709749e-05,
+    "mean_power_w": 0.027609461769457697,
+    "scoring_area_mm2": 0.252858163
+  },
+  "V004_ffn_wen_C": {
+    "clock_hz": 150000000,
+    "cycles": [
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783
+    ],
+    "throughput_tasks_per_second": 1518.4799003877185,
+    "mean_energy_j": 1.8076843983968133e-05,
+    "mean_power_w": 0.027449324252100258,
+    "scoring_area_mm2": 0.252275623
+  },
+  "V005_ffn_car_AR": {
+    "variant": "ffn_car_AR",
+    "cycles": [
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783
+    ],
+    "throughput_tasks_per_second": 1518.4799003877185,
+    "mean_energy_j": 1.800626077963921e-05,
+    "mean_power_w": 0.027342145075021827,
+    "scoring_area_mm2": 0.251108309,
+    "clock_hz": 150000000
+  },
+  "V006_ffn_ara_SR": {
+    "variant": "ffn_ara_SR",
+    "cycles": [
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783,
+      98783
+    ],
+    "throughput_tasks_per_second": 1518.4799003877185,
+    "mean_energy_j": 1.7990618656009402e-05,
+    "mean_power_w": 0.027318392824690587,
+    "scoring_area_mm2": 0.250707394,
+    "clock_hz": 150000000
+  },
+  "V007_ffn_sr_r3o": {
+    "variant": "ffn_sr_r3o",
+    "cycles": 87626,
+    "throughput_tasks_per_second": 1711.8206924885308,
+    "mean_energy_j": 1.695358881435749e-05,
+    "mean_power_w": 0.029021504144359247,
+    "scoring_area_mm2": 0.297294396,
+    "clock_hz": 150000000
+  },
+  "V008_ffn_r3o_stream": {
+    "variant": "ffn_r3o_stream",
+    "cycles": 75601,
+    "throughput_tasks_per_second": 1984.100739408209,
+    "mean_energy_j": 1.556310657046418e-05,
+    "mean_power_w": 0.030878771253946734,
+    "scoring_area_mm2": 0.297110856,
+    "clock_hz": 150000000
+  },
+  "V009_ffn_m3_retire": {
+    "variant": "ffn_m3_retire",
+    "cycles": 70887,
+    "throughput_tasks_per_second": 2116.0438444284564,
+    "mean_energy_j": 1.4799634445688994e-05,
+    "mean_power_w": 0.03131667536859155,
+    "scoring_area_mm2": 0.298283916,
+    "clock_hz": 150000000
+  },
+  "V010_ffn_r4f2_q8": {
+    "variant": "ffn_r4f2_q8",
+    "cycles": 51249,
+    "throughput_tasks_per_second": 2926.8863782707954,
+    "mean_energy_j": 1.2512232365374622e-05,
+    "mean_power_w": 0.03662188247197396,
+    "scoring_area_mm2": 0.374524204,
+    "clock_hz": 150000000
+  },
+  "V011_ffn_q8_q16": {
+    "variant": "ffn_q8_q16",
+    "cycles": 48899,
+    "throughput_tasks_per_second": 3067.5473936072312,
+    "mean_energy_j": 1.213249244672543e-05,
+    "mean_power_w": 0.03721699558291201,
+    "scoring_area_mm2": 0.384541977,
+    "clock_hz": 150000000
+  },
+  "V012_ffn_q16_staged": {
+    "variant": "ffn_q16_staged",
+    "cycles": 45347,
+    "throughput_tasks_per_second": 3307.8263170661785,
+    "mean_energy_j": 1.1657268230061196e-05,
+    "mean_power_w": 0.0385602186364959,
+    "scoring_area_mm2": 0.384436002,
+    "clock_hz": 150000000
+  },
+  "V013_ffn_s1_bank_I": {
+    "variant": "ffn_s1_bank_I",
+    "cycles": 37281,
+    "throughput_tasks_per_second": 4023.4972237869156,
+    "mean_energy_j": 1.0387628482427922e-05,
+    "mean_power_w": 0.041794594360778634,
+    "scoring_area_mm2": 0.385383388,
+    "clock_hz": 150000000
+  },
+  "V014_ffn_iw_W4Z_FT": {
+    "variant": "ffn_iw_W4Z_FT",
+    "cycles": 35661,
+    "throughput_tasks_per_second": 4206.275763439051,
+    "mean_energy_j": 1.0264573613241831e-05,
+    "mean_power_w": 0.04317562721141512,
+    "scoring_area_mm2": 0.384322686,
+    "clock_hz": 150000000
+  },
+  "V015_ffn_wp_P2": {
+    "variant": "ffn_wp_P2",
+    "cycles": 34536,
+    "throughput_tasks_per_second": 4343.293954134816,
+    "mean_energy_j": 1.0164895645493173e-05,
+    "mean_power_w": 0.044149129801481814,
+    "scoring_area_mm2": 0.387443186,
+    "clock_hz": 150000000
+  },
+  "V016_ffn_ps_SG": {
+    "variant": "ffn_ps_SG",
+    "cycles": 33825,
+    "throughput_tasks_per_second": 4434.589800443459,
+    "mean_energy_j": 1.0040231628262535e-05,
+    "mean_power_w": 0.044524308772782864,
+    "scoring_area_mm2": 0.387249112,
+    "clock_hz": 150000000
+  },
+  "V017_ffn_sg_reuse": {
+    "variant": "ffn_sg_reuse",
+    "cycles": 33262,
+    "throughput_tasks_per_second": 4509.650652396128,
+    "mean_energy_j": 9.987547185355438e-06,
+    "mean_power_w": 0.04504034868027526,
+    "scoring_area_mm2": 0.387089831,
+    "clock_hz": 150000000
+  }
+}

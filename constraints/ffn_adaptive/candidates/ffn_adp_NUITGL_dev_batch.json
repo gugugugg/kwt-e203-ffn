@@ -1,0 +1,17 @@
+{
+  "variant": "ffn_adp_NUITGL_dev_batch",
+  "parent_variant": "ffn_v3_NUITGL",
+  "features": {
+    "split_bias": true,
+    "unroll": true,
+    "fast_pair": true,
+    "overlap": true,
+    "clock_gating": true,
+    "lanes16": true
+  },
+  "changes": {
+    "batch_load": true,
+    "batch_output": true
+  },
+  "purpose": "implementation_check"
+}
