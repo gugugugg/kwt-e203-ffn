@@ -1,49 +1,55 @@
-# KWT-1 FFN accelerator on E203
+# 基于 E203 的 KWT-1 离线语音指令识别加速器
 
-这个仓库保存 2026 年嵌入式芯片与系统设计竞赛芯片设计赛道项目的自研源码及历史实验。一个任务计算单层 FC1：99×64 的输入与 64×256 的权重相乘，加上逐列偏置，输出 99×256 个结果。
+本项目面向 KWT-1 语音指令识别模型，把编码器前馈网络的第一层全连接计算（FC1）集成到 E203 SoC。仓库同时保存了最终选用的 **MGPR**、历次发布的 RTL、驱动、数值参考和架构实验。第一次阅读可以从 [MGPR 计算核心](build/optimization/rtl_sources/ffn_ag_mgpr/encoder/kwt_threebank_core.sv) 和 [SoC 顶层](build/optimization/complete_soc/ffn_ag_mgpr/kwt_complete_soc.sv) 开始。
 
-## 从最终提交版开始
+## 一个任务算什么
 
-最终选用的 **MGPR** 通过原 32 位 System Bus 搬运数据，使用 64 路 MAC、分组累加器门控、按访问开钟的私有 SRAM，以及单口 SRAM 实现的输入预测缓存。验收采用 150 MHz，从必要装载计到最后一笔物理结果写入。
+一次任务接收 99 行、每行 64 个 INT16 输入，乘以一组 64×256 的权重，加上 256 个逐列偏置，产生完整的 **99×256 矩阵**。每个输出含 64 个乘积和一次偏置。验收从第一笔必要装载计到最后一笔结果写入物理共享 SRAM，包括搬运、总线等待、调度和计算。下文的 tasks/s 均指这个 FC1 工作量。数值路径采用有效 36 位累加、最近偶数舍入和 INT16 饱和。[数值与装载格式](numeric/格式说明.md)
 
-| 12 项完整冷任务 | MGPR |
-|---|---:|
-| 总周期 | 545,208 |
-| 吞吐 | 3,301.49 tasks/s |
-| 计分面积 | 0.357867926 mm² |
-| 整机加权平均功率 | 38.982251 mW |
-| 平均单任务能耗 | 11.807464 μJ |
+## 最终版本怎样省电
 
-代码入口：[计算核心和解码器](build/optimization/rtl_sources/ffn_ag_mgpr/encoder)、[SoC 接线和台架](build/optimization/complete_soc/ffn_ag_mgpr)、[数值与装载格式](numeric/格式说明.md)、[验收数据](selection.json)。结果采用有效 36 位累加、最近偶数舍入与 INT16 饱和。
+MGPR 使用原 32 位 System Bus 和 64 路 MAC。最后三版在同一 150 MHz 条件下跑完 12 项完整冷任务，总周期均为 **545,208 拍**，吞吐均为 **3,301.49 tasks/s**。在这个共同基线上，可以直接看出两次修改的代价和收益。
 
-## 历史版本怎么找
+| 版本 | 主要变化 | 计分面积（mm²） | 整机平均功率（mW） | 单任务能耗（μJ） |
+|---|---|---:|---:|---:|
+| CH | 无损输入编码，片上恢复 INT16 输入 | 0.378665 | 46.0002 | 13.9332 |
+| AG | 按有效乘加和行资格，对累加寄存器分组开钟 | 0.364551 | 42.0670 | 12.7418 |
+| **MGPR** | 40 颗私有 SRAM 按访问开钟，预测缓存改用单口 SRAM | **0.357868** | **38.9823** | **11.8075** |
 
-- [早期候选表](history/candidates.csv)逐轮列出 14 个批次的 424 条记录。同一候选可作为后续批次的对照，共有 170 个不同候选名。[逐轮参数](history/rounds)保留配置和测量口径。
-- [源码索引](history/snapshots.json)按归档批次和版本名列出文件路径。共享文件只存一份；同路径但内容不同的历史文件位于 `snapshots/`。`frozen-parents` 表示冻结的父版副本，`regenerated-from-recipe` 表示从保留的生成器、父版与配置重新导出的源码。
-- [发布目录](history/releases.json)列出从 IR 到 T＋R＋B 的 17 个编号发布版本，以及 AG、MGPR 两个提交归档。[版本参数](history/release-metrics.json)摘自各版归档。[研究目录](history/studies.json)还包括模型筛选、小模块试验和未发布的硬件候选。各阶段使用的总线、装载和计时条件请结合对应记录比较。
-- [公共 RTL](rtl)、[驱动与固件](software)、[数值参考](sim)、[台架](tb)、[实验脚本](scripts)。历史源码在 `build/optimization` 下保留原始相对位置，便于读生成器和综合文件表。
+从 AG 到 MGPR，12 项任务中原 40 颗私有 SRAM 的时钟上升沿由 **21,808,320** 次降到 **4,653,312** 次。整机功率和单任务能耗均下降 **7.33%**，计分面积下降 **1.83%**。功率取自最终网表完整冷窗的门级 SAIF，经 PTPX averaged 按各任务周期加权。MGPR 在 SS/EMA2 150 MHz 下的建立、保持余量分别为 +0.527496 ns 和 +0.144989 ns。[CH 与 AG 对照](reports/optimization/ffn_ch_efficiency/screening-summary.md) · [MGPR 验收数据](selection.json)
 
-## 运行定点参考
-
-安装 Python 3 和 NumPy，准备一个 NPZ，包含 `input`、`weight`、`bias`、`shift` 四个整数数组，形状依次为 (99,64)、(64,256)、(256,)、(256,)。运行：
+## 在自己的机器上运行
 
 ```sh
-python numeric/fixed_reference.py codes.npz result.bin
+git clone https://github.com/gugugugg/kwt-e203-ffn.git
+cd kwt-e203-ffn
 ```
 
-输出为行主序的小端 INT16，共 50,688 字节。浮点参数转换、输入打包和移位格式见 [numeric](numeric)。
-
-## 运行早期点积 RTL 示例
-
-在仓库根目录用 Icarus Verilog 运行已有的 228 组点积向量。这组台架覆盖输入间隙、输出等待、复位和连续任务。
+**运行 RTL 示例。** 安装 Icarus Verilog 后，在仓库根目录执行以下命令即可运行早期点积单元的 228 组内置向量，覆盖输入间隙、输出背压、复位及连续任务。成功时终端会显示 `PASS dot64: 228 cases`。
 
 ```sh
 iverilog -g2012 -I build/rtl/vectors -s kwt_dot64_tb -o dot64.vvp rtl/kwt_requantize.sv rtl/kwt_dot64.sv tb/rtl/kwt_dot64_tb.sv
 vvp dot64.vvp
 ```
 
-## 工具和许可证
+**运行完整 FC1 定点参考。** 安装 Python 3 和 NumPy，将自己的整数数组保存为 `codes.npz`。四个键为 `input`、`weight`、`bias`、`shift`，形状依次为 `(99,64)`、`(64,256)`、`(256,)`、`(256,)`。以下命令生成行主序的小端 INT16 输出，每任务 50,688 字节。
 
-自研部分采用 [MIT](LICENSE)。源于 Nuclei Hummingbirdv2 的 E203 集成文件沿用文件头中的版权声明和 [Apache-2.0](licenses/Apache-2.0.txt)。本仓库内的这些子系统文件为项目使用的集成版本，完整上游 RTL 可从 [Nuclei Hummingbirdv2](https://github.com/riscv-mcu/e203_hbirdv2) 获取。浮点参考依赖 [Keyword Transformer](https://github.com/ARM-software/keyword-transformer/tree/237e4097afd4f6851e0b82f0a8d65c2dfe8eae30) 及其模型参数。
+```sh
+python numeric/fixed_reference.py codes.npz result.bin
+```
 
-整机门级仿真与 PPA 复现需要自行配置授权的标准单元、SRAM/ROM 仿真模型、时序库和 EDA 工具，并把原始文件表中的库路径映射到本机。仓库提供接口、源码和选定的数值结果；工艺交付件、私有测量档案与参赛个人材料不随源码发布。
+## 怎样找一个历史版本
+
+| 想查什么 | 从这里开始 |
+|---|---|
+| 某个发布版本的参数和成绩 | [19 个发布与提交归档](history/releases.json) · [逐版参数](history/release-metrics.json) |
+| 某一轮尝试过哪些候选 | [早期 14 轮候选表](history/candidates.csv) · [逐轮配置](history/rounds)。表中 424 条记录对应 170 个不同候选名，同一版可在下一轮作为对照 |
+| 某个版本对应哪份 RTL | 在[源码快照索引](history/snapshots.json)中搜索版本名。35 个按保存的父版和生成脚本重新导出的候选标为 `regenerated-from-recipe` |
+| 提交工程包实际采用了哪些 RTL 文件 | [工程包源码对照](history/submission-sources.json)，最终版查 `MGPR-1` |
+| 未发布的架构试验和小模块筛选 | [71 项研究目录](history/studies.json) · [收录范围](history/coverage.json)。跨版本比较时须核对总线、装载和计时条件 |
+
+## 复现环境与许可
+
+公共 RTL、固件和台架分别位于 [rtl](rtl)、[software](software) 和 [tb](tb)。复现整机综合、时序和功耗需配置相应 EDA 工具，以及自行取得授权的标准单元、SRAM/ROM 模型和时序库；历史文件表中的库路径需映射到本机。[MGPR 整机文件表与脚本](build/optimization/complete_soc/ffn_ag_mgpr)
+
+自研代码使用 [MIT 许可证](LICENSE)。E203 派生文件保留 Nuclei 的版权声明及 [Apache-2.0 许可证](licenses/Apache-2.0.txt)。上游项目见 [Nuclei Hummingbirdv2](https://github.com/riscv-mcu/e203_hbirdv2) 和[冻结版本的 Keyword Transformer](https://github.com/ARM-software/keyword-transformer/tree/237e4097afd4f6851e0b82f0a8d65c2dfe8eae30)。
